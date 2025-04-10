@@ -1,5 +1,6 @@
 import AutoSlider from "@/components/common/auto-slider";
 import BreadCrumb from "@/components/common/Breadcrumb";
+import Banner from "@/public/images/about/banner.jpg";
 import Faq from "@/components/home/home-five/faq";
 import SingleTeamDetails from "@/components/team-page/single/SingleTeamDetails";
 export const metadata = {
@@ -9,7 +10,7 @@ export const metadata = {
 function SingleTeamPage() {
 	return (
 		<>
-			<BreadCrumb title="Team Details" />
+			<BreadCrumb title="Team Details" bgImage={Banner} />
 			<SingleTeamDetails />
 			<AutoSlider />
 			<Faq />
