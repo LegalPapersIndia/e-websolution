@@ -1,4 +1,5 @@
 import RatingFull from "@/public/images/v1/rattingful.svg";
+import YellowStar from "@/public/images/v1/yellow-ratting.png";
 import Image from "next/image";
 function TestimonialCard({ testimonial: { rating, title, description, author, designation, img } }) {
 	return (
@@ -7,7 +8,7 @@ function TestimonialCard({ testimonial: { rating, title, description, author, de
 				<ul>
 					{[...Array(rating)].map(() => (
 						<li key={crypto.randomUUID()}>
-							<Image src={RatingFull} alt="Rating" />
+							<Image src={YellowStar} alt="Rating" />
 						</li>
 					))}
 				</ul>

@@ -39,7 +39,7 @@ const servicesData = [
 ];
 function Services() {
 	return (
-		<section className="sofax-section-padding bg-light" id="service">
+		<section className="sofax-section-padding3 bg-light" id="service">
 			<div className="container">
 				{/* <div className="mt-5 sofax-section-title center">
 					<div className="row">
@@ -66,7 +66,7 @@ function Services() {
 				<div className="mt-5 sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
 						<h2>
-							<TextSplitFadeIn> Our Process to Deliver Excellence </TextSplitFadeIn>
+							<TextSplitFadeIn>How We Ensure Best Quality</TextSplitFadeIn>
 						</h2>
 					</div>
 				</div>

@@ -1,5 +1,5 @@
 import Footer from "@/components/home/home-eight/footer";
-import Cursor from "@/components/common/cursor/cursor";
+import TopBar from "@/components/home/home-eight/topbar";
 import Header from "@/components/home/home-eight/header/multi-page";
 export const metadata = {
 	title: "Best Web Designing Agency in Delhi",
@@ -8,8 +8,8 @@ export const metadata = {
 function LayoutEight({ children }) {
 	return (
 		<>
+			{/* <TopBar /> */}
 			<Header />
-			<Cursor />
 			{children}
 			<Footer />
 		</>

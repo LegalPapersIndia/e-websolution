@@ -6,6 +6,7 @@ import icon3 from "@/public/images/v8/icon8v8.png";
 import icon4 from "@/public/images/v8/icon9v8.png";
 import FadeInStagger from "../../../animation/FadeInStagger";
 import ServiceCard from "./ServiceCard";
+import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 const servicesData = [
 	{
 		id: 1,
@@ -50,14 +51,15 @@ const servicesData = [
 ];
 function Services() {
 	return (
-		<section className="sofax-section-padding7 bg-light" id="service">
+		<section className="sofax-section-padding bg-light" id="service">
 			<div className="container">
-				<div className="sofax-section-title center">
+				<div className="mt-5 sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>Features</h2>
+						<h2>
+							<TextSplitFadeIn> Why Choose Us </TextSplitFadeIn>
+						</h2>
 					</div>
 				</div>
-
 				<div className="sofax-features-wrapv8">
 					{servicesData.map((service, index) => (
 						<FadeInStagger key={service.id} index={index} className="sofax-features-boxv8">

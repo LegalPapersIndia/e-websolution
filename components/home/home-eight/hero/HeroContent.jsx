@@ -5,18 +5,13 @@ import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/F
 
 function HeroContent() {
 	return (
-		<div className="sofax-hero-content hero-v8">
+		<div className="sofax-hero-content sofax-section-padding3 hero-v8">
 			<h1 className="slider-custom-anim-left" data-ani="slider-custom-anim-left" data-ani-delay="0.3s">
 				We make your Digital Dreams <span> come true </span>
 			</h1>
 			<div className="sofax-footer-shapev8">
 				<Image src={Shape} alt="shape" />
 			</div>
-			<p>
-				We are a specialized agency for businesses looking to increase their online presence and brand
-				awareness who execute comprehensive social media strategies tailored to meet our client's unique
-				goals and objectives.
-			</p>
 			<FadeInStaggerTwo className="sofax-hero-btn-wrap sofax-hero5-btn extra-mt">
 				<FadeInStaggerTwoChildren>
 					<Link className="sofax-default-btn pill" data-text="Explore More" href="/service">

@@ -40,13 +40,43 @@ function DesktopMenu() {
 
 {/* Needed Navbar contents: Home, About Services, Portfolio, Packages, contact us */}
 
-			<NavItem url="multi-page/home-eight">Home</NavItem>	
+			{/* <NavItem url="/">Home</NavItem>	 */}
 
 			{/* <NavItem url="about-us"></NavItem> */}
-			<NavItem dropdown title="About Us">
+			<NavItem dropdown title="Website Design">
+				<Dropdown>
+					<DropdownItem url="portfolio">Web Design</DropdownItem>
+					<DropdownItem url="about-us">Small Business Website</DropdownItem>
+					<DropdownItem url="portfolio">Large Business Website</DropdownItem>
+					<DropdownItem url="portfolio">Dynamic Website</DropdownItem>
+					<DropdownItem url="portfolio">Customised Website</DropdownItem>
+					<DropdownItem url="portfolio">Ecommerce Website</DropdownItem>
+					<DropdownItem url="portfolio">Industry Based Website</DropdownItem>
+				</Dropdown>
+			</NavItem>
+			<NavItem dropdown title="Digital Marketing">
+				<Dropdown>
+					<DropdownItem url="portfolio">SEO Marketing</DropdownItem>
+					<DropdownItem url="about-us">SMO Marketing</DropdownItem>
+					<DropdownItem url="portfolio">Google Marketing Platform</DropdownItem>
+					<DropdownItem url="portfolio">Whatsapp Marketing</DropdownItem>
+					<DropdownItem url="portfolio">Email Marketing</DropdownItem>
+					<DropdownItem url="portfolio">Content Marketing</DropdownItem>
+				</Dropdown>
+			</NavItem>
+			<NavItem dropdown title="Promotion & Advertisement">
+				<Dropdown>
+					<DropdownItem url="portfolio">Google Ads</DropdownItem>
+					<DropdownItem url="about-us">Meta Ads</DropdownItem>
+					<DropdownItem url="portfolio">TV Ads</DropdownItem>
+					<DropdownItem url="portfolio">Brand Promotion</DropdownItem>
+					<DropdownItem url="portfolio">Paid PR</DropdownItem>
+				</Dropdown>
+			</NavItem>
+			{/* <NavItem dropdown title="Website">
 				<Dropdown>
 					<DropdownItem url="about-us">About Company</DropdownItem>
-					<DropdownItem url="portfolio">Our Projects & Portfolios</DropdownItem>
+					<DropdownItem url="portfolio">Our Portfolio</DropdownItem> */}
 					{/* <DropdownItem dropdown title="Blog">
 						<Dropdown noShape>
 							<DropdownItem url="blog">Our Blog</DropdownItem>
@@ -92,9 +122,9 @@ function DesktopMenu() {
 							<DropdownItem url="reset-password">Reset Password</DropdownItem>
 						</Dropdown>
 					</DropdownItem> */}
-				</Dropdown>
-			</NavItem>
-			<NavItem dropdown url="service" title="Services">
+				{/* </Dropdown>
+			</NavItem> */}
+			{/* <NavItem dropdown url="service" title="Services">
 				<Dropdown>
 					<DropdownItem url="service">All Services</DropdownItem>
 					<DropdownItem url="services/web-development">Web Design & Development</DropdownItem>
@@ -104,10 +134,10 @@ function DesktopMenu() {
 					<DropdownItem url="services/app-development">App Development</DropdownItem>
 					<DropdownItem url="services/ecommerce-development">Ecommerce Development</DropdownItem>
 				</Dropdown>
-			</NavItem>
+			</NavItem> */}
 			{/* <NavItem url="pricing">Packages</NavItem> */}
-			<NavItem url="pricing">Packages</NavItem>
-			<NavItem url="contact-us">Contact Us</NavItem>
+			{/* <NavItem url="pricing">Packages</NavItem> */}
+			<NavItem url="contact-us">Contact</NavItem>
 		</DesktopNav>
 	);
 }

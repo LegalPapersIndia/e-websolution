@@ -161,7 +161,7 @@ function Testimonial() {
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>See what our users have to say about it</h2>
+						<h2>What our Clients say about us.</h2>
 					</div>
 				</div>
 			</div>
@@ -174,7 +174,7 @@ function Testimonial() {
 					))}
 				</Swiper>
 			</div>
-			<div className="sofax-testimonial-slider-2">
+			{/* <div className="sofax-testimonial-slider-2">
 				<Swiper {...swiperSettingsTwo}>
 					{testimonialOneData.map((testimonial) => (
 						<SwiperSlide key={testimonial.id}>
@@ -182,7 +182,7 @@ function Testimonial() {
 						</SwiperSlide>
 					))}
 				</Swiper>
-			</div>
+			</div> */}
 		</section>
 	);
 }

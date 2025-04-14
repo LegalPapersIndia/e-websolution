@@ -5,7 +5,7 @@ import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/F
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutThree() {
 	return (
-		<section className="section sofax-section-padding2 bg-light">
+		<section className="section sofax-section-padding3 bg-light">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5">

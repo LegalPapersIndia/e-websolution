@@ -9,7 +9,7 @@ import Illustration6 from '@/public/images/v8/illustration6v8.png';
 
 function Services() {
 	return (
-		<section className="sofax-section-padding2 bg-light" id="service">
+		<section className="sofax-section-padding3 bg-light" id="service">
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
