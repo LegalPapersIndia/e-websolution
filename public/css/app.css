@@ -2182,7 +2182,7 @@ a.social-icon img {
 
 @media (max-width: 991px) {
 	.sofax-footer-titlev5 {
-		text-align: center;
+		/* text-align: center; */
 	}
 }
 .sofax-footer-titlev5 h2 {
@@ -5888,6 +5888,39 @@ h1.post__title {
 		display: none;
 	}
 }
+
+@media (max-width: 767.98px) {
+	.footer-row {
+	  flex-direction: column !important;
+	  align-items: center !important;
+	  text-align: center;
+	}
+	.footer-left,
+	.footer-right {
+	  justify-content: center !important;
+	  margin-bottom: 1rem;
+	  width: 100%;
+	}
+	.footer-right {
+	  gap: 1rem;
+	}
+	.footer-right .btn {
+	  width: auto;
+	  font-size: 0.85rem;
+	  padding: 4px 10px;
+	}
+	.footer-right .d-flex {
+	  flex-direction: column;
+	}
+	.company-image img{
+		margin-bottom: 0.5rem;
+	}
+	.company-image{
+		width: 70%;
+		height: auto;
+	}
+  }
+  
 
 .sofax-hero-shape-v8 {
 	position: absolute;

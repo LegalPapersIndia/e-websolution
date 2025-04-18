@@ -1,6 +1,13 @@
 import Logo from "@/public/images/logo/e-weblogo.png";
+import CompanyOne from "@/public/images/footer/lpi-one.jpeg";
+import CompanyTwo from "@/public/images/footer/lpi-two.jpeg";
+import CompanyThree from "@/public/images/footer/e-web.jpeg";
+import PaymentMode from "@/public/images/footer/paymentmode.png";
+import GooglePartner from "@/public/images/footer/gpartner.jpg";
+import Phonepe from "@/public/images/footer/phonepe.png";
+import InstaMozo from "@/public/images/footer/roz.png";
 import Link from "next/link";
-
+import { MapPin, Phone, Mail } from "lucide-react";
 import Image from "next/image";
 import FooterCopyright from "./FooterCopyright";
 import FooterCta from "./FooterCta";
@@ -175,6 +182,128 @@ function Footer() {
 						</div>
 					</div>
 				</div>
+				<div className="sofax-footer-bottom">
+					<div className="row">
+						<div className="col-md-4 mb-4">
+							<div className="sofax-footer-menu">
+								<h5>Contact Info</h5>
+								<div className="d-flex align-items-start mb-3">
+									<MapPin className="me-2 mt-1 text-primary" size={20} />
+									<p className="mb-0">
+										K, 159, Street Number 8, Samta Vihar,<br />
+										Mukandpur Part 2, North West, Delhi, 110042
+									</p>
+								</div>
+								<div className="d-flex align-items-center mb-2">
+									<Phone className="me-2 text-primary" size={18} />
+									<ul>
+										<li>
+											<Link href="tel:+919315247392">+91 9315247392</Link>
+										</li>
+									</ul>
+								</div>
+								<div className="d-flex align-items-center">
+									<Mail className="me-2 text-primary" size={18} />
+									<ul>
+										<li>
+											<Link href="mailto:info@e-websolution.com">info@e-websolution.com</Link>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div className="col-xl-3 col-md-4">
+							<div className="sofax-footer-menu ml-50">
+								<h5>More Useful Links</h5>
+								<ul>
+									<li>
+										<Link href="/">Home</Link>
+									</li>
+									<li>
+										<Link href="/about">About Us</Link>
+									</li>
+									<li>
+										<Link href="/services">Services</Link>
+									</li>
+									<li>
+										<Link href="/pricing">Packages</Link>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div className="col-md-4 mb-4">
+							<div className="sofax-footer-menu">
+								<h5>Partnered with us</h5>
+								<div className="d-flex flex-column flex-wrap gap-3 company-image">
+									<Image src={CompanyOne} style={{ width: "70%", height: "auto" }} />
+									<Image src={CompanyTwo} style={{ width: "70%", height: "50%" }} />
+									<Image src={CompanyThree} style={{ width: "70%", height: "auto" }} />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{/* <div className="py-4">
+					<div className="container">
+						<div className="row align-items-center">
+							<div className="col-md-6 d-flex justify-content-start align-items-center">
+								<Image
+									src={PaymentMode}
+									alt="All Payment Methods"
+									className="img-fluid"
+									style={{ width: "100%", height: "auto" }}
+								/>
+							</div>
+							<div className="col-md-6 d-flex justify-content-end align-items-center gap-3 flex-nowrap">
+								<Image src={GooglePartner} alt="Google Partner" height={50} />
+								<Image src={Phonepe} alt="PhonePe" height={40} />
+								<a href="https://www.instamojo.com" target="_blank" rel="noopener noreferrer">
+									<Image src={InstaMozo} alt="Instamojo Pay Now" height={40} />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div> */}
+				<div className="py-4">
+					<div className="container">
+						<div className="row align-items-center d-flex footer-row">
+							<div className="col-md-6 d-flex justify-content-start align-items-center footer-left">
+								<Image
+									src={PaymentMode}
+									alt="All Payment Methods"
+									className="img-fluid"
+									style={{ width: "100%", height: "auto" }}
+								/>
+							</div>
+							<div className="col-md-6 d-flex justify-content-end align-items-start gap-4 flex-nowrap footer-right">
+								<div className="d-flex flex-column align-items-center partner-image">
+									<Image src={GooglePartner} alt="Google Partner" height={50} />
+								</div>
+								<div className="d-flex flex-column align-items-center partner-image">
+									<Image src={Phonepe} alt="PhonePe" height={40} />
+									<button
+										className="btn btn-sm text-white mt-2"
+										style={{ backgroundColor: '#387dd9' }}
+									>Pay Now</button>
+								</div>
+								<div className="d-flex flex-column align-items-center partner-image">
+									<a
+										href="https://www.instamojo.com"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<Image src={InstaMozo} alt="Instamojo Pay Now" height={40} />
+									</a>
+									<button
+										className="btn btn-sm text-white mt-2"
+										style={{ backgroundColor: '#387dd9' }}
+									>Pay Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<FooterCopyright />
 			</div>
 		</footer>
@@ -182,3 +311,4 @@ function Footer() {
 }
 
 export default Footer;
+

@@ -16,6 +16,7 @@
     "bootstrap": "^5.3.3",
     "fa-icons": "^0.2.0",
     "framer-motion": "^11.13.1",
+    "lucide-react": "^0.488.0",
     "mixitup": "^3.3.2",
     "next": "14.2.20",
     "nodemailer": "^6.10.0",
