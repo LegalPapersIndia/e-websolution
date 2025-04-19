@@ -29,33 +29,60 @@ const HeroSlider = () => {
 
     return (
         <section className={styles.hero}>
-            <div className={styles.imageWrapper}>
-                <Image
-                    src={imageUrl}
-                    alt={title}
-                    fill
-                    style={{ objectFit: "cover" }}
-                    priority
-                />
-                <div className={styles.overlay}></div>
-            </div>
-
-            <div className={styles.content}>
-                <h2>{title}</h2>
-                <p>{description}</p>
-                <Link className="sofax-default-btn pill sofax-header-btn" data-text="Get started" href={buttonLink}>
-                    <span className="button-wraper">Get started</span>
-                </Link>
+            <div className={styles.sliderWrapper}>
+                <div
+                    className={styles.sliderTrack}
+                    style={{ transform: `translateX(-${current * 100}%)` }}
+                >
+                    {slideContent.map((slide, i) => (
+                        <div className={styles.slide} key={i}>
+                            <div className={styles.imageWrapper}>
+                                <Image
+                                    src={slide.imageUrl}
+                                    alt={slide.title}
+                                    fill
+                                    style={{ objectFit: "cover" }}
+                                    priority={i === current}
+                                />
+                                <div className={styles.overlay}></div>
+                            </div>
+                            <div className={styles.content}>
+                                <h2>{slide.title}</h2>
+                                <p>{slide.description}</p>
+                                <Link
+                                    className="sofax-default-btn pill sofax-header-btn"
+                                    data-text={slide.buttonText}
+                                    href={slide.buttonLink}
+                                >
+                                    <span className="button-wraper">{slide.buttonText}</span>
+                                </Link>
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
 
             {/* Arrows */}
-            <button className={`${styles.arrow} ${styles.leftArrow}`} onClick={goToPrev}>
-                &#10094;
+            <button
+                onClick={() =>
+                    setCurrent((prev) =>
+                        prev === 0 ? slideContent.length - 1 : prev - 1
+                    )
+                }
+                className={`${styles.arrow} ${styles.leftArrow}`}
+            >
+                &#8592;
             </button>
-            <button className={`${styles.arrow} ${styles.rightArrow}`} onClick={goToNext}>
-                &#10095;
+            <button
+                onClick={() =>
+                    setCurrent((prev) => (prev + 1) % slideContent.length)
+                }
+                className={`${styles.arrow} ${styles.rightArrow}`}
+            >
+                &#8594;
             </button>
 
+            {/* Dots */}
             <div className={styles.dots}>
                 {slideContent.map((_, i) => (
                     <button
@@ -66,6 +93,7 @@ const HeroSlider = () => {
                 ))}
             </div>
         </section>
+
     );
 };
 
