@@ -1,4 +1,3 @@
-// components/hero/slideContent.jsx
 import slide1 from "@/public/images/slider/slide1.jpg";
 import slide2 from "@/public/images/slider/slide2.jpg";
 import slide3 from "@/public/images/slider/slide3.jpg";
