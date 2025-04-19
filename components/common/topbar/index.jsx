@@ -19,7 +19,7 @@ const TopBar = () => {
             <FaPhoneAlt size={12} /> +91 98765 43210
           </span>
           <span className="d-flex align-items-center gap-2">
-            <FaEnvelope size={12} /> info@yourcompany.com
+            <FaEnvelope size={12} /> info@e-websolution.in
           </span>
         </div>
         <div className="d-flex align-items-center gap-3">

@@ -3,6 +3,7 @@ import AboutTwo from "@/components/home/home-eight/about-two/AboutTwo";
 import Counter from "@/components/home/home-eight/counter";
 import Hero from "@/components/home/home-eight/hero";
 import PricePlan from "@/components/home/home-eight/price-plan";
+import HeroSlider from "@/components/home/home-eight/slider";
 import AutoSlider from "@/components/common/auto-slider";
 import Projects from "@/components/home/home-eight/projects";
 import Steps from "@/components/home/home-three/services";
@@ -15,7 +16,8 @@ import Testimonials from "@/components/home/home-one/testimonial";
 function HomeEight() {
 	return (
 		<>
-			<Hero />
+			{/* <Hero /> */}
+			<HeroSlider />
 			{/* <Features /> */}
 			{/* <AboutOne /> */}
 			<ServiceOne />

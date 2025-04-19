@@ -17,7 +17,7 @@
 .brand-logo,
 .default-logo,
 .responsive-logo {
-	max-width: 256px;
+	max-width: 192px;
 	transition: all 0.4s;
 	position: relative;
 	margin-right: 35px;
@@ -322,8 +322,8 @@
 	}
 
 	.top-contact-menu-wraper .menu-block-wrapper {
-		min-width: calc(100% - 256px);
-		order: 3;
+		min-width: calc(100% - 128px);
+		order:3;
 		background: #1d263a;
 		border-radius: 0px 0px 0px 5px;
 	}
@@ -452,14 +452,14 @@
 }
 
 .navbar {
-	padding-top: 15px;
-	/* padding-bottom: 10px; */
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 @media (min-width: 992px) {
 	.navbar {
-		padding-top: 15px;
-		/* padding-bottom: 10px; */
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 }
 
@@ -1050,15 +1050,15 @@ a:hover, button:hover, .interactive:hover {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
 	/* .site-header--menu-center .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
   } */
 	.site-header--menu-center .menu-block-wrapper {
 		position: absolute !important;
-		left: 50%;
-		transform: translateX(-50%);
+		left: 25%;
+		transform: translateX(-10%);
 	}
 }
 

@@ -198,7 +198,7 @@ function Footer() {
 									<Phone className="me-2 text-primary" size={18} />
 									<ul>
 										<li>
-											<Link href="tel:+919315247392">+91 9315247392</Link>
+											<Link href="tel:+919876543210">+919876543210</Link>
 										</li>
 									</ul>
 								</div>
@@ -235,9 +235,9 @@ function Footer() {
 							<div className="sofax-footer-menu">
 								<h5>Partnered with us</h5>
 								<div className="d-flex flex-column flex-wrap gap-3 company-image">
-									<Image src={CompanyOne} style={{ width: "70%", height: "auto" }} />
-									<Image src={CompanyTwo} style={{ width: "70%", height: "50%" }} />
-									<Image src={CompanyThree} style={{ width: "70%", height: "auto" }} />
+									<Image src={CompanyOne} alt="LPI Logo" style={{ width: "70%", height: "auto" }} />
+									<Image src={CompanyTwo} alt="LPI Logo 2" style={{ width: "70%", height: "50%" }} />
+									<Image src={CompanyThree} alt="EWebsoltion Logo" style={{ width: "70%", height: "auto" }} />
 								</div>
 							</div>
 						</div>
