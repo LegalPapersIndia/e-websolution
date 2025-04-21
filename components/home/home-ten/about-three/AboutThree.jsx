@@ -11,11 +11,10 @@ function AboutThree() {
 					<div className="col-lg-5">
 						<div className="sofax-default-content tac">
 							<div className="tg-heading-subheading animation-style3">
-								<h2>Know anything asked about us</h2>
+								<h2>Got Questions? We’ve Got Answers</h2>
 							</div>
 							<p>
-								Website files on a server and providing the necessary technologies and support to keep
-								the site running.
+								Explore the most common questions our clients ask about digital marketing, websites, and more.
 							</p>
 							<FadeInUp className="extra-mt sofax-faq-thumbv10">
 								<Image src={Thumb} alt="thumb" />
@@ -37,7 +36,7 @@ function AboutThree() {
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseOne"
 											>
-												Why buy a domain name from Sofax?
+												What makes your services unique?
 											</button>
 											<div className="accordion-icon">
 												<Image src={Icon} alt="Icon" />
@@ -49,8 +48,7 @@ function AboutThree() {
 											data-bs-parent="#sofax-accordion"
 										>
 											<div className="accordion-body sofax-accordion-body">
-												We strive to deliver outstanding customer experiences. We are guarantee
-												it will to be handed the over.
+												We provide customized, data-driven strategies focused on real, measurable results for your business.
 											</div>
 										</div>
 									</FadeInStaggerTwoChildren>
@@ -62,7 +60,7 @@ function AboutThree() {
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseTwo"
 											>
-												How does domain registration work?
+												What industries do you specialize in?
 											</button>
 											<div className="accordion-icon">
 												<Image src={Icon} alt="Icon" />
@@ -74,8 +72,8 @@ function AboutThree() {
 											data-bs-parent="#sofax-accordion"
 										>
 											<div className="accordion-body sofax-accordion-body">
-												We strive to deliver outstanding customer experiences. We are guarantee
-												it will to be handed the over.
+											We have experience across various industries, including e-commerce, healthcare, real estate, and education, delivering results for businesses of all sizes.
+													
 											</div>
 										</div>
 									</FadeInStaggerTwoChildren>
@@ -87,7 +85,7 @@ function AboutThree() {
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseThree"
 											>
-												Entities involved in domain registration?
+												Do you offer ongoing website support after launch?
 											</button>
 											<div className="accordion-icon">
 												<Image src={Icon} alt="Icon" />
@@ -99,8 +97,7 @@ function AboutThree() {
 											data-bs-parent="#sofax-accordion"
 										>
 											<div className="accordion-body sofax-accordion-body">
-												We strive to deliver outstanding customer experiences. We are guarantee
-												it will to be handed the over.
+												Yes, we provide comprehensive post-launch support, including updates, security maintenance, and troubleshooting.
 											</div>
 										</div>
 									</FadeInStaggerTwoChildren>
@@ -112,7 +109,7 @@ function AboutThree() {
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseFour"
 											>
-												How to start tranding in cryptocurrency?
+												Can I customize the digital marketing plan to fit my budget?
 											</button>
 											<div className="accordion-icon">
 												<Image src={Icon} alt="Icon" />
@@ -124,8 +121,7 @@ function AboutThree() {
 											data-bs-parent="#sofax-accordion"
 										>
 											<div className="accordion-body sofax-accordion-body">
-												We strive to deliver outstanding customer experiences. We are guarantee
-												it will to be handed the over.
+												Yes, our plans are flexible and tailored to your goals, ensuring the best value within your budget.
 											</div>
 										</div>
 									</FadeInStaggerTwoChildren>

@@ -29,8 +29,7 @@ function Services() {
 								</div>
 								<div className="sofax-career-content-text">
 									<p>
-										Product design encompasses both UI/UX design but it also involves a broader
-										understanding of the entire product.
+										Modern, responsive websites built to impress, engage users, and drive business growth across all devices and platforms.
 									</p>
 								</div>
 								<div className="sofax-career-content-icon-text-wrapper2">
@@ -67,7 +66,7 @@ function Services() {
 								</div>
 								<div className="sofax-career-content-text">
 									<p>
-										Search engine optimization can help you get found by the right customers when they search for the products or services you offer.
+										Social media management that enhances engagement, builds brand loyalty, and drives growth across all mediums.
 									</p>
 								</div>
 								<div className="sofax-career-content-icon-text-wrapper2">
@@ -104,8 +103,7 @@ function Services() {
 								</div>
 								<div className="sofax-career-content-text">
 									<p>
-										Product design encompasses both UI/UX design but it also involves a broader
-										understanding of the entire product.
+										Expert management of Google Marketing Platform to optimize campaigns, improve targeting, and boost ROI across channels.
 									</p>
 								</div>
 								<div className="sofax-career-content-icon-text-wrapper2">
@@ -142,8 +140,7 @@ function Services() {
 								</div>
 								<div className="sofax-career-content-text">
 									<p>
-										Product design encompasses both UI/UX design but it also involves a broader
-										understanding of the entire product.
+										Custom app development tailored to your business, providing seamless, user-friendly experiences on Android and iOS.
 									</p>
 								</div>
 								<div className="sofax-career-content-icon-text-wrapper2">
@@ -180,8 +177,7 @@ function Services() {
 								</div>
 								<div className="sofax-career-content-text">
 									<p>
-										Product design encompasses both UI/UX design but it also involves a broader
-										understanding of the entire product.
+										Creative logo and graphic design services that establish a unique brand identity and captivate your audience visually.
 									</p>
 								</div>
 								<div className="sofax-career-content-icon-text-wrapper2">
@@ -218,8 +214,7 @@ function Services() {
 								</div>
 								<div className="sofax-career-content-text">
 									<p>
-										Product design encompasses both UI/UX design but it also involves a broader
-										understanding of the entire product.
+										Custom e-commerce websites offering seamless shopping, optimized for conversions, security, and scalability.
 									</p>
 								</div>
 								<div className="sofax-career-content-icon-text-wrapper2">

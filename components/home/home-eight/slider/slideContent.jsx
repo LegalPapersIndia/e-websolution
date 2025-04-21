@@ -20,8 +20,8 @@ const slideContent = [
   {
     title: "Hurry Up! Let’s Grow Your Business Today & Together",
     description: "Act now and grow your business with our expert digital solutions, tailored for success.",
-    buttonText: "Contact Us",
-    buttonLink: "/contact",
+    buttonText: "Act Now",
+    buttonLink: "/contact-us",
     imageUrl: slide3,
   },
 ];

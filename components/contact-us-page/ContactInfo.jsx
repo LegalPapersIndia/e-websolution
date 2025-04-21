@@ -2,6 +2,7 @@ import Icon1 from "@/public/images/contact/icon1.png";
 import Icon2 from "@/public/images/contact/icon2.png";
 import Icon3 from "@/public/images/contact/icon3.png";
 import Icon4 from "@/public/images/contact/icon7.png";
+import Link from "next/link";
 import Image from "next/image";
 function ContactInfo() {
 	return (
@@ -12,7 +13,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Chat with us</h4>
-					<p>We're waiting to help you every Monday-Friday from 9 am to 5 pm EST easily.</p>
+					<p>We're waiting to help you every Monday-Saturday from 10 AM to 6 PM IST.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
@@ -21,7 +22,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Give us a call</h4>
-					<p>Give us a ring at (+088-234-567-90). Every monday-friday from 9 am to 5 pm.</p>
+					<p>Give us a ring at <Link href="tel:9876543210"><span className="contact-call-text">+91-9876543210</span></Link>. Every Monday-Saturday from 10 AM to 6 PM.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
@@ -30,7 +31,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Email us</h4>
-					<p>Drop us an email at example@gmail.com and you'll receive a reply within 24 hours.</p>
+					<p>Drop us an Email at <Link href="mailto:info@e-websolution.in"><span className="contact-call-text">info@e-websolution.in</span></Link> and you'll receive a reply within 24 hours.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap2">
@@ -39,7 +40,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h4>Corporate Office</h4>
-					<p>B1-A/8, First Floor, above Kotak Mahindra Bank, Block B, Sector 51, Noida.</p>
+					<p>K, 159, Gali No. 8, Samta Vihar, Mukandpur Part 2, North West, Delhi, 110042</p>
 				</div>
 			</div>
 		</div>

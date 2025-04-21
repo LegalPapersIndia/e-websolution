@@ -16,14 +16,14 @@ const TopBar = () => {
       <div className="container topbar-inner">
         <div className="topbar-left">
           <Link href="#">
-            <span className="topbar-item">
-              <FaPhoneAlt size={12} />
+            <span className="topbar-item topbar-item-phone">
+              <FaPhoneAlt size={14} />
               <span className="topbar-text">+91 98765 43210</span>
             </span>
           </Link>
           <Link href="#">
             <span className="topbar-item">
-              <FaEnvelope size={12} />
+              <FaEnvelope size={14} />
               <span className="topbar-text">info@e-websolution.in</span>
             </span>
           </Link>

@@ -12,37 +12,36 @@ const testimonialOneData = [
 		id: crypto.randomUUID(),
 		rating: 5,
 		description:
-			"Great results enjoyable to the works with & most importanly enabled us to the presence on the website needed conduct business.",
-		author: "William Jack",
-		designation: "Co-Founder",
+			"Their team redesigned our website beautifully and handled SEO — we saw traffic growth within the first month! The results speak for themselves.",
+		author: "Rajesh Mehra",
+		designation: "Industry: Electronics Retailer",
 		img: Thumb1Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		rating: 4,
-
 		description:
-			"I am a would need more details to a provide relevant informatio business clients' reviews are feedback from in a individuals or companies.",
-		author: "Smith Align",
-		designation: "Businessman",
+			"Highly recommend! They understood our business needs perfectly and delivered a clean, fast website with strong results.",
+		author: "Neha Patil",
+		designation: "Industry: Educational Consultancy",
 		img: Thumb2Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		rating: 5,
 		description:
-			"It’s an all-in-one solution to that the has turbocharged the growth. The lead generation & capbilities. our partner & result spesk.",
-		author: "Smith Align",
-		designation: "Web Developer",
+			"From website to SEO and ads, everything was smooth. Honest team, great communication, and solid performance throughout.",
+		author: "Sameer Joshi",
+		designation: "Industry: Fitness & Wellness Studio",
 		img: Thumb3Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		rating: 5,
 		description:
-			"Great results enjoyable to the works with & most importanly enabled us to the presence on the website needed conduct business.",
-		author: "William Jack",
-		designation: "Co-Founder",
+			"We’re ranking on Google now! Their SEO work has been effective and totally worth the investment. Totally recommended.",
+		author: "Vikram Shetty",
+		designation: "Industry: Travel Agency",
 		img: Thumb1Img,
 	},
 	{
@@ -50,9 +49,9 @@ const testimonialOneData = [
 		rating: 4,
 
 		description:
-			"I am a would need more details to a provide relevant informatio business clients' reviews are feedback from in a individuals or companies.",
-		author: "Smith Align",
-		designation: "Businessman",
+			"Their branding and website design helped us stand out. Very creative team and excellent communication throughout!",
+		author: "Aisha Sharma",
+		designation: "Industry: Handmade Skincare Prdcts",
 		img: Thumb2Img,
 	},
 ];
@@ -62,9 +61,9 @@ const testimonialTwoData = [
 		id: crypto.randomUUID(),
 		rating: 4,
 		description:
-			"  It’s an all-in-one solution to that the has turbocharged the growth. The lead generation & capbilities. our partner & result spesk.",
-		author: "William Jack",
-		designation: "Co-Founder",
+			"Impressed by their ad strategy! We saw more leads and better conversions in just a few weeks.",
+		author: "Deepak Malhotra",
+		designation: "Industry: Fashion & Lifestyle Brand",
 		img: Thumb1Img,
 	},
 	{
@@ -72,27 +71,27 @@ const testimonialTwoData = [
 		rating: 5,
 
 		description:
-			"I am a would need more details to a provide relevant informatio business clients' reviews are feedback from in a individuals or companies.",
-		author: "Smith Align",
-		designation: "Businessman",
+			"Their team managed everything — website, ads, social media. Super smooth experience and amazing support.",
+		author: "Meena Iyer",
+		designation: "Industry: Home Interior Design",
 		img: Thumb2Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		rating: 5,
 		description:
-			"Great results enjoyable to the works with & most importanly enabled us to the presence on the website needed conduct business.",
-		author: "Smith Align",
-		designation: "Web Developer",
+			"Great results they built our website from scratch — clean, fast, and mobile-friendly. Very satisfied with the end result!",
+		author: "Anjali Deshmukhn",
+		designation: "Industry: Online Boutique",
 		img: Thumb3Img,
 	},
 	{
 		id: crypto.randomUUID(),
 		rating: 5,
 		description:
-			"Great results enjoyable to the works with & most importanly enabled us to the presence on the website needed conduct business.",
-		author: "William Jack",
-		designation: "Co-Founder",
+			"We started getting quality leads within weeks. Their ads and landing pages really worked for our niche business.",
+		author: "Manav Tiwari",
+		designation: "Industry: Insurance & Financial Advisory",
 		img: Thumb1Img,
 	},
 	{
@@ -100,15 +99,15 @@ const testimonialTwoData = [
 		rating: 4,
 
 		description:
-			"I am a would need more details to a provide relevant informatio business clients' reviews are feedback from in a individuals or companies.",
-		author: "Smith Align",
-		designation: "Businessman",
+			"Smooth process from start to finish. Our SEO rankings improved, and the website traffic doubled in 3 months.",
+		author: "Sudeep Nair",
+		designation: "Industry: Medical Clinic",
 		img: Thumb2Img,
 	},
 ];
 
 const swiperSettingsOne = {
-	speed: 8000,
+	speed: 12000,
 	autoplay: {
 		delay: 0,
 		disableOnInteraction: false,
@@ -131,7 +130,7 @@ const swiperSettingsOne = {
 	},
 };
 const swiperSettingsTwo = {
-	speed: 8000,
+	speed: 12000,
 	autoplay: {
 		delay: 0,
 		disableOnInteraction: false,
