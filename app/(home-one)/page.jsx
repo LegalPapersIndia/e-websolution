@@ -23,8 +23,8 @@ function HomeEight() {
 			<ServiceOne />
 			<Features />
 			<Counter />
-			<Steps />
 			<Services />
+			<Steps />
 			{/* <AboutTwo /> */}
 			{/* <PricePlan /> */}
 			{/* <Projects /> */}
