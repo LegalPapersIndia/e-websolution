@@ -4,22 +4,22 @@ import slide3 from "@/public/images/slider/slide3.jpg";
 
 const slideContent = [
   {
-    title: "Boost Your Online Presence",
+    title: "India's Fastest Growing No. 1 Digital Marketing Agency",
     description: "We help your brand grow with expert digital strategies and data-driven solutions.",
-    buttonText: "Get Started",
-    buttonLink: "/services",
+    buttonText: "Contact Us",
+    buttonLink: "/contact-us",
     imageUrl: slide1,
   },
   {
-    title: "Drive More Traffic & Conversions",
-    description: "Leverage SEO, PPC, and Social Media Marketing to scale your business.",
+    title: "Best & Affordable Plans for Every Business Size",
+    description: "High-quality website, SEO, and marketing solutions at prices designed for every budget.",
     buttonText: "View Services",
     buttonLink: "/services",
     imageUrl: slide2,
   },
   {
-    title: "Creative Solutions That Work",
-    description: "We blend creativity with technology to deliver impactful marketing campaigns.",
+    title: "Hurry Up! Let’s Grow Your Business Today & Together",
+    description: "Act now and grow your business with our expert digital solutions, tailored for success.",
     buttonText: "Contact Us",
     buttonLink: "/contact",
     imageUrl: slide3,

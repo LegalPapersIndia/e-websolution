@@ -149,6 +149,12 @@
     font-size: 1.25rem;
     margin-bottom: 2rem;
 }
+/* 
+@media (max-width: 768px) {
+    .content p {
+        display: none;
+    }
+} */
 
 .dots {
     position: absolute;
