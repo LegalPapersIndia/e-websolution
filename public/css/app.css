@@ -7651,7 +7651,7 @@ a.sofax-connect-login img {
 
 /* bootstrap accordion overwrite start */
 .sofax-accordion-wrap1 .accordion-item {
-	padding: 24px;
+	padding: 12px 24px;
 	position: relative;
 	margin-bottom: 24px;
 	border-radius: 10px;
@@ -7660,7 +7660,7 @@ a.sofax-connect-login img {
 }
 
 .sofax-accordion-wrap1 h3.accordion-header {
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: 700;
 	display: flex;
 }
@@ -7695,14 +7695,15 @@ a.sofax-connect-login img {
 }
 
 .sofax-accordion-wrap1 .accordion-body {
+	font-size: 16px;
 	padding: 0;
-	padding-top: 15px;
+	padding-top: 10px;
 	color: rgb(60, 60, 60);
 }
 
 @media (max-width: 991px) {
 	.sofax-accordion-wrap1 .accordion-body {
-		padding: 24px 0 0;
+		padding: 15px 0 0;
 	}
 }
 

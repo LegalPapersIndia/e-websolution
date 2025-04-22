@@ -125,6 +125,30 @@ function AboutThree() {
 											</div>
 										</div>
 									</FadeInStaggerTwoChildren>
+									<FadeInStaggerTwoChildren className="accordion-item sofax-accordion-item">
+										<h3 className="accordion-header sofax-accordion-header">
+											<button
+												className="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseFive"
+											>
+												How do you ensure ad campaigns reach the right audience?
+											</button>
+											<div className="accordion-icon">
+												<Image src={Icon} alt="Icon" />
+											</div>
+										</h3>
+										<div
+											id="collapseFive"
+											className="accordion-collapse collapse"
+											data-bs-parent="#sofax-accordion"
+										>
+											<div className="accordion-body sofax-accordion-body">
+												We use detailed targeting, audience segmentation, and analytics to reach the most relevant and high-converting users.
+											</div>
+										</div>
+									</FadeInStaggerTwoChildren>
 								</FadeInStaggerTwo>
 							</div>
 						</div>
