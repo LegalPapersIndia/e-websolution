@@ -5,7 +5,7 @@ import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/F
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutThree() {
 	return (
-		<section className="section sofax-section-padding3 bg-light">
+		<section className="section sofax-section-padding bg-light">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5">
@@ -109,7 +109,7 @@ function AboutThree() {
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseFour"
 											>
-												Can I customize the digital marketing plan to fit my budget?
+												Can I customize digital marketing plan to fit my budget?
 											</button>
 											<div className="accordion-icon">
 												<Image src={Icon} alt="Icon" />
@@ -133,7 +133,7 @@ function AboutThree() {
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseFive"
 											>
-												How do you ensure ad campaigns reach the right audience?
+												How do you ensure ad campaigns reach right audience?
 											</button>
 											<div className="accordion-icon">
 												<Image src={Icon} alt="Icon" />

@@ -15,8 +15,8 @@ const ServiceCard = ({ title, price, icon, items, isLast }) => {
       <Image
         src={icon}
         alt={`${title} Icon`}
-        width={75}
-        height={75}
+        width={90}
+        height={90}
         className="mb-3"
       />
       <ul className="list-unstyled">
@@ -28,16 +28,16 @@ const ServiceCard = ({ title, price, icon, items, isLast }) => {
             onMouseLeave={() => setHoveredIndex(null)}
           >
             <span className="d-flex justify-content-between align-items-center">
-              {item}
+              {item.name}
               <FaAngleRight size={12} />
             </span>
 
             {hoveredIndex === i && (
               <div className={`floating-dropdowns d-flex flex-column gap-2 ${isLast ? "left-align" : ""}`}>
-                <Link href="/services/details" className="dropdown-box d-flex justify-content-between align-items-center" target="_blank">
+                <Link href={item.visitPageLink} className="dropdown-box d-flex justify-content-between align-items-center" target="_blank">
                     Visit this Page <FiExternalLink size={14} />
                 </Link>
-                <Link href="/portfolio" className="dropdown-box d-flex justify-content-between align-items-center" target="_blank">
+                <Link href={item.portfolioLink} className="dropdown-box d-flex justify-content-between align-items-center" target="_blank">
                     Projects/Portfolios <FiExternalLink size={14} />
                 </Link>
             </div>

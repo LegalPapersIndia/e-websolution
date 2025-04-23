@@ -32,7 +32,7 @@ const projectsData = [
 ];
 function Projects() {
 	return (
-		<div className="section sofax-section-padding7" id="project">
+		<div className="section sofax-section-padding8" id="project">
 			<div className="container">
 				<div className="sofax-section-title">
 					<div className="row">

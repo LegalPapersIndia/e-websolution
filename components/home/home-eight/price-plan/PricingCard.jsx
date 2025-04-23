@@ -6,7 +6,7 @@ function PricingCard({ pricing: { plan, price, img, features, highlighted, featu
 		<div className={`sofax-pricing-wrap ${highlighted ? "recommended" : ""}`}>
 			{highlighted && <div className="recommended-tag">Recommended</div>}
 			<div className="sofax-pricing-header">
-				<Image src={img} alt="icon" />
+				{/* <Image src={img} alt="icon" /> */}
 				<h3>{plan}</h3>
 			</div>
 			<div className="sofax-pricing-price">

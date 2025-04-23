@@ -75,7 +75,7 @@ function PricePlan() {
 	}
 
 	return (
-		<section className="section sofax-section-padding bg-light" id="pricing">
+		<section className="section sofax-section-padding3 bg-light" id="pricing">
 			<div className="container">
 				<div className="sofax-section-title center pb-50">
 					<div className="tg-heading-subheading animation-style3">

@@ -469,7 +469,7 @@
 
 .site-menu-main .nav-link-item {
 	color: var(--heading-color);
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 500;
 	font-style: normal;
 	letter-spacing: normal;
@@ -498,7 +498,7 @@
 		padding-top: 15px !important;
 		padding-bottom: 15px !important;
 		padding-left: 16px !important;
-		padding-right: 32px !important;
+		padding-right: 16px !important;
 	}
 }
 
@@ -598,7 +598,8 @@
 	right: 0;
 	height: 3px;
 	width: 0;
-	background-color: #202030;
+	/* background-color: #202030; */
+	background-color: var(--accent-color);
 	transition: all 0.3s ease;
 }
 

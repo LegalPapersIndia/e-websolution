@@ -56,7 +56,7 @@ function SingleServiceDetails() {
 											</li>
 											<li>
 												<Image src={Icon} alt="Icon" />
-												Persona development
+												Personal development
 											</li>
 										</ul>
 									</div>

@@ -2,6 +2,7 @@
 import Thumb1Img from "@/public/images/v1/member1.png";
 import Thumb2Img from "@/public/images/v1/member2.png";
 import Thumb3Img from "@/public/images/v1/member3.png";
+import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import TestimonialCard from "./TestimonialCard";
@@ -156,11 +157,13 @@ const swiperSettingsTwo = {
 };
 function Testimonial() {
 	return (
-		<section className="sofax-section-padding2" id="testimonial">
+		<section className="sofax-section-padding3" id="testimonial">
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>What our Clients say about us.</h2>
+						<h2>
+							<TextSplitFadeIn>What our Clients say about us.</TextSplitFadeIn>
+						</h2>
 					</div>
 				</div>
 			</div>

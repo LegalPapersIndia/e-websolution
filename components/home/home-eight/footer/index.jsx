@@ -236,8 +236,10 @@ function Footer() {
 								<h5>Partnered with us</h5>
 								<div className="d-flex flex-column flex-wrap gap-3 company-image">
 									<Image src={CompanyOne} alt="LPI Logo" style={{ width: "70%", height: "auto" }} />
+									<p>Easrise LegalPapers Management (OPC) Private Limited is Head Company of</p>
 									<Image src={CompanyTwo} alt="LPI Logo 2" style={{ width: "70%", height: "50%" }} />
-									<Image src={CompanyThree} alt="EWebsoltion Logo" style={{ width: "70%", height: "auto" }} />
+									<h4>LegalPapersIndia.com For Legal Services</h4>
+									{/* <Image src={CompanyThree} alt="EWebsoltion Logo" style={{ width: "70%", height: "auto" }} /> */}
 								</div>
 							</div>
 						</div>

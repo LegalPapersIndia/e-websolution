@@ -39,7 +39,7 @@ const servicesData = [
 ];
 function Services() {
 	return (
-		<section className="sofax-section-padding3 bg-light" id="service">
+		<section className="sofax-section-padding bg-light" id="service">
 			<div className="container">
 				{/* <div className="mt-5 sofax-section-title center">
 					<div className="row">

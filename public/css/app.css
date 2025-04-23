@@ -25,6 +25,7 @@
 	--light-color: #eaedf0;
 	--light-color2: #dbdbdb;
 	--light-color3: #dbdbdb1a;
+	--light-color4: #cdced1;
 	--green-bg: #387ed9b6;
 	--grey-color: #747474;
 }
@@ -2291,6 +2292,10 @@ header.sofax-header-section.sticky-menu.inner-header {
 	}
 }
 
+.sofax-footer-menu h4{
+	color: var(--body-color);
+}
+
 .sofax-footer-menu h5 {
 	margin-bottom: 24px;
 }
@@ -2304,6 +2309,7 @@ header.sofax-header-section.sticky-menu.inner-header {
 }
 
 .sofax-footer-menu ul li a {
+	font-size: 18px;
 	color: var(--body-color);
 	position: relative;
 	transition: all 0.4s;
@@ -2567,7 +2573,7 @@ a.social-icon img {
 
 .sofax-default-btn.sofax-header-btn,
 #sofax-submit-btn.sofax-header-btn {
-	padding: 13px 36px;
+	padding: 13px 25px;
 }
 
 .sofax-default-btn.outline-btn,
@@ -3600,6 +3606,7 @@ button#sofax-subscription-btn:hover {
 }
 
 h1.post__title {
+	letter-spacing: -2px;
 	margin-bottom: 50px;
 	color: white;
 }
@@ -4806,7 +4813,7 @@ h1.post__title {
 
 .sofax-testimonial-data p {
 	margin-bottom: 20px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .sofax-testimonial-author {
@@ -5668,12 +5675,12 @@ h1.post__title {
 
 .sofax-list-icon-icon ul li {
 	position: relative;
-	font-size: 23px;
+	font-size: 20px;
 	font-weight: 700;
 	line-height: 32px;
 	text-align: left;
 	color: #0e0e0e;
-	padding-left: 30px;
+	padding-left: 40px;
 	margin-bottom: 24px;
 }
 
@@ -7251,6 +7258,7 @@ a.sofax-connect-login img {
 }
 
 .sofax-inner-service-thumb {
+	margin-top: 30px;
 	margin-bottom: 40px;
 }
 
@@ -7473,7 +7481,7 @@ a.sofax-connect-login img {
 
 .sofax-career-content-text p {
 	text-align: center;
-	font-size: 20px !important;
+	font-size: 18px !important;
 }
 
 .sofax-career-content-text2 h6 {
@@ -7660,7 +7668,7 @@ a.sofax-connect-login img {
 }
 
 .sofax-accordion-wrap1 h3.accordion-header {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 700;
 	display: flex;
 }
@@ -7695,7 +7703,7 @@ a.sofax-connect-login img {
 }
 
 .sofax-accordion-wrap1 .accordion-body {
-	font-size: 16px;
+	font-size: 18px;
 	padding: 0;
 	padding-top: 10px;
 	color: rgb(60, 60, 60);
@@ -8020,9 +8028,18 @@ img.plasicon {
 	}
 }
 
+.center-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+
 .sofax-features-boxv8 {
-	border: 1px solid var(--light-color);
-	padding: 30px;
+	border: 1px solid var(--light-color4);
+	padding: 25px;
 }
 
 .sofax-features-boxv8:hover {
@@ -8637,7 +8654,7 @@ img.plasicon {
 	display: flex;
 	background-color: #fff;
 	border-radius: 5px;
-	padding: 30px;
+	padding: 15px 30px;
 	margin-bottom: 24px;
 	gap: 10px;
 	align-items: center;
@@ -8659,11 +8676,11 @@ img.plasicon {
 }
 
 .sofax-service-iconbox-data h4 {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 .sofax-service-iconbox-data p {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .sofax-service-iconbox-icon {
@@ -8985,6 +9002,10 @@ img.plasicon {
 	margin-top: 15px;
 }
 
+ul.list-unstyled li{
+	font-size: 18px;
+}
+
 /* .service-list-item {
 	position: relative;
 	padding: 14px 0;
@@ -8996,9 +9017,13 @@ img.plasicon {
   } */
 
 .service-list-item {
-	padding: 14px 0;
+	padding: 10px 0;
 	border-bottom: 1px solid var(--light-color2);
 	cursor: pointer;
+}
+
+.service-list-item:hover {
+	color: var(--accent-color);
 }
 
 /* Floating Dropdowns */
@@ -9160,10 +9185,12 @@ img.plasicon {
 }
 
 .inner-service2 h3 {
+	font-size: 25px;
 	margin-bottom: 10px;
 }
 
 .inner-service2 p {
+	font-size: 15px;
 	color: var(--light-color) !important;
 }
 
