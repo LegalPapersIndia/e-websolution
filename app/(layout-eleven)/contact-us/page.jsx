@@ -13,7 +13,14 @@ export const metadata = {
 function ContactUs() {
 	return (
 		<>
-			<BreadCrumb title="Contact Us" bgImage={Banner} />
+			{/* <BreadCrumb title="Contact Us" bgImage={Banner} /> */}
+			<BreadCrumb
+				bgImage={Banner}
+				trail={[
+					{ label: "Home", href: "/" },
+					{ label: "Contact Us" }
+				]}
+			/>
 			<Contact />
 			<MyGoogleMapEmbed />
 			{/* <MyMap /> */}

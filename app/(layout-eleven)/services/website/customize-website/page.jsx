@@ -1,43 +1,5 @@
-// import AutoSlider from "@/components/common/auto-slider";
-// import Banner from "@/public/images/services/web-develoment/banner1.jpg";
-// import Thumb from "@/public/images/v10/thumb1v10.png";
-// import Hero from "@/components/home/home-ten/hero";
-// import About from "@/components/service-page/about";
-// import BreadCrumb from "@/components/common/Breadcrumb";
-// import Faq from "@/components/home/home-five/faq";
-// import SingleServiceDetails from "@/components/service-page/web-dev";
-// import Projects from "@/components/home/home-eight/projects";
-// import Features from "@/components/home/home-two/services";
-// import Testimonials from "@/components/home/home-eight/testimonials";
-// import Prices from "@/components/home/home-eight/price-plan";
-
-// export const metadata = {
-// 	title: "Best Web Designing Agency in Delhi",
-// 	description: "Best Web Designing Agency in Delhi",
-// };
-// function SingleService() {
-// 	return (
-// 		<>
-// 			<BreadCrumb title="Small Business Website" bgImage={Banner} />
-// 			{/* <Hero serviceId={1} imageSrc={Thumb} /> */}
-// 			<About />
-// 			<Features />
-// 			<AutoSlider />
-// 			<SingleServiceDetails />
-// 			<Projects />
-// 			<Prices />
-// 			<Testimonials />
-// 			<Faq />
-// 		</>
-// 	);
-// }
-
-// export default SingleService;
-
-
 import AutoSlider from "@/components/common/auto-slider";
 import Banner from "@/public/images/services/web-develoment/banner1.jpg";
-import Thumb from "@/public/images/v10/thumb1v10.png";
 import Hero from "@/components/home/home-ten/hero";
 import About from "@/components/service-page/about";
 import BreadCrumb from "@/components/common/Breadcrumb";
@@ -165,7 +127,7 @@ const customProjects = [
 const smallBusinessPricing = [
 	{
 		id: 1,
-		plan: "Starter",
+		plan: "Essential",
 		price: [
 			{ id: 1, value: 30 },
 			{ id: 2, value: 8 },
@@ -180,7 +142,7 @@ const smallBusinessPricing = [
 	},
 	{
 		id: 2,
-		plan: "Growth",
+		plan: "Professional",
 		price: [
 			{ id: 1, value: 55 },
 			{ id: 2, value: 12 },
@@ -195,7 +157,7 @@ const smallBusinessPricing = [
 	},
 	{
 		id: 3,
-		plan: "Pro",
+		plan: "Enterprise",
 		price: [
 			{ id: 1, value: 75 },
 			{ id: 2, value: 20 },
@@ -280,13 +242,12 @@ const faqDataGroups = [
 function SingleService() {
 	return (
 		<>
-			{/* <BreadCrumb title="Small Business Website" bgImage={Banner} /> */}
 			<BreadCrumb
 				bgImage={Banner}
 				trail={[
 					{ label: "Home", href: "/" },
 					{ label: "Services", href: "/service" },
-					{ label: "Small Business Website" }
+					{ label: "Website Design" }
 				]}
 			/>
 			<About

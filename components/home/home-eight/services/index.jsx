@@ -6,14 +6,17 @@ import Illustration3 from '@/public/images/v8/illustration8v8.webp';
 import Illustration4 from '@/public/images/v8/illustration4v8.png';
 import Illustration5 from '@/public/images/v8/illustration5v8.png';
 import Illustration6 from '@/public/images/v8/illustration6v8.png';
+import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 
 function Services() {
 	return (
-		<section className="sofax-section-padding3 bg-light" id="service">
+		<section className="sofax-section-padding7 bg-light" id="service">
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>Our Digital Marketing Services</h2>
+						<h2>
+						<TextSplitFadeIn> Our Digital Marketing Services </TextSplitFadeIn>
+						</h2>
 					</div>
 				</div>
 				

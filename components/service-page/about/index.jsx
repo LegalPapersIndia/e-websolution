@@ -1,4 +1,5 @@
-import Icon2 from "@/public/images/service/icon2.png";
+/*
+	import Icon2 from "@/public/images/service/icon2.png";
 import Icon3 from "@/public/images/service/icon3.png";
 import Icon4 from "@/public/images/service/icon4.png";
 import Icon5 from "@/public/images/service/icon5.png";
@@ -78,3 +79,51 @@ function About() {
 }
 
 export default About;
+
+*/
+
+import Image from "next/image";
+import Shape1 from "@/public/images/service/shape1.png";
+import FadeInRight from "../../animation/FadeInRight";
+
+const About = ({ title, description, image, iconItems = [] }) => {
+  return (
+    <section className="sofax-section-padding3 position-ralatiove">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-5 order-lg-2">
+            <FadeInRight className="sofax-inner-service-thumb">
+              <Image src={image} alt="Thumbs" />
+            </FadeInRight>
+            <div className="sofax-inner-service-shape">
+              <Image src={Shape1} alt="content-shape" />
+            </div>
+          </div>
+          <div className="col-lg-7">
+            <div className="sofax-default-content mr-50 tac">
+              <h2>{title}</h2>
+              <p>{description}</p>
+
+              <div>
+                {iconItems.map((item, index) => (
+                  <div className="sofax-iconbox-wrap2" key={index}>
+                    <div className="sofax-iconbox-icon2">
+                      <Image src={item.icon} alt="icon" />
+                    </div>
+                    <div className="sofax-iconbox-data2">
+                      <h5>{item.text}</h5>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;
+

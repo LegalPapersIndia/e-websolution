@@ -1,43 +1,5 @@
-// import AutoSlider from "@/components/common/auto-slider";
-// import Banner from "@/public/images/services/web-develoment/banner1.jpg";
-// import Thumb from "@/public/images/v10/thumb1v10.png";
-// import Hero from "@/components/home/home-ten/hero";
-// import About from "@/components/service-page/about";
-// import BreadCrumb from "@/components/common/Breadcrumb";
-// import Faq from "@/components/home/home-five/faq";
-// import SingleServiceDetails from "@/components/service-page/web-dev";
-// import Projects from "@/components/home/home-eight/projects";
-// import Features from "@/components/home/home-two/services";
-// import Testimonials from "@/components/home/home-eight/testimonials";
-// import Prices from "@/components/home/home-eight/price-plan";
-
-// export const metadata = {
-// 	title: "Best Web Designing Agency in Delhi",
-// 	description: "Best Web Designing Agency in Delhi",
-// };
-// function SingleService() {
-// 	return (
-// 		<>
-// 			<BreadCrumb title="Small Business Website" bgImage={Banner} />
-// 			{/* <Hero serviceId={1} imageSrc={Thumb} /> */}
-// 			<About />
-// 			<Features />
-// 			<AutoSlider />
-// 			<SingleServiceDetails />
-// 			<Projects />
-// 			<Prices />
-// 			<Testimonials />
-// 			<Faq />
-// 		</>
-// 	);
-// }
-
-// export default SingleService;
-
-
 import AutoSlider from "@/components/common/auto-slider";
 import Banner from "@/public/images/services/web-develoment/banner1.jpg";
-import Thumb from "@/public/images/v10/thumb1v10.png";
 import Hero from "@/components/home/home-ten/hero";
 import About from "@/components/service-page/about";
 import BreadCrumb from "@/components/common/Breadcrumb";
@@ -77,45 +39,39 @@ const smallBusinessFeatures = [
 	{
 		id: 1,
 		icon: icon1,
-		title: "Tailored for Small Business",
-		description: "Get a site that reflects your goals and speaks directly to your customers.",
+		title: "Unique, Brand-Focused Designs",
 	},
 	{
 		id: 2,
 		icon: icon2,
-		title: "Conversion-Optimized Design",
-		description: "Turn more visitors into leads and paying customers.",
+		title: "Mobile-Responsive & User-Friendly",
 	},
 	{
 		id: 3,
 		icon: icon3,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Scalable for Future Growth",
 	},
 	{
 		id: 4,
 		icon: icon4,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Fast Loading Speeds",
 	},
 	{
 		id: 5,
 		icon: icon5,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Built-In Security Features",
 	},
 	{
 		id: 6,
 		icon: icon6,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Seamless Tool Integration",
 	},
 ];
 
 /* Service Features */
 
 const serviceData = {
-	title: "How our agency provides Web Design services",
+	title: "Our Web Design Approach",
 	shapeImage: Shape2,
 	strategyTitle: "Web Design strategies",
 	strategyDescription:
@@ -141,21 +97,21 @@ const customProjects = [
 		id: 1,
 		image: thumb1,
 		title: "Project 1",
-		category: "Development",
+		category: "Web Design",
 		link: "/projects/project-1",
 	},
 	{
 		id: 2,
 		image: thumb2,
 		title: "Project 2",
-		category: "Development",
+		category: "Web Design",
 		link: "/projects/project-2",
 	},
 	{
 		id: 3,
 		image: thumb3,
 		title: "Project 3",
-		category: "Development",
+		category: "Web Design",
 		link: "/projects/project-3",
 	},
 ];
@@ -165,7 +121,7 @@ const customProjects = [
 const smallBusinessPricing = [
 	{
 		id: 1,
-		plan: "Starter",
+		plan: "Essential",
 		price: [
 			{ id: 1, value: 30 },
 			{ id: 2, value: 8 },
@@ -180,7 +136,7 @@ const smallBusinessPricing = [
 	},
 	{
 		id: 2,
-		plan: "Growth",
+		plan: "Professional",
 		price: [
 			{ id: 1, value: 55 },
 			{ id: 2, value: 12 },
@@ -195,7 +151,7 @@ const smallBusinessPricing = [
 	},
 	{
 		id: 3,
-		plan: "Pro",
+		plan: "Enterprise",
 		price: [
 			{ id: 1, value: 75 },
 			{ id: 2, value: 20 },
@@ -217,22 +173,22 @@ const testimonialsData = [
 		id: 1,
 		image: image1,
 		rating: 5,
-		review: "Tailored testimonial for this service page.",
+		review: "Incredible experience! Our website looks amazing, and the team made sure it aligns perfectly with our brand and goals.",
 		author: { name: "Alice Williams", title: "Startup Founder" },
 	},
 	{
 		id: 2,
-		image: image2,
-		rating: 4,
-		review: "Another satisfied customer with specific feedback.",
-		author: { name: "John Doe", title: "Business Owner" },
+		image: image3,
+		rating: 5,
+		review: "Fast, secure, and user-friendly! The team truly understood our needs and delivered a site that works for our customers and business.",
+		author: { name: "Jane Smith", title: "CEO" },
 	},
 	{
 		id: 3,
-		image: image3,
-		rating: 5,
-		review: "Top-notch services that helped scale our operations.",
-		author: { name: "Jane Smith", title: "CEO" },
+		image: image2,
+		rating: 4,
+		review: "The website redesign helped boost our conversion rates significantly. The process was smooth and the results speak for themselves!",
+		author: { name: "John Doe", title: "Business Owner" },
 	},
 ];
 
@@ -242,36 +198,36 @@ const faqDataGroups = [
 	[
 		{
 			id: "faq-1",
-			question: "How can I get started with your service?",
-			answer: "You can get started by contacting us or signing up through our website. We'll guide you through every step.",
+			question: "What makes the website design unique?",
+			answer: "We create custom, user-focused designs that align with your business goals and grow with your needs.",
 			show: true,
 		},
 		{
 			id: "faq-2",
-			question: "Do you offer custom packages?",
-			answer: "Yes, we tailor our packages based on your specific business needs and goals.",
+			question: "How long does it take to design a website?",
+			answer: "The timeline varies based on complexity, but typically, we complete a website in 2-3 weeks.",
 		},
 		{
 			id: "faq-3",
-			question: "What industries do you work with?",
-			answer: "We work with a variety of industries including agriculture, pharma, garments, and more.",
+			question: "Will my website be mobile-friendly?",
+			answer: "Yes! All our designs are fully responsive and optimized for all devices.",
 		},
 	],
 	[
 		{
 			id: "faq-4",
-			question: "How long does it take to build a website?",
-			answer: "Timelines vary based on complexity, but most websites are completed within 2-4 weeks.",
+			question: "Can you redesign my existing website?",
+			answer: "Absolutely! We offer complete redesigns to enhance functionality, aesthetics, and user experience.",
 		},
 		{
 			id: "faq-5",
-			question: "Can you manage my digital marketing too?",
-			answer: "Absolutely! We provide full digital marketing solutions including SEO, Ads, and Social Media Management.",
+			question: "Do you provide ongoing website maintenance?",
+			answer: "Yes, we offer ongoing support and maintenance to ensure your site runs smoothly.",
 		},
 		{
 			id: "faq-6",
-			question: "Is support included after launch?",
-			answer: "Yes, we offer ongoing support and maintenance after your project is live.",
+			question: "How much does a website design cost?",
+			answer: "Pricing depends on the scope and features, but we offer transparent quotes based on your needs.",
 			show: true,
 		},
 	],
@@ -280,32 +236,31 @@ const faqDataGroups = [
 function SingleService() {
 	return (
 		<>
-			{/* <BreadCrumb title="Small Business Website" bgImage={Banner} /> */}
 			<BreadCrumb
 				bgImage={Banner}
 				trail={[
 					{ label: "Home", href: "/" },
 					{ label: "Services", href: "/service" },
-					{ label: "Small Business Website" }
+					{ label: "Website Design" }
 				]}
 			/>
 			<About
-				title="Boost Your Business with Expert Website Design Solutions"
-				description="Experience unparalleled business progress with Sofax. Our expert team leverages cutting-edge strategies to propel your brand forward."
+				title="Professional Website Design That Grows with Your Business"
+				description="Custom-designed websites that reflect your brand and work flawlessly on all devices. Fast, secure, and built to grow with your business."
 				image={AboutThumb}
 				iconItems={[
-					{ icon: Icon5, text: "Affordable, high-performance small business websites" },
-					{ icon: Icon5, text: "Mobile-optimized and SEO-friendly design" },
-					{ icon: Icon5, text: "Tailored UI/UX for your brand" },
-					{ icon: Icon5, text: "Quick turnaround with premium support" },
-					{ icon: Icon5, text: "Integrated marketing tools for growth" },
+					{ icon: Icon5, text: "Custom Designs That Reflect Your Brand" },
+					{ icon: Icon5, text: "Scalable Layouts for Business Growth" },
+					{ icon: Icon5, text: "Secure and Reliable Website Structure" },
+					{ icon: Icon5, text: "Lightning-Fast Page Load Times" },
+					{ icon: Icon5, text: "Smooth Integration with Essential Tools" },
 				]}
 			/>
 			<Features title="Key Features" features={smallBusinessFeatures} />
 			<AutoSlider />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
-				title="Our Recent Small Business Website Projects"
+				title="Our Recent Website Designs"
 				projectsData={customProjects}
 				viewAllLink="/projects"
 			/>

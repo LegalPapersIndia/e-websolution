@@ -45,32 +45,33 @@ function DesktopMenu() {
 			{/* <NavItem url="about-us"></NavItem> */}
 			<NavItem dropdown title="Website Design">
 				<Dropdown>
-					<DropdownItem url="portfolio">Web Design</DropdownItem>
-					<DropdownItem url="about-us">Small Business Website</DropdownItem>
-					<DropdownItem url="portfolio">Large Business Website</DropdownItem>
-					<DropdownItem url="portfolio">Dynamic Website</DropdownItem>
-					<DropdownItem url="portfolio">Customised Website</DropdownItem>
-					<DropdownItem url="portfolio">Ecommerce Website</DropdownItem>
-					<DropdownItem url="portfolio">Industry Based Website</DropdownItem>
+					<DropdownItem url="services/website/web-design">Web Design</DropdownItem>
+					<DropdownItem url="services/website/small-business-website">Small Business Website</DropdownItem>
+					<DropdownItem url="services/website/large-business-website">Large Business Website</DropdownItem>
+					<DropdownItem url="services/website/dynamic-website">Dynamic Website</DropdownItem>
+					<DropdownItem url="services/website/customize-website">Customised Website</DropdownItem>
+					<DropdownItem url="services/website/ecommerce-website">Ecommerce Website</DropdownItem>
+					<DropdownItem url="services/website/industry-specific-website">Industry Based Website</DropdownItem>
 				</Dropdown>
 			</NavItem>
 			<NavItem dropdown title="Digital Marketing">
 				<Dropdown>
-					<DropdownItem url="portfolio">SEO Marketing</DropdownItem>
-					<DropdownItem url="about-us">SMO Marketing</DropdownItem>
-					<DropdownItem url="portfolio">Google Marketing Platform</DropdownItem>
-					<DropdownItem url="portfolio">Whatsapp Marketing</DropdownItem>
-					<DropdownItem url="portfolio">Email Marketing</DropdownItem>
-					<DropdownItem url="portfolio">Content Marketing</DropdownItem>
+					<DropdownItem url="services/digital/seo-marketing">SEO Marketing</DropdownItem>
+					<DropdownItem url="services/digital/smo-marketing">SMO Marketing</DropdownItem>
+					<DropdownItem url="services/digital/google-marketing">Google Marketing Platform</DropdownItem>
+					<DropdownItem url="services/digital/whatsapp-marketing">Whatsapp Marketing</DropdownItem>
+					<DropdownItem url="services/digital/email-marketing">Email Marketing</DropdownItem>
+					<DropdownItem url="services/digital/content-marketing">Content Marketing</DropdownItem>
 				</Dropdown>
 			</NavItem>
 			<NavItem dropdown title="Promotion & Advertisement">
 				<Dropdown>
-					<DropdownItem url="portfolio">Google Ads</DropdownItem>
-					<DropdownItem url="about-us">Meta Ads</DropdownItem>
-					<DropdownItem url="portfolio">TV Ads</DropdownItem>
-					<DropdownItem url="portfolio">Brand Promotion</DropdownItem>
-					<DropdownItem url="portfolio">Paid PR</DropdownItem>
+					<DropdownItem url="services/ads/google-ads">Google Ads</DropdownItem>
+					<DropdownItem url="services/ads/meta-ads">Meta Ads</DropdownItem>
+					<DropdownItem url="services/ads/tv-ads">TV Ads</DropdownItem>
+					<DropdownItem url="services/ads/brand-promotion">Brand Promotion</DropdownItem>
+					<DropdownItem url="services/ads/social-media-promotion">Social Media Promotion</DropdownItem>
+					<DropdownItem url="services/ads/paid-pr">Paid PR</DropdownItem>
 				</Dropdown>
 			</NavItem>
 			{/* <NavItem dropdown title="Website">

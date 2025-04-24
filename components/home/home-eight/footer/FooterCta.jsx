@@ -48,6 +48,7 @@
 "use client";
 import ContactForm from "@/components/contact-us-page/ContactForm";
 import ContactInfo from "@/components/contact-us-page/ContactInfo";
+import TextSplitFadeIn from "@/components/animation/TextSplitFadeIn";
 import Shape from "@/public/images/v5/shape1.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -58,7 +59,9 @@ export default function FooterCta() {
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>Let's embark on a digital journey together!</h2>
+						<h2>
+							<TextSplitFadeIn>Let's embark on a digital journey together!</TextSplitFadeIn>
+						</h2>
 					</div>
 				</div>
 				<div className="row">

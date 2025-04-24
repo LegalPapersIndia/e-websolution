@@ -33,7 +33,7 @@ function SingleServiceDetails() {
 				<div className="sofax-section-title">
 					<div className="row">
 						<div className="col-lg-5">
-							<div className="sofax-default-content inner-service2 dark-bg">
+							<div className="sofax-default-content inner-service2 theme-bg">
 								<h3 className="light-color">Web Design strategies</h3>
 								<p>
 									The broader context of a project aligning to design decisions with business goals &

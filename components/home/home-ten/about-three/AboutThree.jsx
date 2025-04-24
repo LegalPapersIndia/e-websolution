@@ -2,6 +2,7 @@ import Thumb from "@/public/images/v10/thumb4v10.png";
 import Icon from "@/public/images/v2/icon9.png";
 import Image from "next/image";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/FadeInStaggerTwo";
+import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutThree() {
 	return (
@@ -11,7 +12,9 @@ function AboutThree() {
 					<div className="col-lg-5">
 						<div className="sofax-default-content tac">
 							<div className="tg-heading-subheading animation-style3">
-								<h2>Got Questions? We’ve Got Answers</h2>
+								<h2>
+									<TextSplitFadeIn>Got Questions? We’ve Got Answers</TextSplitFadeIn>
+								</h2>
 							</div>
 							<p>
 								Explore the most common questions our clients ask about digital marketing, websites, and more.

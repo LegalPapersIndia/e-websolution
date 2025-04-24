@@ -12,7 +12,7 @@ function ContactInfo() {
 					<Image src={Icon1} alt="Icon chat" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Chat with us</h4>
+					<h5>Chat with us</h5>
 					<p>We're waiting to help you every Monday-Saturday from 10 AM to 6 PM IST.</p>
 				</div>
 			</div>
@@ -21,7 +21,7 @@ function ContactInfo() {
 					<Image src={Icon2} alt="Call icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Give us a call</h4>
+					<h5>Give us a call</h5>
 					<p>Give us a ring at <Link href="tel:9876543210"><span className="contact-call-text">+91-9876543210</span></Link>. Every Monday-Saturday from 10 AM to 6 PM.</p>
 				</div>
 			</div>
@@ -30,7 +30,7 @@ function ContactInfo() {
 					<Image src={Icon3} alt="Email Icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Email us</h4>
+					<h5>Email us</h5>
 					<p>Drop us an Email at <Link href="mailto:info@e-websolution.in"><span className="contact-call-text">info@e-websolution.in</span></Link> and you'll receive a reply within 24 hours.</p>
 				</div>
 			</div>
@@ -39,7 +39,7 @@ function ContactInfo() {
 					<Image src={Icon4} alt="Location Icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
-					<h4>Corporate Office</h4>
+					<h5>Corporate Office</h5>
 					<p>K, 159, Gali No. 8, Samta Vihar, Mukandpur Part 2, North West, Delhi, 110042</p>
 				</div>
 			</div>

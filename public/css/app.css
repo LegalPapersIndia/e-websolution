@@ -2144,7 +2144,7 @@ header.sofax-header-section.sticky-menu.inner-header {
 	color: var(--primary-color);
 }
 
-.topbar-item-phone{
+.topbar-item-phone {
 	margin-right: 0.5rem;
 }
 
@@ -2153,8 +2153,8 @@ header.sofax-header-section.sticky-menu.inner-header {
 	transition: transform 0.2s ease;
 }
 
-.topbar-item:hover{
-	transform: scale(1.2);
+.topbar-item:hover {
+	transform: scale(1.1);
 }
 
 .topbar-right a:hover svg {
@@ -2292,7 +2292,7 @@ header.sofax-header-section.sticky-menu.inner-header {
 	}
 }
 
-.sofax-footer-menu h4{
+.sofax-footer-menu h4 {
 	color: var(--body-color);
 }
 
@@ -2796,9 +2796,9 @@ input,
 textarea {
 	margin: 0;
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 15px;
 	border-radius: 50px;
 	padding: 15px 24px 15px 20px;
 	border: none !important;
@@ -4612,7 +4612,7 @@ h1.post__title {
 }
 
 .sofax-iconbox-icon {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .sofax-iconbox-icon.content-v5 {
@@ -4624,7 +4624,7 @@ h1.post__title {
 }
 
 .sofax-iconbox-data p {
-	font-size: 20px;
+	font-size: 17px;
 }
 
 .sofax-iconbox-data.content-v5 h4 {
@@ -4635,7 +4635,7 @@ h1.post__title {
 .sofax-iconbox-wrap2 {
 	display: flex;
 	gap: 12px;
-	margin-bottom: 24px;
+	margin-bottom: 30px;
 	text-align: left;
 }
 
@@ -4644,6 +4644,7 @@ h1.post__title {
 }
 
 .sofax-iconbox-icon2 {
+	width: 40px;
 	flex-shrink: 0;
 }
 
@@ -4653,6 +4654,11 @@ h1.post__title {
 
 .sofax-iconbox-data2 h4 {
 	margin-bottom: 15px;
+}
+
+.sofax-iconbox-data2 p {
+	font-size: 16px;
+	line-height: 25px;
 }
 
 .sofax-iconbox-data2 a {
@@ -5458,9 +5464,9 @@ h1.post__title {
 }
 
 .testimonial-vr8 {
-	padding-bottom: 24px;
+	padding-bottom: 15px;
 	border-bottom: 1px solid var(--light-color2);
-	margin-bottom: 24px;
+	margin-bottom: 15px;
 }
 
 .sofax-testimonial-authore-wrapv8 {
@@ -5470,7 +5476,11 @@ h1.post__title {
 }
 
 .sofax-testimonial-authore-data h5 {
-	margin-bottom: 5px;
+	margin-bottom: 2px;
+}
+
+.sofax-testimonial-authore-data p {
+	font-size: 16px;;
 }
 
 .sofax-testimonial-authore-icon ul li {
@@ -5796,11 +5806,11 @@ h1.post__title {
 }
 
 .sofax-pricing-price {
-	gap: 10px;
+	gap: 1px;
 	display: flex;
 	align-items: flex-end;
-	padding-bottom: 24px;
-	margin-bottom: 24px;
+	padding-bottom: 12px;
+	margin-bottom: 15px;
 	border-bottom: 1px solid var(--grey-color);
 }
 
@@ -5822,9 +5832,10 @@ h1.post__title {
 
 .sofax-pricing-body ul li {
 	position: relative;
-	font-weight: 600;
+	font-size: 18px;
+	font-weight: 500;
 	padding-left: 40px;
-	margin-bottom: 15px;
+	margin-bottom: 8px;
 }
 
 .sofax-pricing-body ul li:last-child {
@@ -7269,7 +7280,7 @@ a.sofax-connect-login img {
 }
 
 .sofax-inner-service-thumb img {
-	box-shadow: 8px 8px 0 0 var(--dark-bg);
+	box-shadow: 8px 8px 0 0 var(--accent-color);
 	border-radius: 10px;
 }
 
@@ -8206,7 +8217,7 @@ img.plasicon {
 }
 
 .sofax-section-title {
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 .sofax-section-title p {
@@ -8676,11 +8687,12 @@ img.plasicon {
 }
 
 .sofax-service-iconbox-data h4 {
+	font-size: 22px;
 	margin-bottom: 10px;
 }
 
 .sofax-service-iconbox-data p {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .sofax-service-iconbox-icon {
@@ -9002,7 +9014,7 @@ img.plasicon {
 	margin-top: 15px;
 }
 
-ul.list-unstyled li{
+ul.list-unstyled li {
 	font-size: 18px;
 }
 
@@ -9073,13 +9085,32 @@ ul.list-unstyled li{
 	padding: 10px 14px;
 	border-radius: 4px;
 	font-size: 0.875rem;
+	font-weight: 500;
 	color: var(--body-color);
 	transition: background 0.2s ease;
 	width: 100%;
 }
 
 .dropdown-box:hover {
+	color: var(--accent-color);
 	background-color: var(--light-color);
+}
+
+.dropdown-link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 8px;
+	text-decoration: none;
+}
+
+.external-icon {
+	display: inline-flex;
+	transition: transform 0.3s ease;
+}
+
+.dropdown-link:hover .external-icon {
+	transform: translateX(-5px);
 }
 
 /* Responsive Design */
@@ -9690,14 +9721,19 @@ ul.list-unstyled li{
 	transform: translate(-50%, -50%);
 }
 
-.contact-call-text{
+.contact-form-title{
+	font-size: 28px ;
+}
+
+.contact-call-text {
 	color: var(--heading-color);
-	font-size: 19px;
+	font-size: 16px;
 	transition: all 0.4s;
 }
-.contact-call-text:hover{
+
+.contact-call-text:hover {
 	color: var(--accent-color);
-	font-size: 20px;
+	font-size: 17px;
 }
 
 .contact-us-text {
@@ -9760,13 +9796,13 @@ ul.list-unstyled li{
 }
 
 .sofax-field-box {
-	padding: 40px 30px;
+	padding: 30px 30px;
 	border-radius: 30px;
 	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
 }
 
 .sofax-field-box h3 {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 @media (max-width: 991px) {
@@ -9792,17 +9828,17 @@ ul.list-unstyled li{
 }
 
 .sofax-main-field label {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 700;
 	line-height: 32px;
 	letter-spacing: -0.5px;
 	display: inline-block;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 
 @media (max-width: 767px) {
 	.sofax-main-field label {
-		font-size: 18px !important;
+		font-size: 15px !important;
 	}
 }
 

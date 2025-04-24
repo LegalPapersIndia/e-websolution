@@ -34,13 +34,19 @@ const ServiceCard = ({ title, price, icon, items, isLast }) => {
 
             {hoveredIndex === i && (
               <div className={`floating-dropdowns d-flex flex-column gap-2 ${isLast ? "left-align" : ""}`}>
-                <Link href={item.visitPageLink} className="dropdown-box d-flex justify-content-between align-items-center" target="_blank">
-                    Visit this Page <FiExternalLink size={14} />
+                <Link href={item.visitPageLink} className="dropdown-box dropdown-link d-flex justify-content-between align-items-center" target="_blank">
+                  Visit this Page 
+                  <span className="external-icon">
+                    <FiExternalLink size={14} />
+                  </span>
                 </Link>
-                <Link href={item.portfolioLink} className="dropdown-box d-flex justify-content-between align-items-center" target="_blank">
-                    Projects/Portfolios <FiExternalLink size={14} />
+                <Link href={item.portfolioLink} className="dropdown-box dropdown-link d-flex justify-content-between align-items-center" target="_blank">
+                  Projects/Portfolios 
+                  <span className="external-icon">
+                    <FiExternalLink size={14} />
+                  </span>
                 </Link>
-            </div>
+              </div>
             )}
           </li>
         ))}

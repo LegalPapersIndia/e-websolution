@@ -39,7 +39,7 @@ function ContactForm() {
 	return (
 		<div className="sofax-field-box ml-50">
 			<ToastContainer position="bottom-right" />
-			<h3>Send us a message</h3>
+			<h3 className="contact-form-title">Send us a message</h3>
 			<form onSubmit={handleSubmit(submitForm)}>
 				<div className="row">
 					<div className="col-lg-6">
