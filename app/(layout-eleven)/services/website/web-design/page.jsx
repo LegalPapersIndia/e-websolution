@@ -258,13 +258,13 @@ function SingleService() {
 			/>
 			<Features title="Key Features" features={smallBusinessFeatures} />
 			<AutoSlider />
+			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Affordable Pricing for Small Businesses" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Our Recent Website Designs"
 				projectsData={customProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Affordable Pricing for Small Businesses" />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

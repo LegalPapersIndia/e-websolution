@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FadeInStagger from "../../animation/FadeInStagger";
+import TextSplitFadeIn from "@/components/animation/TextSplitFadeIn";
 import ProjectCard from "./ProjectCard";
 
 // Default props, can be overwritten by any page using this component
@@ -11,7 +12,11 @@ function Projects({ title = "Check out our Latest Projects", projectsData = [], 
           <div className="row">
             <div className="col-xl-7 col-lg-8">
               <div className="tg-heading-subheading animation-style3">
-                <h2>{title}</h2>
+                <h2>
+                  <TextSplitFadeIn>
+                    {title}
+                  </TextSplitFadeIn>
+                </h2>
               </div>
             </div>
             <div className="col-xl-5 col-lg-4 d-flex justify-content-end align-items-center">

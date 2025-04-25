@@ -32,140 +32,133 @@ export const metadata = {
 	title: "Best Web Designing Agency in Delhi",
 	description: "Best Web Designing Agency in Delhi",
 };
-
 /* Features */
 
-const smallBusinessFeatures = [
+const largeBusinessFeatures = [
 	{
 		id: 1,
 		icon: icon1,
-		title: "Tailored for Small Business",
-		description: "Get a site that reflects your goals and speaks directly to your customers.",
+		title: "Enterprise-Grade Design & Functionality",
 	},
 	{
 		id: 2,
 		icon: icon2,
-		title: "Conversion-Optimized Design",
-		description: "Turn more visitors into leads and paying customers.",
+		title: "Fully Responsive & Performance Optimized",
 	},
 	{
 		id: 3,
 		icon: icon3,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Scalable Architecture for Business Expansion",
 	},
 	{
 		id: 4,
 		icon: icon4,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Advanced Security & Compliance",
 	},
 	{
 		id: 5,
 		icon: icon5,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Integrated with Business-Critical Tools",
 	},
 	{
 		id: 6,
 		icon: icon6,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "24/7 Uptime & Support Ready",
 	},
 ];
 
 /* Service Features */
 
 const serviceData = {
-	title: "How our agency provides Web Design services",
+	title: "Enterprise Web Design Strategy",
 	shapeImage: Shape2,
-	strategyTitle: "Web Design strategies",
+	strategyTitle: "Strategic Design for Business Impact",
 	strategyDescription:
-		"The broader context of a project aligning to design decisions with business goals & creating roadmap for achieving optimal user experiences.",
+		"We align your website with enterprise goals, enhancing performance, security, and user experience to support your digital transformation journey.",
 	listItems: [
 		[
-			{ icon: Icon, text: "Measurement & analytics" },
-			{ icon: Icon, text: "User-centered approach" },
-			{ icon: Icon, text: "Personal development" },
+			{ icon: Icon, text: "Data-Driven UX Decisions" },
+			{ icon: Icon, text: "Scalable & Modular Design" },
+			{ icon: Icon, text: "Robust Team Collaboration" },
 		],
 		[
-			{ icon: Icon, text: "Wireframing & prototyping" },
-			{ icon: Icon, text: "Stakeholder alignment" },
-			{ icon: Icon, text: "Iterative improvement" },
+			{ icon: Icon, text: "Security & Compliance Standards" },
+			{ icon: Icon, text: "Agile Development Workflow" },
+			{ icon: Icon, text: "Continuous Improvement & Testing" },
 		],
 	],
 };
 
 /* Projects */
 
-const customProjects = [
+const enterpriseProjects = [
 	{
 		id: 1,
 		image: thumb1,
-		title: "Project 1",
-		category: "Development",
-		link: "/projects/project-1",
+		title: "Corporate Redesign for Tech Firm",
+		category: "Enterprise Website",
+		link: "/projects/tech-corporate-redesign",
 	},
 	{
 		id: 2,
 		image: thumb2,
-		title: "Project 2",
-		category: "Development",
-		link: "/projects/project-2",
+		title: "Multi-Department Enterprise Portal",
+		category: "Enterprise Website",
+		link: "/projects/enterprise-portal",
 	},
 	{
 		id: 3,
 		image: thumb3,
-		title: "Project 3",
-		category: "Development",
-		link: "/projects/project-3",
+		title: "Secure B2B E-commerce Solution",
+		category: "Enterprise Website",
+		link: "/projects/b2b-ecommerce",
 	},
 ];
 
 /* Price Plan */
 
-const smallBusinessPricing = [
+const enterprisePricing = [
 	{
 		id: 1,
-		plan: "Essential",
+		plan: "Business Pro",
 		price: [
-			{ id: 1, value: 30 },
-			{ id: 2, value: 8 },
+			{ id: 1, value: 150 },
+			{ id: 2, value: 40 },
 		],
 		features: [
-			"One Page Website",
-			"Mobile Responsive",
-			"SEO Friendly Design",
+			"Corporate Website (10+ Pages)",
+			"Advanced Analytics Integration",
+			"High-Speed Hosting & SSL",
 		],
 		featureIcon,
 		highlighted: false,
 	},
 	{
 		id: 2,
-		plan: "Professional",
+		plan: "Enterprise Plus",
 		price: [
-			{ id: 1, value: 55 },
-			{ id: 2, value: 12 },
+			{ id: 1, value: 250 },
+			{ id: 2, value: 65 },
 		],
 		features: [
-			"Multi Page Website",
-			"Free Hosting for 1 Year",
-			"Custom Contact Forms",
+			"Custom CMS & CRM Integration",
+			"Advanced Security Measures",
+			"Dedicated Project Manager",
 		],
 		featureIcon,
 		highlighted: true,
 	},
 	{
 		id: 3,
-		plan: "Enterprise",
+		plan: "Elite Suite",
 		price: [
-			{ id: 1, value: 75 },
-			{ id: 2, value: 20 },
+			{ id: 1, value: 400 },
+			{ id: 2, value: 120 },
 		],
 		features: [
-			"Advanced CMS Integration",
-			"E-commerce Ready",
-			"Dedicated Support",
+			"Custom Applications & Portals",
+			"Enterprise Workflow Automation",
+			"24/7 Premium Support",
 		],
 		featureIcon,
 		highlighted: false,
@@ -174,70 +167,72 @@ const smallBusinessPricing = [
 
 /* Testimonials */
 
-const testimonialsData = [
+const enterpriseTestimonials = [
 	{
 		id: 1,
 		image: image1,
 		rating: 5,
-		review: "Tailored testimonial for this service page.",
-		author: { name: "Alice Williams", title: "Startup Founder" },
+		review: "The level of professionalism and scalability was unmatched. Our enterprise site is sleek, secure, and optimized for global access.",
+		author: { name: "Ethan Cooper", title: "CTO, FinTech Co." },
 	},
 	{
 		id: 2,
-		image: image2,
-		rating: 4,
-		review: "Another satisfied customer with specific feedback.",
-		author: { name: "John Doe", title: "Business Owner" },
+		image: image3,
+		rating: 5,
+		review: "From planning to execution, they handled everything with precision. The custom integrations made our internal workflows so much easier.",
+		author: { name: "Michelle Tan", title: "Operations Director" },
 	},
 	{
 		id: 3,
-		image: image3,
+		image: image2,
 		rating: 5,
-		review: "Top-notch services that helped scale our operations.",
-		author: { name: "Jane Smith", title: "CEO" },
+		review: "Reliable, fast, and secure. Everything you'd want in an enterprise-grade website build. The ROI was immediate.",
+		author: { name: "Carlos Ramirez", title: "CEO, B2B Platform" },
 	},
 ];
 
 /* FAQ */
 
-const faqDataGroups = [
+const enterpriseFaqDataGroups = [
 	[
 		{
 			id: "faq-1",
-			question: "How can I get started with your service?",
-			answer: "You can get started by contacting us or signing up through our website. We'll guide you through every step.",
+			question: "What sets an enterprise website apart?",
+			answer: "Enterprise websites are built for scale, performance, and security—ideal for businesses needing robust digital infrastructure and integrations.",
 			show: true,
 		},
 		{
 			id: "faq-2",
-			question: "Do you offer custom packages?",
-			answer: "Yes, we tailor our packages based on your specific business needs and goals.",
+			question: "Do you support third-party tool integrations?",
+			answer: "Yes, we specialize in integrating with CRMs, ERPs, analytics tools, and marketing platforms to streamline business operations.",
 		},
 		{
 			id: "faq-3",
-			question: "What industries do you work with?",
-			answer: "We work with a variety of industries including agriculture, pharma, garments, and more.",
+			question: "Will the website meet compliance standards?",
+			answer: "Absolutely. We ensure full compliance with data privacy regulations like GDPR, HIPAA, and others as required.",
 		},
 	],
 	[
 		{
 			id: "faq-4",
-			question: "How long does it take to build a website?",
-			answer: "Timelines vary based on complexity, but most websites are completed within 2-4 weeks.",
+			question: "How do you handle scalability and future updates?",
+			answer: "Our architecture supports modular upgrades and cloud-native scalability to keep your digital presence future-ready.",
 		},
 		{
 			id: "faq-5",
-			question: "Can you manage my digital marketing too?",
-			answer: "Absolutely! We provide full digital marketing solutions including SEO, Ads, and Social Media Management.",
+			question: "Is support included after launch?",
+			answer: "Yes, we offer post-launch maintenance and support packages tailored to enterprise-level service expectations.",
 		},
 		{
 			id: "faq-6",
-			question: "Is support included after launch?",
-			answer: "Yes, we offer ongoing support and maintenance after your project is live.",
+			question: "How is pricing structured for large businesses?",
+			answer: "Pricing is based on the complexity, integration requirements, and ongoing support. We offer scalable plans with transparent rates.",
 			show: true,
 		},
 	],
 ];
+
+/* Component */
 
 function SingleService() {
 	return (
@@ -247,32 +242,32 @@ function SingleService() {
 				trail={[
 					{ label: "Home", href: "/" },
 					{ label: "Services", href: "/service" },
-					{ label: "Website Design" }
+					{ label: "Large Business Website Design" }
 				]}
 			/>
 			<About
-				title="Boost Your Business with Expert Website Design Solutions"
-				description="Experience unparalleled business progress with Sofax. Our expert team leverages cutting-edge strategies to propel your brand forward."
+				title="Custom Enterprise Websites That Scale with You"
+				description="Powerful, scalable, and secure websites designed for large businesses and corporations. Built with high-performance architecture and tailored to enterprise needs."
 				image={AboutThumb}
 				iconItems={[
-					{ icon: Icon5, text: "Affordable, high-performance small business websites" },
-					{ icon: Icon5, text: "Mobile-optimized and SEO-friendly design" },
-					{ icon: Icon5, text: "Tailored UI/UX for your brand" },
-					{ icon: Icon5, text: "Quick turnaround with premium support" },
-					{ icon: Icon5, text: "Integrated marketing tools for growth" },
+					{ icon: Icon5, text: "Enterprise-Grade Performance" },
+					{ icon: Icon5, text: "Custom Integrations & APIs" },
+					{ icon: Icon5, text: "Reliable & Secure Infrastructure" },
+					{ icon: Icon5, text: "Future-Proof Modular Design" },
+					{ icon: Icon5, text: "Dedicated Enterprise Support" },
 				]}
 			/>
-			<Features title="Key Features" features={smallBusinessFeatures} />
+			<Features title="Key Features for Large Businesses" features={largeBusinessFeatures} />
 			<AutoSlider />
+			<Prices pricingPlans={enterprisePricing} sectionTitle="Tailored Plans for Enterprise Growth" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
-				title="Our Recent Small Business Website Projects"
-				projectsData={customProjects}
+				title="Our Enterprise-Level Projects"
+				projectsData={enterpriseProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Affordable Pricing for Small Businesses" />
-			<Testimonials data={testimonialsData} />
-			<Faq faqDataGroups={faqDataGroups} />
+			<Testimonials data={enterpriseTestimonials} />
+			<Faq faqDataGroups={enterpriseFaqDataGroups} />
 		</>
 	);
 }

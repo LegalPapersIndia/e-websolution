@@ -1,7 +1,7 @@
 import FadeInStagger from "../../animation/FadeInStagger";
 import TestimonialCard from "./TestimonialCard";
 
-function Testimonials({ data, title = "See what our customers say about us" }) {
+function Testimonials({ data, title = "See what our Customers say About Us" }) {
 	return (
 		<section className="sofax-section-padding8 bg-light" id="testimonial">
 			<div className="extra-mt container">

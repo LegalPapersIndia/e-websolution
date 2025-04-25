@@ -2313,7 +2313,7 @@ header.sofax-header-section.sticky-menu.inner-header {
 }
 
 .sofax-footer-menu ul li {
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 .sofax-footer-menu ul li:last-child {
@@ -4620,7 +4620,7 @@ h1.post__title {
 }
 
 .sofax-iconbox-wrap:hover {
-	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.0784313725);
+	box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.11);
 }
 
 .sofax-iconbox-icon {
@@ -4646,8 +4646,8 @@ h1.post__title {
 
 .sofax-iconbox-wrap2 {
 	display: flex;
-	gap: 12px;
-	margin-bottom: 30px;
+	gap: 10px;
+	margin-bottom: 20px;
 	text-align: left;
 }
 
@@ -7699,7 +7699,7 @@ a.sofax-connect-login img {
 }
 
 .sofax-accordion-wrap1 h3.accordion-header {
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: 600;
 	display: flex;
 }

@@ -35,137 +35,131 @@ export const metadata = {
 
 /* Features */
 
-const smallBusinessFeatures = [
+const ecommerceFeatures = [
 	{
 		id: 1,
 		icon: icon1,
-		title: "Tailored for Small Business",
-		description: "Get a site that reflects your goals and speaks directly to your customers.",
+		title: "Custom Shopping Cart Design",
 	},
 	{
 		id: 2,
 		icon: icon2,
-		title: "Conversion-Optimized Design",
-		description: "Turn more visitors into leads and paying customers.",
+		title: "Mobile-Optimized Storefronts",
 	},
 	{
 		id: 3,
 		icon: icon3,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Secure Payment Gateway Integration",
 	},
 	{
 		id: 4,
 		icon: icon4,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "High-Speed Performance",
 	},
 	{
 		id: 5,
 		icon: icon5,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Inventory & Order Management",
 	},
 	{
 		id: 6,
 		icon: icon6,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Marketing & SEO Ready",
 	},
 ];
 
 /* Service Features */
 
-const serviceData = {
-	title: "How our agency provides Web Design services",
+const ecommerceServiceData = {
+	title: "Our E-commerce Website Strategy",
 	shapeImage: Shape2,
-	strategyTitle: "Web Design strategies",
+	strategyTitle: "E-commerce Development Strategies",
 	strategyDescription:
-		"The broader context of a project aligning to design decisions with business goals & creating roadmap for achieving optimal user experiences.",
+		"Delivering online shopping experiences that convert—focused on user experience, performance, and seamless integration with payment and shipping systems.",
 	listItems: [
 		[
-			{ icon: Icon, text: "Measurement & analytics" },
-			{ icon: Icon, text: "User-centered approach" },
-			{ icon: Icon, text: "Personal development" },
+			{ icon: Icon, text: "Product-focused UX design" },
+			{ icon: Icon, text: "Sales funnel optimization" },
+			{ icon: Icon, text: "Mobile-first architecture" },
 		],
 		[
-			{ icon: Icon, text: "Wireframing & prototyping" },
-			{ icon: Icon, text: "Stakeholder alignment" },
-			{ icon: Icon, text: "Iterative improvement" },
+			{ icon: Icon, text: "Custom payment solutions" },
+			{ icon: Icon, text: "Analytics and tracking" },
+			{ icon: Icon, text: "Conversion rate enhancements" },
 		],
 	],
 };
 
 /* Projects */
 
-const customProjects = [
+const ecommerceProjects = [
 	{
 		id: 1,
 		image: thumb1,
-		title: "Project 1",
-		category: "Development",
+		title: "Fashion Storefront",
+		category: "E-commerce",
 		link: "/projects/project-1",
 	},
 	{
 		id: 2,
 		image: thumb2,
-		title: "Project 2",
-		category: "Development",
+		title: "Electronics Shop",
+		category: "E-commerce",
 		link: "/projects/project-2",
 	},
 	{
 		id: 3,
 		image: thumb3,
-		title: "Project 3",
-		category: "Development",
+		title: "Beauty & Wellness Store",
+		category: "E-commerce",
 		link: "/projects/project-3",
 	},
 ];
 
 /* Price Plan */
 
-const smallBusinessPricing = [
+const ecommercePricing = [
 	{
 		id: 1,
-		plan: "Essential",
+		plan: "Starter Store",
 		price: [
-			{ id: 1, value: 30 },
-			{ id: 2, value: 8 },
+			{ id: 1, value: 120 },
+			{ id: 2, value: 30 },
 		],
 		features: [
-			"One Page Website",
-			"Mobile Responsive",
-			"SEO Friendly Design",
+			"Up to 20 Products",
+			"Payment Gateway Integration",
+			"Mobile-Friendly Design",
 		],
 		featureIcon,
 		highlighted: false,
 	},
 	{
 		id: 2,
-		plan: "Professional",
+		plan: "Growth Store",
 		price: [
-			{ id: 1, value: 55 },
-			{ id: 2, value: 12 },
+			{ id: 1, value: 180 },
+			{ id: 2, value: 45 },
 		],
 		features: [
-			"Multi Page Website",
-			"Free Hosting for 1 Year",
-			"Custom Contact Forms",
+			"Unlimited Products",
+			"Advanced Filtering & Sorting",
+			"Customer Account Management",
 		],
 		featureIcon,
 		highlighted: true,
 	},
 	{
 		id: 3,
-		plan: "Enterprise",
+		plan: "Enterprise Store",
 		price: [
-			{ id: 1, value: 75 },
-			{ id: 2, value: 20 },
+			{ id: 1, value: 250 },
+			{ id: 2, value: 70 },
 		],
 		features: [
-			"Advanced CMS Integration",
-			"E-commerce Ready",
-			"Dedicated Support",
+			"Custom Functionality",
+			"Multi-Vendor & Wholesale Setup",
+			"Ongoing Priority Support",
 		],
 		featureIcon,
 		highlighted: false,
@@ -174,72 +168,72 @@ const smallBusinessPricing = [
 
 /* Testimonials */
 
-const testimonialsData = [
+const ecommerceTestimonials = [
 	{
 		id: 1,
 		image: image1,
 		rating: 5,
-		review: "Tailored testimonial for this service page.",
-		author: { name: "Alice Williams", title: "Startup Founder" },
+		review: "Our online sales skyrocketed after launching the new e-commerce site! Seamless experience and excellent support throughout.",
+		author: { name: "Emily Carter", title: "Fashion Retailer" },
 	},
 	{
 		id: 2,
-		image: image2,
-		rating: 4,
-		review: "Another satisfied customer with specific feedback.",
-		author: { name: "John Doe", title: "Business Owner" },
+		image: image3,
+		rating: 5,
+		review: "From design to launch, the process was smooth. Our customers love the intuitive layout and fast checkout experience.",
+		author: { name: "Daniel Lee", title: "Gadget Store Owner" },
 	},
 	{
 		id: 3,
-		image: image3,
-		rating: 5,
-		review: "Top-notch services that helped scale our operations.",
-		author: { name: "Jane Smith", title: "CEO" },
+		image: image2,
+		rating: 4,
+		review: "They built a powerful backend for managing inventory and orders. Highly recommend for serious online sellers!",
+		author: { name: "Sophia Patel", title: "Health & Beauty Brand" },
 	},
 ];
 
 /* FAQ */
 
-const faqDataGroups = [
+const ecommerceFaqDataGroups = [
 	[
 		{
 			id: "faq-1",
-			question: "How can I get started with your service?",
-			answer: "You can get started by contacting us or signing up through our website. We'll guide you through every step.",
+			question: "What platform will my e-commerce website be built on?",
+			answer: "We use flexible platforms like WooCommerce, Shopify, or custom React/Next.js builds depending on your needs.",
 			show: true,
 		},
 		{
 			id: "faq-2",
-			question: "Do you offer custom packages?",
-			answer: "Yes, we tailor our packages based on your specific business needs and goals.",
+			question: "Can I manage products and orders myself?",
+			answer: "Absolutely. We provide admin dashboards with full control over products, orders, shipping, and more.",
 		},
 		{
 			id: "faq-3",
-			question: "What industries do you work with?",
-			answer: "We work with a variety of industries including agriculture, pharma, garments, and more.",
+			question: "Is my payment information secure?",
+			answer: "Yes! We integrate PCI-compliant payment gateways with SSL encryption to ensure top-level security.",
 		},
 	],
 	[
 		{
 			id: "faq-4",
-			question: "How long does it take to build a website?",
-			answer: "Timelines vary based on complexity, but most websites are completed within 2-4 weeks.",
+			question: "Do you support international sales?",
+			answer: "Yes, we can implement multi-currency, regional shipping, and language support for global stores.",
 		},
 		{
 			id: "faq-5",
-			question: "Can you manage my digital marketing too?",
-			answer: "Absolutely! We provide full digital marketing solutions including SEO, Ads, and Social Media Management.",
+			question: "Will the website be optimized for SEO?",
+			answer: "Yes, we include on-page SEO, structured data, and fast load times to help your store rank higher.",
 		},
 		{
 			id: "faq-6",
-			question: "Is support included after launch?",
-			answer: "Yes, we offer ongoing support and maintenance after your project is live.",
+			question: "What if I need help after launch?",
+			answer: "We offer maintenance plans, updates, and ongoing support to ensure your store performs long-term.",
 			show: true,
 		},
 	],
 ];
 
-function SingleService() {
+function EcommerceWebsiteService() {
 	return (
 		<>
 			<BreadCrumb
@@ -247,34 +241,34 @@ function SingleService() {
 				trail={[
 					{ label: "Home", href: "/" },
 					{ label: "Services", href: "/service" },
-					{ label: "Website Design" }
+					{ label: "E-commerce Website" }
 				]}
 			/>
 			<About
-				title="Boost Your Business with Expert Website Design Solutions"
-				description="Experience unparalleled business progress with Sofax. Our expert team leverages cutting-edge strategies to propel your brand forward."
+				title="Robust E-commerce Websites That Drive Sales"
+				description="We craft high-converting online stores tailored to your brand—fully secure, mobile-optimized, and ready for growth. From product displays to checkout, every detail is designed for success."
 				image={AboutThumb}
 				iconItems={[
-					{ icon: Icon5, text: "Affordable, high-performance small business websites" },
-					{ icon: Icon5, text: "Mobile-optimized and SEO-friendly design" },
-					{ icon: Icon5, text: "Tailored UI/UX for your brand" },
-					{ icon: Icon5, text: "Quick turnaround with premium support" },
-					{ icon: Icon5, text: "Integrated marketing tools for growth" },
+					{ icon: Icon5, text: "Customized Online Storefronts" },
+					{ icon: Icon5, text: "Secure & Fast Checkout Integration" },
+					{ icon: Icon5, text: "Mobile-Optimized User Experience" },
+					{ icon: Icon5, text: "Inventory & Order Management" },
+					{ icon: Icon5, text: "Scalable for Future Expansion" },
 				]}
 			/>
-			<Features title="Key Features" features={smallBusinessFeatures} />
+			<Features title="Key Features" features={ecommerceFeatures} />
 			<AutoSlider />
-			<SingleServiceDetails serviceData={serviceData} />
+			<Prices pricingPlans={ecommercePricing} sectionTitle="Flexible Pricing for Every E-commerce Need" />
+			<SingleServiceDetails serviceData={ecommerceServiceData} />
 			<Projects
-				title="Our Recent Small Business Website Projects"
-				projectsData={customProjects}
+				title="Our E-commerce Website Projects"
+				projectsData={ecommerceProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Affordable Pricing for Small Businesses" />
-			<Testimonials data={testimonialsData} />
-			<Faq faqDataGroups={faqDataGroups} />
+			<Testimonials data={ecommerceTestimonials} />
+			<Faq faqDataGroups={ecommerceFaqDataGroups} />
 		</>
 	);
 }
 
-export default SingleService;
+export default EcommerceWebsiteService;

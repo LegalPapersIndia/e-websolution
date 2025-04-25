@@ -34,108 +34,98 @@ export const metadata = {
 };
 
 /* Features */
-
-const smallBusinessFeatures = [
+const customizeWebsiteFeatures = [
 	{
 		id: 1,
 		icon: icon1,
-		title: "Tailored for Small Business",
-		description: "Get a site that reflects your goals and speaks directly to your customers.",
+		title: "Tailored Designs for Unique Branding",
 	},
 	{
 		id: 2,
 		icon: icon2,
-		title: "Conversion-Optimized Design",
-		description: "Turn more visitors into leads and paying customers.",
+		title: "Fully Responsive on All Devices",
 	},
 	{
 		id: 3,
 		icon: icon3,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Custom Functionalities & Workflows",
 	},
 	{
 		id: 4,
 		icon: icon4,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Optimized for Performance & SEO",
 	},
 	{
 		id: 5,
 		icon: icon5,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Robust Security Integrations",
 	},
 	{
 		id: 6,
 		icon: icon6,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Seamless API & Third-Party Integrations",
 	},
 ];
 
 /* Service Features */
-
-const serviceData = {
-	title: "How our agency provides Web Design services",
+const customizeWebsiteServiceData = {
+	title: "Our Custom Web Development Process",
 	shapeImage: Shape2,
-	strategyTitle: "Web Design strategies",
+	strategyTitle: "Custom Website Strategies",
 	strategyDescription:
-		"The broader context of a project aligning to design decisions with business goals & creating roadmap for achieving optimal user experiences.",
+		"We develop fully tailored websites aligned with your business logic, branding, and user goals—crafted from scratch to fit your unique needs.",
 	listItems: [
 		[
-			{ icon: Icon, text: "Measurement & analytics" },
-			{ icon: Icon, text: "User-centered approach" },
-			{ icon: Icon, text: "Personal development" },
+			{ icon: Icon, text: "Business Requirement Analysis" },
+			{ icon: Icon, text: "User-First Design Approach" },
+			{ icon: Icon, text: "Modular Feature Planning" },
 		],
 		[
-			{ icon: Icon, text: "Wireframing & prototyping" },
-			{ icon: Icon, text: "Stakeholder alignment" },
-			{ icon: Icon, text: "Iterative improvement" },
+			{ icon: Icon, text: "Interactive Wireframes & Prototypes" },
+			{ icon: Icon, text: "Custom Admin & CMS Panels" },
+			{ icon: Icon, text: "Ongoing Iterations & Optimization" },
 		],
 	],
 };
 
 /* Projects */
-
-const customProjects = [
+const customizeWebsiteProjects = [
 	{
 		id: 1,
 		image: thumb1,
-		title: "Project 1",
-		category: "Development",
+		title: "Custom Booking Portal",
+		category: "Customize Website",
 		link: "/projects/project-1",
 	},
 	{
 		id: 2,
 		image: thumb2,
-		title: "Project 2",
-		category: "Development",
+		title: "Tailored Online Learning Platform",
+		category: "Customize Website",
 		link: "/projects/project-2",
 	},
 	{
 		id: 3,
 		image: thumb3,
-		title: "Project 3",
-		category: "Development",
+		title: "Unique Product Showcase Site",
+		category: "Customize Website",
 		link: "/projects/project-3",
 	},
 ];
 
 /* Price Plan */
-
-const smallBusinessPricing = [
+const customizeWebsitePricing = [
 	{
 		id: 1,
 		plan: "Essential",
 		price: [
-			{ id: 1, value: 30 },
-			{ id: 2, value: 8 },
+			{ id: 1, value: 50 },
+			{ id: 2, value: 10 },
 		],
 		features: [
-			"One Page Website",
-			"Mobile Responsive",
-			"SEO Friendly Design",
+			"Up to 5 Custom Pages",
+			"Responsive Design",
+			"Contact & Inquiry Forms",
 		],
 		featureIcon,
 		highlighted: false,
@@ -144,13 +134,13 @@ const smallBusinessPricing = [
 		id: 2,
 		plan: "Professional",
 		price: [
-			{ id: 1, value: 55 },
-			{ id: 2, value: 12 },
+			{ id: 1, value: 85 },
+			{ id: 2, value: 18 },
 		],
 		features: [
-			"Multi Page Website",
-			"Free Hosting for 1 Year",
-			"Custom Contact Forms",
+			"10+ Pages with Custom Features",
+			"API Integrations",
+			"Admin Dashboard or CMS",
 		],
 		featureIcon,
 		highlighted: true,
@@ -159,13 +149,13 @@ const smallBusinessPricing = [
 		id: 3,
 		plan: "Enterprise",
 		price: [
-			{ id: 1, value: 75 },
-			{ id: 2, value: 20 },
+			{ id: 1, value: 120 },
+			{ id: 2, value: 25 },
 		],
 		features: [
-			"Advanced CMS Integration",
-			"E-commerce Ready",
-			"Dedicated Support",
+			"Fully Tailored Architecture",
+			"Advanced Functional Modules",
+			"Dedicated Maintenance & Support",
 		],
 		featureIcon,
 		highlighted: false,
@@ -173,67 +163,74 @@ const smallBusinessPricing = [
 ];
 
 /* Testimonials */
-
-const testimonialsData = [
+const customizeWebsiteTestimonials = [
 	{
 		id: 1,
 		image: image1,
 		rating: 5,
-		review: "Tailored testimonial for this service page.",
+		review:
+			"Our custom website is a perfect match for our brand. The team nailed every feature we asked for — it's intuitive and powerful.",
 		author: { name: "Alice Williams", title: "Startup Founder" },
 	},
 	{
 		id: 2,
-		image: image2,
-		rating: 4,
-		review: "Another satisfied customer with specific feedback.",
-		author: { name: "John Doe", title: "Business Owner" },
+		image: image3,
+		rating: 5,
+		review:
+			"They built exactly what we envisioned, with added touches we didn't even think of. Our workflow is now fully automated online!",
+		author: { name: "Jane Smith", title: "CEO" },
 	},
 	{
 		id: 3,
-		image: image3,
-		rating: 5,
-		review: "Top-notch services that helped scale our operations.",
-		author: { name: "Jane Smith", title: "CEO" },
+		image: image2,
+		rating: 4,
+		review:
+			"We needed a very specific booking and client system — and they delivered it beautifully. Totally recommend their custom work!",
+		author: { name: "John Doe", title: "Business Owner" },
 	},
 ];
 
 /* FAQ */
-
-const faqDataGroups = [
+const customizeWebsiteFaqGroups = [
 	[
 		{
 			id: "faq-1",
-			question: "How can I get started with your service?",
-			answer: "You can get started by contacting us or signing up through our website. We'll guide you through every step.",
+			question: "What is a custom website?",
+			answer:
+				"A custom website is built from scratch to match your brand, features, and business goals—unlike template-based sites.",
 			show: true,
 		},
 		{
 			id: "faq-2",
-			question: "Do you offer custom packages?",
-			answer: "Yes, we tailor our packages based on your specific business needs and goals.",
+			question: "Can I request specific features?",
+			answer:
+				"Yes! We build unique functionalities tailored to your workflow, such as booking systems, dashboards, or integrations.",
 		},
 		{
 			id: "faq-3",
-			question: "What industries do you work with?",
-			answer: "We work with a variety of industries including agriculture, pharma, garments, and more.",
+			question: "Will it be mobile-friendly?",
+			answer:
+				"Absolutely. All custom websites are designed to be fully responsive and work across devices.",
 		},
 	],
 	[
 		{
 			id: "faq-4",
-			question: "How long does it take to build a website?",
-			answer: "Timelines vary based on complexity, but most websites are completed within 2-4 weeks.",
+			question: "Do you offer redesign services?",
+			answer:
+				"Yes, we can revamp your existing website into a fully customized version with modern design and functionality.",
 		},
 		{
 			id: "faq-5",
-			question: "Can you manage my digital marketing too?",
-			answer: "Absolutely! We provide full digital marketing solutions including SEO, Ads, and Social Media Management.",
+			question: "Do you offer maintenance after launch?",
+			answer:
+				"Yes, we provide optional maintenance plans to keep your website secure, updated, and running smoothly.",
 		},
 		{
 			id: "faq-6",
-			question: "Is support included after launch?",
-			answer: "Yes, we offer ongoing support and maintenance after your project is live.",
+			question: "How is the pricing for a custom website decided?",
+			answer:
+				"Pricing is based on scope, number of features, pages, and integrations. We provide a quote after understanding your needs.",
 			show: true,
 		},
 	],
@@ -247,32 +244,35 @@ function SingleService() {
 				trail={[
 					{ label: "Home", href: "/" },
 					{ label: "Services", href: "/service" },
-					{ label: "Website Design" }
+					{ label: "Customize Website" },
 				]}
 			/>
 			<About
-				title="Boost Your Business with Expert Website Design Solutions"
-				description="Experience unparalleled business progress with Sofax. Our expert team leverages cutting-edge strategies to propel your brand forward."
+				title="Custom Website Design Tailored to Your Brand"
+				description="We build personalized websites from the ground up — crafted to meet your brand identity, workflow, and user experience goals. No templates, just 100% unique results."
 				image={AboutThumb}
 				iconItems={[
-					{ icon: Icon5, text: "Affordable, high-performance small business websites" },
-					{ icon: Icon5, text: "Mobile-optimized and SEO-friendly design" },
-					{ icon: Icon5, text: "Tailored UI/UX for your brand" },
-					{ icon: Icon5, text: "Quick turnaround with premium support" },
-					{ icon: Icon5, text: "Integrated marketing tools for growth" },
+					{ icon: Icon5, text: "Bespoke Designs That Match Your Vision" },
+					{ icon: Icon5, text: "Custom Features Built for Your Needs" },
+					{ icon: Icon5, text: "Secure & Scalable Architecture" },
+					{ icon: Icon5, text: "Blazing Fast Load Performance" },
+					{ icon: Icon5, text: "Smart Integrations & API Syncing" },
 				]}
 			/>
-			<Features title="Key Features" features={smallBusinessFeatures} />
+			<Features title="Key Features" features={customizeWebsiteFeatures} />
 			<AutoSlider />
-			<SingleServiceDetails serviceData={serviceData} />
+			<Prices
+				pricingPlans={customizeWebsitePricing}
+				sectionTitle="Flexible Pricing for Custom Projects"
+			/>
+			<SingleServiceDetails serviceData={customizeWebsiteServiceData} />
 			<Projects
-				title="Our Recent Small Business Website Projects"
-				projectsData={customProjects}
+				title="Custom Website Projects We've Built"
+				projectsData={customizeWebsiteProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Affordable Pricing for Small Businesses" />
-			<Testimonials data={testimonialsData} />
-			<Faq faqDataGroups={faqDataGroups} />
+			<Testimonials data={customizeWebsiteTestimonials} />
+			<Faq faqDataGroups={customizeWebsiteFaqGroups} />
 		</>
 	);
 }

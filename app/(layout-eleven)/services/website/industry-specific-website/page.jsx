@@ -35,137 +35,131 @@ export const metadata = {
 
 /* Features */
 
-const smallBusinessFeatures = [
+const industryFeatures = [
 	{
 		id: 1,
 		icon: icon1,
-		title: "Tailored for Small Business",
-		description: "Get a site that reflects your goals and speaks directly to your customers.",
+		title: "Tailored Industry-Specific Designs",
 	},
 	{
 		id: 2,
 		icon: icon2,
-		title: "Conversion-Optimized Design",
-		description: "Turn more visitors into leads and paying customers.",
+		title: "Responsive & Accessible on All Devices",
 	},
 	{
 		id: 3,
 		icon: icon3,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Compliance with Industry Standards",
 	},
 	{
 		id: 4,
 		icon: icon4,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Optimized for Search & Performance",
 	},
 	{
 		id: 5,
 		icon: icon5,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Easy Content Management System",
 	},
 	{
 		id: 6,
 		icon: icon6,
-		title: "Fast & SEO-Ready",
-		description: "Quick load times and search engine friendly out of the box.",
+		title: "Integration with Sector-Specific Tools",
 	},
 ];
 
 /* Service Features */
 
 const serviceData = {
-	title: "How our agency provides Web Design services",
+	title: "How We Approach Industry Website Design",
 	shapeImage: Shape2,
-	strategyTitle: "Web Design strategies",
+	strategyTitle: "Industry-Focused Web Design Strategies",
 	strategyDescription:
-		"The broader context of a project aligning to design decisions with business goals & creating roadmap for achieving optimal user experiences.",
+		"We build websites that understand and solve real-world needs of your industry—whether it's showcasing agricultural products, managing patient data, or promoting fashion collections.",
 	listItems: [
 		[
-			{ icon: Icon, text: "Measurement & analytics" },
-			{ icon: Icon, text: "User-centered approach" },
-			{ icon: Icon, text: "Personal development" },
+			{ icon: Icon, text: "Research-driven planning" },
+			{ icon: Icon, text: "UX tailored to industry users" },
+			{ icon: Icon, text: "Scalable for future demands" },
 		],
 		[
-			{ icon: Icon, text: "Wireframing & prototyping" },
-			{ icon: Icon, text: "Stakeholder alignment" },
-			{ icon: Icon, text: "Iterative improvement" },
+			{ icon: Icon, text: "Secure architecture & compliance" },
+			{ icon: Icon, text: "Cross-platform compatibility" },
+			{ icon: Icon, text: "Custom tool & API integration" },
 		],
 	],
 };
 
 /* Projects */
 
-const customProjects = [
+const industryProjects = [
 	{
 		id: 1,
 		image: thumb1,
-		title: "Project 1",
-		category: "Development",
+		title: "Agri Business Platform",
+		category: "Agriculture",
 		link: "/projects/project-1",
 	},
 	{
 		id: 2,
 		image: thumb2,
-		title: "Project 2",
-		category: "Development",
+		title: "Online Pharma Portal",
+		category: "Pharmaceuticals",
 		link: "/projects/project-2",
 	},
 	{
 		id: 3,
 		image: thumb3,
-		title: "Project 3",
-		category: "Development",
+		title: "Garment Showcase Website",
+		category: "Fashion & Clothing",
 		link: "/projects/project-3",
 	},
 ];
 
 /* Price Plan */
 
-const smallBusinessPricing = [
+const industryPricing = [
 	{
 		id: 1,
-		plan: "Essential",
+		plan: "Basic Industry Site",
 		price: [
-			{ id: 1, value: 30 },
-			{ id: 2, value: 8 },
+			{ id: 1, value: 60 },
+			{ id: 2, value: 15 },
 		],
 		features: [
-			"One Page Website",
-			"Mobile Responsive",
-			"SEO Friendly Design",
+			"Customized Industry Template",
+			"Responsive Layout",
+			"Contact & Inquiry Forms",
 		],
 		featureIcon,
 		highlighted: false,
 	},
 	{
 		id: 2,
-		plan: "Professional",
+		plan: "Standard Industry Site",
 		price: [
-			{ id: 1, value: 55 },
-			{ id: 2, value: 12 },
+			{ id: 1, value: 90 },
+			{ id: 2, value: 25 },
 		],
 		features: [
-			"Multi Page Website",
-			"Free Hosting for 1 Year",
-			"Custom Contact Forms",
+			"CMS Integration",
+			"Product or Service Pages",
+			"SEO & Speed Optimization",
 		],
 		featureIcon,
 		highlighted: true,
 	},
 	{
 		id: 3,
-		plan: "Enterprise",
+		plan: "Advanced Enterprise Site",
 		price: [
-			{ id: 1, value: 75 },
-			{ id: 2, value: 20 },
+			{ id: 1, value: 140 },
+			{ id: 2, value: 35 },
 		],
 		features: [
-			"Advanced CMS Integration",
-			"E-commerce Ready",
-			"Dedicated Support",
+			"Custom Features & APIs",
+			"Industry-Specific Tool Integration",
+			"Extended Support & Maintenance",
 		],
 		featureIcon,
 		highlighted: false,
@@ -179,22 +173,22 @@ const testimonialsData = [
 		id: 1,
 		image: image1,
 		rating: 5,
-		review: "Tailored testimonial for this service page.",
-		author: { name: "Alice Williams", title: "Startup Founder" },
+		review: "They built a beautiful, easy-to-manage site for our farming business. It perfectly reflects our brand and has helped us reach more customers online.",
+		author: { name: "Ravi Mehta", title: "Agritech Entrepreneur" },
 	},
 	{
 		id: 2,
-		image: image2,
-		rating: 4,
-		review: "Another satisfied customer with specific feedback.",
-		author: { name: "John Doe", title: "Business Owner" },
+		image: image3,
+		rating: 5,
+		review: "We needed a pharma-compliant platform with easy product search. The result exceeded our expectations!",
+		author: { name: "Dr. Priya S.", title: "Pharma Director" },
 	},
 	{
 		id: 3,
-		image: image3,
-		rating: 5,
-		review: "Top-notch services that helped scale our operations.",
-		author: { name: "Jane Smith", title: "CEO" },
+		image: image2,
+		rating: 4,
+		review: "Our clothing store now has a stylish online presence. The website is both fast and intuitive, and customers love it!",
+		author: { name: "Aman Gill", title: "Clothing Brand Owner" },
 	},
 ];
 
@@ -204,42 +198,42 @@ const faqDataGroups = [
 	[
 		{
 			id: "faq-1",
-			question: "How can I get started with your service?",
-			answer: "You can get started by contacting us or signing up through our website. We'll guide you through every step.",
+			question: "Do you customize websites for specific industries?",
+			answer: "Yes, every site is designed with your industry’s needs, audience, and standards in mind—from layout to functionality.",
 			show: true,
 		},
 		{
 			id: "faq-2",
-			question: "Do you offer custom packages?",
-			answer: "Yes, we tailor our packages based on your specific business needs and goals.",
+			question: "Can you integrate tools specific to my field?",
+			answer: "Absolutely. Whether it’s CRM, booking systems, inventory tools, or compliance platforms—we handle integration seamlessly.",
 		},
 		{
 			id: "faq-3",
-			question: "What industries do you work with?",
-			answer: "We work with a variety of industries including agriculture, pharma, garments, and more.",
+			question: "Will the site follow industry compliance standards?",
+			answer: "Yes. We build in accordance with relevant regulations, like HIPAA for healthcare or GDPR for data protection.",
 		},
 	],
 	[
 		{
 			id: "faq-4",
-			question: "How long does it take to build a website?",
-			answer: "Timelines vary based on complexity, but most websites are completed within 2-4 weeks.",
+			question: "Can you write industry-specific content?",
+			answer: "We offer copywriting services tailored to your field, with SEO and brand voice alignment.",
 		},
 		{
 			id: "faq-5",
-			question: "Can you manage my digital marketing too?",
-			answer: "Absolutely! We provide full digital marketing solutions including SEO, Ads, and Social Media Management.",
+			question: "Will my team be able to manage the site after delivery?",
+			answer: "Yes. We provide training and easy-to-use CMS setups so your team can take control confidently.",
 		},
 		{
 			id: "faq-6",
-			question: "Is support included after launch?",
-			answer: "Yes, we offer ongoing support and maintenance after your project is live.",
+			question: "What’s the average turnaround time?",
+			answer: "Most industry-specific websites take 3–5 weeks, depending on content and feature complexity.",
 			show: true,
 		},
 	],
 ];
 
-function SingleService() {
+function IndustrySpecificService() {
 	return (
 		<>
 			<BreadCrumb
@@ -247,34 +241,34 @@ function SingleService() {
 				trail={[
 					{ label: "Home", href: "/" },
 					{ label: "Services", href: "/service" },
-					{ label: "Website Design" }
+					{ label: "Industry Specific Website" }
 				]}
 			/>
 			<About
-				title="Boost Your Business with Expert Website Design Solutions"
-				description="Experience unparalleled business progress with Sofax. Our expert team leverages cutting-edge strategies to propel your brand forward."
+				title="Industry-Tailored Website Design Services"
+				description="We design websites tailored to the unique demands of your industry—agriculture, pharma, fashion, and more. Every site is optimized for your audience, goals, and tools."
 				image={AboutThumb}
 				iconItems={[
-					{ icon: Icon5, text: "Affordable, high-performance small business websites" },
-					{ icon: Icon5, text: "Mobile-optimized and SEO-friendly design" },
-					{ icon: Icon5, text: "Tailored UI/UX for your brand" },
-					{ icon: Icon5, text: "Quick turnaround with premium support" },
-					{ icon: Icon5, text: "Integrated marketing tools for growth" },
+					{ icon: Icon5, text: "Industry-Relevant Layout & UX" },
+					{ icon: Icon5, text: "Standards-Compliant Design" },
+					{ icon: Icon5, text: "Tool & Feature Customization" },
+					{ icon: Icon5, text: "Easy-to-Use CMS" },
+					{ icon: Icon5, text: "Support for Future Growth" },
 				]}
 			/>
-			<Features title="Key Features" features={smallBusinessFeatures} />
+			<Features title="Key Features" features={industryFeatures} />
 			<AutoSlider />
+			<Prices pricingPlans={industryPricing} sectionTitle="Pricing That Matches Your Industry Needs" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
-				title="Our Recent Small Business Website Projects"
-				projectsData={customProjects}
+				title="Industry Websites We've Delivered"
+				projectsData={industryProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Affordable Pricing for Small Businesses" />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>
 	);
 }
 
-export default SingleService;
+export default IndustrySpecificService;

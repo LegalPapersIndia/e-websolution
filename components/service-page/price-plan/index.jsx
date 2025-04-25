@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import FadeInStagger from "../../animation/FadeInStagger";
+import TextSplitFadeIn from "@/components/animation/TextSplitFadeIn";
 import PricingCard from "./PricingCard";
 
 function PricePlan({ pricingPlans = [], sectionTitle = "Discover the Right Price Plan." }) {
@@ -20,7 +21,11 @@ function PricePlan({ pricingPlans = [], sectionTitle = "Discover the Right Price
 			<div className="container">
 				<div className="sofax-section-title center pb-50">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>{sectionTitle}</h2>
+						<h2>
+							<TextSplitFadeIn>
+								{sectionTitle}
+							</TextSplitFadeIn>
+						</h2>
 					</div>
 				</div>
 
