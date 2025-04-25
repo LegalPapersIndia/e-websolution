@@ -2256,9 +2256,21 @@ header.sofax-header-section.sticky-menu.inner-header {
 	margin-bottom: 20px;
 }
 
+@media (max-width: 1199px) {
+	.sofax-footer-wrap img {
+		width: 60%;
+	}
+}
+
+@media (max-width: 991px) {
+	.sofax-footer-wrap img {
+		width: 50%;
+	}
+}
+
 .sofax-footer-wrap p {
 	margin-bottom: 24px;
-	font-size: 20px !important;
+	font-size: 18px !important;
 }
 
 .sofax-footer-wrap.light-color {
@@ -4812,14 +4824,14 @@ h1.post__title {
 
 .sofax-testimonial-content {
 	border: 1px solid var(--light-color2);
-	padding: 35px;
+	padding: 25px 35px 30px 35px;
 	border-radius: 10px;
 	direction: ltr;
 }
 
 .sofax-testimonial-data p {
 	margin-bottom: 20px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .sofax-testimonial-author {
@@ -4848,12 +4860,12 @@ h1.post__title {
 }
 
 .sofax-testimonial-rating {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 @media (max-width: 991px) {
 	.sofax-testimonial-rating {
-		margin-bottom: 20px;
+		margin-bottom: 15px;
 	}
 }
 
@@ -5182,6 +5194,14 @@ h1.post__title {
 	.sofax-testimonial-author-data-v4 {
 		text-align: center;
 	}
+}
+
+.sofax-testimonial-author-data h5{
+	font-size: 18px;
+}
+
+.sofax-testimonial-author-data p{
+	font-size: 16px;
 }
 
 .sofax-default-contentv5 p {
@@ -7432,7 +7452,7 @@ a.sofax-connect-login img {
 
 @media (max-width: 991px) {
 	.sofax-faq-thumbv10 img {
-		width: 80%;
+		width: 50%;
 	}
 }
 
@@ -7492,7 +7512,7 @@ a.sofax-connect-login img {
 
 .sofax-career-content-text p {
 	text-align: center;
-	font-size: 18px !important;
+	font-size: 16px !important;
 }
 
 .sofax-career-content-text2 h6 {
@@ -7679,8 +7699,8 @@ a.sofax-connect-login img {
 }
 
 .sofax-accordion-wrap1 h3.accordion-header {
-	font-size: 20px;
-	font-weight: 700;
+	font-size: 18px;
+	font-weight: 600;
 	display: flex;
 }
 
@@ -7714,7 +7734,7 @@ a.sofax-connect-login img {
 }
 
 .sofax-accordion-wrap1 .accordion-body {
-	font-size: 18px;
+	font-size: 16px;
 	padding: 0;
 	padding-top: 10px;
 	color: rgb(60, 60, 60);
@@ -8002,6 +8022,7 @@ img.plasicon {
 }
 
 .sofax-features-contentv7 h4 {
+	font-size: 22px;
 	/* color: var(--accent-color); */
 	margin-bottom: 12px;
 }
@@ -9015,7 +9036,7 @@ img.plasicon {
 }
 
 ul.list-unstyled li {
-	font-size: 18px;
+	font-size: 17px;
 }
 
 /* .service-list-item {

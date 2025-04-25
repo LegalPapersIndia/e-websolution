@@ -157,7 +157,7 @@ const swiperSettingsTwo = {
 };
 function Testimonial() {
 	return (
-		<section className="sofax-section-padding3" id="testimonial">
+		<section className="sofax-section-padding7" id="testimonial">
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
