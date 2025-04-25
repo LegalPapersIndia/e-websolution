@@ -1,4 +1,5 @@
 import FadeInStagger from "../../animation/FadeInStagger";
+import TextSplitFadeIn from "@/components/animation/TextSplitFadeIn";
 import TestimonialCard from "./TestimonialCard";
 
 function Testimonials({ data, title = "See what our Customers say About Us" }) {
@@ -7,7 +8,11 @@ function Testimonials({ data, title = "See what our Customers say About Us" }) {
 			<div className="extra-mt container">
 				<div className="sofax-section-title center max-width-large">
 					<div className="tg-heading-subheading animation-style3">
-						<h2>{title}</h2>
+						<h2>
+							<TextSplitFadeIn>
+								{title}
+							</TextSplitFadeIn>
+						</h2>
 					</div>
 				</div>
 				<div className="row">

@@ -7,7 +7,7 @@ import Image from "next/image";
 function ContactInfo() {
 	return (
 		<div className="contactus-authore-wrapper">
-			<div className="sofax-iconbox-wrap2">
+			<div className="sofax-iconbox-wrap3">
 				<div className="sofax-iconbox-icon2">
 					<Image src={Icon1} alt="Icon chat" />
 				</div>
@@ -16,7 +16,7 @@ function ContactInfo() {
 					<p>We're waiting to help you every Monday-Saturday from 10 AM to 6 PM IST.</p>
 				</div>
 			</div>
-			<div className="sofax-iconbox-wrap2">
+			<div className="sofax-iconbox-wrap3">
 				<div className="sofax-iconbox-icon2">
 					<Image src={Icon2} alt="Call icon" />
 				</div>
@@ -25,7 +25,7 @@ function ContactInfo() {
 					<p>Give us a ring at <Link href="tel:9876543210"><span className="contact-call-text">+91-9876543210</span></Link>. Every Monday-Saturday from 10 AM to 6 PM.</p>
 				</div>
 			</div>
-			<div className="sofax-iconbox-wrap2">
+			<div className="sofax-iconbox-wrap3">
 				<div className="sofax-iconbox-icon2">
 					<Image src={Icon3} alt="Email Icon" />
 				</div>
@@ -34,7 +34,7 @@ function ContactInfo() {
 					<p>Drop us an Email at <Link href="mailto:info@e-websolution.in"><span className="contact-call-text">info@e-websolution.in</span></Link> and you'll receive a reply within 24 hours.</p>
 				</div>
 			</div>
-			<div className="sofax-iconbox-wrap2">
+			<div className="sofax-iconbox-wrap3">
 				<div className="sofax-iconbox-icon2">
 					<Image src={Icon4} alt="Location Icon" />
 				</div>

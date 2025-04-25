@@ -4655,6 +4655,17 @@ h1.post__title {
 	margin-bottom: 0;
 }
 
+.sofax-iconbox-wrap3 {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 35px;
+	text-align: left;
+}
+
+.sofax-iconbox-wrap3:last-child {
+	margin-bottom: 0;
+}
+
 .sofax-iconbox-icon2 {
 	width: 40px;
 	flex-shrink: 0;
@@ -9242,7 +9253,7 @@ ul.list-unstyled li {
 }
 
 .inner-service2 p {
-	font-size: 15px;
+	font-size: 17px;
 	color: var(--light-color) !important;
 }
 
