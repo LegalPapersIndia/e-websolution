@@ -95,9 +95,9 @@ const About = ({ title, description, image, iconItems = [] }) => {
             <FadeInRight className="sofax-inner-service-thumb">
               <Image src={image} alt="Thumbs" />
             </FadeInRight>
-            <div className="sofax-inner-service-shape">
+            {/* <div className="sofax-inner-service-shape">
               <Image src={Shape1} alt="content-shape" />
-            </div>
+            </div> */}
           </div>
           <div className="col-lg-7">
             <div className="sofax-default-content mr-50 tac">

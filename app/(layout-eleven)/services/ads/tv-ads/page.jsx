@@ -1,5 +1,5 @@
 import AutoSlider from "@/components/common/auto-slider";
-import Banner from "@/public/images/services/social-media-marketing/banner.jpg";
+import Banner from "@/public/images/services/advertisement-promotion/banner.jpg";
 import Hero from "@/components/home/home-ten/hero";
 import About from "@/components/service-page/about";
 import BreadCrumb from "@/components/common/Breadcrumb";

@@ -7300,18 +7300,19 @@ a.sofax-connect-login img {
 }
 
 .sofax-inner-service-thumb {
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 40px;
 }
 
 @media (max-width: 991px) {
 	.sofax-inner-service-thumb {
+		margin-top: 10px;
 		margin-bottom: 30px;
 	}
 }
 
 .sofax-inner-service-thumb img {
-	box-shadow: 8px 8px 0 0 var(--accent-color);
+	box-shadow: 8px 8px 0 0 var(--body-color);
 	border-radius: 10px;
 }
 
