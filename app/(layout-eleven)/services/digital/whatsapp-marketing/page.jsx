@@ -10,7 +10,7 @@ import Features from "@/components/service-page/feautres";
 import Testimonials from "@/components/service-page/testimonials";
 import Prices from "@/components/service-page/price-plan";
 import Icon5 from "@/public/images/service/icon5.png";
-import AboutThumb from "@/public/images/service/service-thumb.png";
+import AboutThumb from "@/public/images/services/digital/whatsapp/about.png";
 
 import icon5 from "@/public/images/v8/icon10v8.png";
 import icon6 from "@/public/images/v8/icon11v8.png";

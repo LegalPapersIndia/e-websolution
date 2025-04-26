@@ -1,7 +1,8 @@
 import Icon1 from "@/public/images/contact/icon1.png";
 import Icon2 from "@/public/images/contact/icon2.png";
 import Icon3 from "@/public/images/contact/icon3.png";
-import Icon4 from "@/public/images/contact/icon7.png";
+import Icon4 from "@/public/images/contact/icon8.png";
+import Icon5 from "@/public/images/contact/icon7.png";
 import Link from "next/link";
 import Image from "next/image";
 function ContactInfo() {
@@ -41,6 +42,15 @@ function ContactInfo() {
 				<div className="sofax-iconbox-data2">
 					<h5>Corporate Office</h5>
 					<p>K, 159, Gali No. 8, Samta Vihar, Mukandpur Part 2, North West, Delhi, 110042</p>
+				</div>
+			</div>
+			<div className="sofax-iconbox-wrap3">
+				<div className="sofax-iconbox-icon2">
+					<Image src={Icon5} alt="Location Icon" />
+				</div>
+				<div className="sofax-iconbox-data2">
+					<h5>Registered Office</h5>
+					<p>F-2, ABL Workspace 1st Floor, Near Sector 6 Police Chowki, Sector 8 Noida, 201301</p>
 				</div>
 			</div>
 		</div>

@@ -7318,7 +7318,19 @@ a.sofax-connect-login img {
 
 @media (max-width: 991px) {
 	.sofax-inner-service-thumb img {
-		width: 100%;
+		width: 50%;
+		display: block;
+        margin-left: auto;
+        margin-right: auto;
+	}
+}
+
+@media (max-width: 767px) {
+	.sofax-inner-service-thumb img {
+		width: 70%;
+		display: block;
+        margin-left: auto;
+        margin-right: auto;
 	}
 }
 
