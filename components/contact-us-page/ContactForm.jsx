@@ -12,30 +12,41 @@ function ContactForm() {
 	} = useForm();
 	const submitForm = async (formData) => {
 		try {
-		  const response = await fetch('/api/sendEmail', {
-			method: 'POST',
-			headers: {
-			  'Content-Type': 'application/json',
-			},
-			body: JSON.stringify(formData),
-		  });
-	  
-		  const result = await response.json();
-	  
-		  if (response.ok) {
-			toast.success(result.message);
-		  } else {
-			toast.error(result.error);
-		  }
-	  
-		  reset();
-		  console.log("Submitted Form Data =", formData);
+			const response = await fetch('/api/sendEmail', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(formData),
+			});
+
+			const result = await response.json();
+
+			//   if (response.ok) {
+			// 	toast.success(result.message);
+			//   } else {
+			// 	toast.error(result.error);
+			//   }
+			//   reset();
+			//   console.log("Submitted Form Data =", formData);
+
+			if (response.ok) {
+				toast.success(result.message);
+				reset();
+				console.log("Submitted Form Data =", formData);
+				setTimeout(() => {
+					window.location.href = '/';
+				}, 10000); // wait 10 seconds after success, then redirect
+			} else {
+				toast.error(result.error);
+			}
+
 		} catch (error) {
-		  console.error(error);
-		  toast.error('An error occurred while sending the form.');
+			console.error(error);
+			toast.error('An error occurred while sending the form.');
 		}
-	  };
-	
+	};
+
 	return (
 		<div className="sofax-field-box ml-50">
 			<ToastContainer position="bottom-right" />
@@ -123,7 +134,7 @@ function ContactForm() {
 						<div className="sofax-form-box">
 							<input {...register("checkbox", { required: "You must agree to the terms." })} type="checkbox" id="css" />
 							<label htmlFor="css">
-								By contacting us, you agree to our  
+								By contacting us, you agree to our
 								<Link href="/terms-and-condition">
 									<span> Terms of services </span>
 								</Link>
