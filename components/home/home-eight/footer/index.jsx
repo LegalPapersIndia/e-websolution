@@ -198,7 +198,7 @@ function Footer() {
 									<Phone className="me-2 text-primary" size={18} />
 									<ul>
 										<li>
-											<Link href="tel:+919876543210">+919876543210</Link>
+											<Link href="tel:9354305099">+919354305099</Link>
 										</li>
 									</ul>
 								</div>

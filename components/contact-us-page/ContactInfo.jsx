@@ -23,7 +23,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h5>Give us a call</h5>
-					<p>Give us a ring at <Link href="tel:9876543210"><span className="contact-call-text">+91-9876543210</span></Link>. Every Monday-Saturday from 10 AM to 6 PM.</p>
+					<p>Give us a ring at <Link href="tel:9354305099"><span className="contact-call-text">+91-9354305099</span></Link>. Every Monday-Saturday from 10 AM to 6 PM.</p>
 				</div>
 			</div>
 			<div className="sofax-iconbox-wrap3">
