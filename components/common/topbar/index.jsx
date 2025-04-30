@@ -18,7 +18,7 @@ const TopBar = () => {
           <Link href="#">
             <span className="topbar-item topbar-item-phone">
               <FaPhoneAlt size={14} />
-              <span className="topbar-text">+91 98765 43210</span>
+              <span className="topbar-text">+919354305099</span>
             </span>
           </Link>
           <Link href="#">
