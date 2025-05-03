@@ -257,7 +257,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Why Choose Our WhatsApp Marketing Services" features={whatsappMarketingFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={whatsappPricingPlans} sectionTitle="WhatsApp Marketing Plans for All Business Sizes" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects

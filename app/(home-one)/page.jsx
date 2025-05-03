@@ -7,10 +7,14 @@ import HeroSlider from "@/components/home/home-eight/slider";
 import AutoSlider from "@/components/common/auto-slider";
 import Projects from "@/components/home/home-eight/projects";
 import Steps from "@/components/home/home-three/services";
+import LogoSlider from "@/components/home/home-nine/logo-slider";
 import Faq from "@/components/home/home-ten/about-three/AboutThree";
 import Features from "@/components/home/home-two/services";
+import Integrations from "@/components/home/home-seven/integrations";
 import Services from "@/components/home/home-eight/services";
 import ServiceOne from "@/components/home/home-eight/services-one";
+import LatestUpdates from "@/components/home/home-eight/LatestUpdates";
+import Blogs from "@/components/home/home-nine/latest-updates";
 import Testimonials from "@/components/home/home-one/testimonial";
 
 function HomeEight() {
@@ -21,16 +25,19 @@ function HomeEight() {
 			{/* <Features /> */}
 			{/* <AboutOne /> */}
 			<ServiceOne />
+			<LogoSlider />
 			<Features />
 			<Counter />
 			<Services />
 			<Steps />
+			<Integrations />
 			{/* <AboutTwo /> */}
 			{/* <PricePlan /> */}
 			{/* <Projects /> */}
 			<Faq />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Testimonials />
+			<Blogs />
 		</>
 	);
 }

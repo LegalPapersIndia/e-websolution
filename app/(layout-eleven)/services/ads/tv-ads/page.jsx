@@ -253,7 +253,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Key Features" features={tvAdsFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Our Recent TV Ad Campaigns"

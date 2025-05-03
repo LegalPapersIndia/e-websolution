@@ -114,7 +114,7 @@ const swiperSettingsOne = {
 		disableOnInteraction: false,
 	},
 	loop: true,
-	allowTouchMove: false,
+	allowTouchMove: true,
 	modules: [Autoplay],
 	slidesPerView: 1,
 	spaceBetween: 30,

@@ -257,7 +257,7 @@ function IndustrySpecificService() {
 				]}
 			/>
 			<Features title="Key Features" features={industryFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={industryPricing} sectionTitle="Pricing That Matches Your Industry Needs" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects

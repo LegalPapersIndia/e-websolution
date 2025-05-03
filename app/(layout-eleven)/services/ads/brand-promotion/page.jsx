@@ -257,7 +257,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Key Features" features={brandPromotionFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Our Recent Brand Promotion Campaigns"

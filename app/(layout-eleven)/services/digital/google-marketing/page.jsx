@@ -227,7 +227,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Why Choose Google Marketing with Us?" features={googleMarketingFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={googleMarketingPricing} sectionTitle="Google Marketing Plans for All Sizes" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects

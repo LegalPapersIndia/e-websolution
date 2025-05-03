@@ -5,6 +5,7 @@ import slideContent from "./slideContent";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./HeroSlider.module.css";
+import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../../animation/FadeInStaggerTwo";
 
 const HeroSlider = () => {
     const [current, setCurrent] = useState(0);
@@ -49,13 +50,32 @@ const HeroSlider = () => {
                             <div className={styles.content}>
                                 <h2>{slide.title}</h2>
                                 <p>{slide.description}</p>
-                                <Link
+                                {/* <Link
                                     className="sofax-default-btn pill sofax-header-btn"
                                     data-text={slide.buttonText}
                                     href={slide.buttonLink}
                                 >
                                     <span className="button-wraper">{slide.buttonText}</span>
                                 </Link>
+                                <Link
+                                    className="sofax-default-btn pill sofax-header-btn rt-ml-20"
+                                    data-text={slide.buttonText}
+                                    href={slide.buttonLink}
+                                >
+                                    <span className="button-wraper">{slide.buttonText}</span>
+                                </Link> */}
+                                <FadeInStaggerTwo className="sofax-hero-btn-wrap sofax-hero5-btn extra-mt">
+                                    <FadeInStaggerTwoChildren>
+                                        <Link className="sofax-default-btn pill" data-text="Explore More" href="/contact-us">
+                                            <span className="button-wraper">Explore More</span>
+                                        </Link>
+                                    </FadeInStaggerTwoChildren>
+                                    <FadeInStaggerTwoChildren>
+                                        <Link className="sofax-default-btn pill outline-btn" data-text="Contact Us" href="/service">
+                                            <span className="button-wraper">Contact Us</span>
+                                        </Link>
+                                    </FadeInStaggerTwoChildren>
+                                </FadeInStaggerTwo>
                             </div>
                         </div>
                     ))}

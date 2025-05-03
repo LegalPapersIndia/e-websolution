@@ -253,7 +253,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Key Features" features={paidPRFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<SingleServiceDetails serviceData={paidPRServiceData} />
 			<Projects
 				title="Our Successful Paid PR Campaigns"

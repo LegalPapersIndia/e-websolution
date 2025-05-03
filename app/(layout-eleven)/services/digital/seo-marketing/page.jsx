@@ -233,7 +233,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Why Choose Our SEO Services" features={seoMarketingFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={seoPricingPlans} sectionTitle="Flexible SEO Packages for Every Business" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects

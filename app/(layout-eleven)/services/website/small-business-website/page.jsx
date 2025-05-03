@@ -302,7 +302,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Key Features" features={smallBusinessFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Affordable Pricing for Small Businesses" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects

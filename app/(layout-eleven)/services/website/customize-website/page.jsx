@@ -260,7 +260,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Key Features" features={customizeWebsiteFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices
 				pricingPlans={customizeWebsitePricing}
 				sectionTitle="Flexible Pricing for Custom Projects"

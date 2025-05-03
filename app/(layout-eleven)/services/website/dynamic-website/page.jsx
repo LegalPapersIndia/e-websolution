@@ -259,7 +259,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Dynamic Website Features" features={dynamicWebsiteFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={dynamicWebsitePricing} sectionTitle="Flexible Plans for Dynamic Website Development" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects

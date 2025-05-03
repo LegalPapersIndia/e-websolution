@@ -6,7 +6,7 @@ import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 import FadeInUp from "../../../animation/FadeInUp";
 function AboutThree() {
 	return (
-		<section className="section sofax-section-padding bg-light">
+		<section className="section sofax-section-padding7 bg-light">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5">
@@ -136,7 +136,7 @@ function AboutThree() {
 												data-bs-toggle="collapse"
 												data-bs-target="#collapseFive"
 											>
-												How do you ensure ad campaigns reach right audience?
+												How do we communicate during the project?
 											</button>
 											<div className="accordion-icon">
 												<Image src={Icon} alt="Icon" />
@@ -148,7 +148,79 @@ function AboutThree() {
 											data-bs-parent="#sofax-accordion"
 										>
 											<div className="accordion-body sofax-accordion-body">
-												We use detailed targeting, audience segmentation, and analytics to reach the most relevant and high-converting users.
+											We provide clear communication through email, Zoom/Google Meet, project management tools, and regular updates to ensure transparency and collaboration.
+											</div>
+										</div>
+									</FadeInStaggerTwoChildren>
+									<FadeInStaggerTwoChildren className="accordion-item sofax-accordion-item">
+										<h3 className="accordion-header sofax-accordion-header">
+											<button
+												className="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseSix"
+											>
+												Can you help drive traffic to my new website?
+											</button>
+											<div className="accordion-icon">
+												<Image src={Icon} alt="Icon" />
+											</div>
+										</h3>
+										<div
+											id="collapseSix"
+											className="accordion-collapse collapse"
+											data-bs-parent="#sofax-accordion"
+										>
+											<div className="accordion-body sofax-accordion-body">
+											Yes. In addition to design, we offer digital marketing services including SEO, Google Ads, social media marketing, and more to help you attract the right audience.
+											</div>
+										</div>
+									</FadeInStaggerTwoChildren>
+									<FadeInStaggerTwoChildren className="accordion-item sofax-accordion-item">
+										<h3 className="accordion-header sofax-accordion-header">
+											<button
+												className="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseSeven"
+											>
+												Is there a contract or commitment required?
+											</button>
+											<div className="accordion-icon">
+												<Image src={Icon} alt="Icon" />
+											</div>
+										</h3>
+										<div
+											id="collapseSeven"
+											className="accordion-collapse collapse"
+											data-bs-parent="#sofax-accordion"
+										>
+											<div className="accordion-body sofax-accordion-body">
+											We provide a clear service agreement outlining the project scope, timeline, deliverables, and pricing—no hidden fees or long-term obligations unless requested.
+											</div>
+										</div>
+									</FadeInStaggerTwoChildren>
+									<FadeInStaggerTwoChildren className="accordion-item sofax-accordion-item">
+										<h3 className="accordion-header sofax-accordion-header">
+											<button
+												className="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseEight"
+											>
+												How does your agency stay ahead with the latest web design trends and technologies?
+											</button>
+											<div className="accordion-icon">
+												<Image src={Icon} alt="Icon" />
+											</div>
+										</h3>
+										<div
+											id="collapseEight"
+											className="accordion-collapse collapse"
+											data-bs-parent="#sofax-accordion"
+										>
+											<div className="accordion-body sofax-accordion-body">
+											We prioritize continuous research and development to stay aligned with evolving industry standards. Our team regularly explores emerging tools, frameworks, and UX/UI trends to ensure every website we deliver is not only modern and scalable but also future-ready and performance-driven. This dedication helps our clients stay competitive in a rapidly changing digital landscape.
 											</div>
 										</div>
 									</FadeInStaggerTwoChildren>

@@ -255,7 +255,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Content Marketing Features" features={contentMarketingFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={contentMarketingPricing} sectionTitle="Affordable Content Marketing Plans for Every Business" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects

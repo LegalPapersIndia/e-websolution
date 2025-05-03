@@ -25,7 +25,7 @@ function ContactUs() {
 			<MyGoogleMapEmbed />
 			{/* <MyMap /> */}
 			{/* <MyGoogleMap /> */}
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 		</>
 	);
 }

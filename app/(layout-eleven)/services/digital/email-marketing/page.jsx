@@ -256,7 +256,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Email Marketing Features" features={smallBusinessFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Flexible Plans for Every Stage of Growth" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects

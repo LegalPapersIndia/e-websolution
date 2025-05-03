@@ -257,7 +257,7 @@ function EcommerceWebsiteService() {
 				]}
 			/>
 			<Features title="Key Features" features={ecommerceFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={ecommercePricing} sectionTitle="Flexible Pricing for Every E-commerce Need" />
 			<SingleServiceDetails serviceData={ecommerceServiceData} />
 			<Projects

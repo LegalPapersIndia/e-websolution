@@ -11,7 +11,7 @@ const servicesData = [
 	{
 		id: 1,
 		icon: icon1,
-		title: "All-in-One Service",
+		title: "Complete Service Package",
 		description:
 			"From websites to marketing, we handle everything so you don’t need multiple agencies.",
 	},

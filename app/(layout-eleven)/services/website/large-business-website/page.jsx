@@ -258,7 +258,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Key Features for Large Businesses" features={largeBusinessFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={enterprisePricing} sectionTitle="Tailored Plans for Enterprise Growth" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects

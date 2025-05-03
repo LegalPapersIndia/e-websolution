@@ -255,7 +255,7 @@ function GoogleAdsService() {
 				]}
 			/>
 			<Features title="Google Ads Features" features={googleAdsFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Our Successful Google Ads Campaigns"

@@ -253,7 +253,7 @@ function MetaAdsServicePage() {
 				]}
 			/>
 			<Features title="Key Features of Meta Ads" features={metaAdsFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Our Successful Meta Ads Campaigns"

@@ -944,6 +944,10 @@ blockquote {
 	color: #7b878c;
 }
 
+.white-color{
+	color: #fff;
+}
+
 .hover\:border-transparent {
 	border-color: transparent !important;
 }
@@ -954,6 +958,10 @@ blockquote {
 
 .rt-ml-0 {
 	margin-left: 0px !important;
+}
+
+.rt-ml-20 {
+	margin-left: 20px !important;
 }
 
 .rt-rounded-0 {
@@ -2550,8 +2558,7 @@ a.social-icon img {
 }
 
 /*1.2 components css*/
-.sofax-default-btn,
-#sofax-submit-btn {
+.sofax-default-btn {
 	font-size: 16px;
 	line-height: 24px;
 	padding: 18px 34px;
@@ -2577,6 +2584,58 @@ a.social-icon img {
 	transform-style: preserve-3d;
 }
 
+.sofax-integration-btn {
+	font-size: 16px;
+	line-height: 24px;
+	padding: 18px 34px;
+	font-weight: 700;
+	font-family: var(--font-inter), sans-serif;
+	width: fit-content;
+	position: relative;
+	z-index: 1;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-flex;
+	text-align: center;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	overflow: hidden;
+	color: var(--heading-color) !important;
+	background-color: var(--light-bg);
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	position: relative;
+	transform-style: preserve-3d;
+}
+
+#sofax-submit-btn {
+	font-size: 16px;
+	line-height: 24px;
+	padding: 18px 34px;
+	font-weight: 700;
+	font-family: var(--font-inter), sans-serif;
+	width: fit-content;
+	position: relative;
+	z-index: 1;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-flex;
+	text-align: center;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	overflow: hidden;
+	color: var(--heading-color) !important;
+	background-color: var(--white-bg);
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	position: relative;
+	transform-style: preserve-3d;
+}
+
 .sofax-default-btn.btn-hover:hover,
 #sofax-submit-btn.btn-hover:hover {
 	background: var(--dark-bg);
@@ -2592,8 +2651,8 @@ a.social-icon img {
 #sofax-submit-btn.outline-btn {
 	padding: 17px 40px;
 	background-color: transparent;
-	color: var(--heading-color) !important;
-	border: 1px solid var(--heading-color);
+	color: var(--white-color) !important;
+	border: 1px solid var(--white-color);
 	transition: all 0.4s;
 }
 
@@ -2612,6 +2671,7 @@ a.social-icon img {
 
 .sofax-default-btn.disabled,
 .sofax-default-btn:disabled,
+.sofax-integration-btn:disabled,
 #sofax-submit-btn.disabled,
 #sofax-submit-btn:disabled {
 	opacity: 1;
@@ -2623,6 +2683,7 @@ a.social-icon img {
 }
 
 .sofax-default-btn.pill,
+.sofax-integration-btn.pill,
 #sofax-submit-btn.pill {
 	border-radius: 50px;
 }
@@ -2633,6 +2694,7 @@ a.social-icon img {
 }
 
 .sofax-default-btn:focus,
+.sofax-integration-btn:focus,
 #sofax-submit-btn:focus {
 	box-shadow: none;
 }
@@ -2649,7 +2711,7 @@ a.social-icon img {
 	background-color: var(--heading-color);
 }
 
-.sofax-default-btn:hover svg path {
+.sofax-default-btn:hover svg path{
 	fill: var(--white-color);
 }
 
@@ -2700,7 +2762,7 @@ a.sofax-icon-btn img {
 }
 
 .sofax-hero5-btn {
-	justify-content: start !important;
+	justify-content: center !important;
 }
 
 @media (max-width: 991px) {
@@ -2726,7 +2788,8 @@ a.sofax-icon-btn img {
 	}
 }
 
-.sofax-default-btn::before {
+.sofax-default-btn::before,
+.sofax-integration-btn::before {
 	position: absolute;
 	content: "";
 	border-radius: inherit;
@@ -2741,27 +2804,32 @@ a.sofax-icon-btn img {
 	opacity: 0;
 }
 
-.sofax-default-btn .button-wraper {
+.sofax-default-btn .button-wraper,
+.sofax-integration-btn .button-wraper{
 	transition: opacity 0.2s, transform 0.2s;
 	transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.sofax-default-btn:hover .button-wraper {
+.sofax-default-btn:hover .button-wraper,
+.sofax-integration-btn:hover .button-wraper {
 	transform: translateY(-150%);
 	opacity: 0;
 }
 
-.sofax-default-btn:hover::before {
+.sofax-default-btn:hover::before,
+.sofax-integration-btn:hover::before {
 	opacity: 1;
 	transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.sofax-default-btn:hover::after {
+.sofax-default-btn:hover::after,
+.sofax-integration-btn:hover::after {
 	transform: translate(0%, -50%);
 	opacity: 1;
 }
 
-.sofax-default-btn:after {
+.sofax-default-btn:after,
+.sofax-integration-btn:after {
 	content: attr(data-text);
 	display: inline-block;
 	position: absolute;
@@ -2833,7 +2901,7 @@ textarea:focus-visible {
 
 input:focus,
 textarea:focus {
-	border: 1px solid var(--accent-color) !important;
+	border: 1px solid var(--heading-color) !important;
 }
 
 select {
@@ -8634,15 +8702,20 @@ img.plasicon {
 	}
 }
 
+.integration-vertsion7 p{
+	margin-top: 12px;
+	font-size: 17px;
+}
+
 @media (max-width: 991px) {
 	.integration-vertsion7 {
-		padding: 90px 0;
+		padding: 30px 0;
 	}
 }
 
 @media (max-width: 767px) {
 	.integration-vertsion7 {
-		padding: 60px 0;
+		padding: 15px 0;
 	}
 }
 
@@ -9231,7 +9304,7 @@ ul.list-unstyled li {
 	display: flex;
 	flex-shrink: 0;
 	align-items: center;
-	animation: animName 3s linear infinite;
+	/* animation: animName 3s linear infinite; */
 }
 
 .sofax-service-slider-data {
@@ -9708,13 +9781,13 @@ ul.list-unstyled li {
 	}
 }
 
-.blog-v7 h4 {
+.blog-v7 h5 {
 	margin-bottom: 10px !important;
 }
 
 .blog-v7 p {
 	color: var(--body-color);
-	font-size: 20px !important;
+	font-size: 18px !important;
 	margin-bottom: 24px;
 }
 
@@ -9756,6 +9829,7 @@ ul.list-unstyled li {
 }
 
 .sofax-blog-wrap-v9 .market-contentv9 ul li {
+	font-size: 18px;
 	color: var(--body-color);
 }
 
@@ -9767,6 +9841,7 @@ ul.list-unstyled li {
 }
 
 .contact-form-title{
+	color: var(--white-color);
 	font-size: 28px ;
 }
 
@@ -9873,6 +9948,7 @@ ul.list-unstyled li {
 }
 
 .sofax-main-field label {
+	color: var(--light-color) !important;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 32px;
@@ -9902,7 +9978,7 @@ ul.list-unstyled li {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
-	color: var(--dark-bg);
+	color: var(--white-color);
 }
 
 @media (max-width: 767px) {
@@ -9911,11 +9987,18 @@ ul.list-unstyled li {
 	}
 }
 
+.sofax-form-box .contact-tnc {
+	color: var(--heading-color);
+}
+.sofax-form-box .contact-tnc:hover {
+	font-weight: 600;
+}
+
 .sofax-form-box label::before {
 	content: "";
 	-webkit-appearance: none;
 	background-color: transparent;
-	border: 2px solid var(--body-color);
+	border: 2px solid var(--light-color2);
 	padding: 7px;
 	display: inline-block;
 	position: relative;
@@ -9933,7 +10016,7 @@ ul.list-unstyled li {
 	left: 6px;
 	width: 5px;
 	height: 9px;
-	border: solid var(--dark-bg);
+	border: solid var(--white-color);
 	border-width: 0 2px 2px 0;
 	transform: rotate(45deg);
 }

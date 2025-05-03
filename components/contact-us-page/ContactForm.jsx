@@ -48,7 +48,7 @@ function ContactForm() {
 	};
 
 	return (
-		<div className="sofax-field-box ml-50">
+		<div className="sofax-field-box ml-50 theme-bg">
 			<ToastContainer position="bottom-right" />
 			<h3 className="contact-form-title">Send us a message</h3>
 			<form onSubmit={handleSubmit(submitForm)}>
@@ -68,9 +68,9 @@ function ContactForm() {
 					</div>
 					<div className="col-lg-6">
 						<div className="sofax-main-field">
-							<Field label={<span>Company Name<span className="starlabel">*</span></span>} error={errors.companyname}>
+							<Field label={<span>Company Name</span>} error={errors.companyname}>
 								<input
-									{...register("companyname", { required: "Company Name is required." })}
+									{...register("companyname")}
 									type="text"
 									name="companyname"
 									id="companyname"
@@ -135,11 +135,11 @@ function ContactForm() {
 							<input {...register("checkbox", { required: "You must agree to the terms." })} type="checkbox" id="css" />
 							<label htmlFor="css">
 								By contacting us, you agree to our
-								<Link href="/terms-and-condition">
+								<Link className="contact-tnc" href="/terms-and-condition">
 									<span> Terms of services </span>
 								</Link>
 								and
-								<Link href="/privacy-policy">
+								<Link className="contact-tnc" href="/privacy-policy">
 									<span> Privacy Policy</span>
 								</Link>
 								.

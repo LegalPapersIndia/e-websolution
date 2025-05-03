@@ -228,7 +228,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Key SMO Features" features={smoFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<Prices pricingPlans={smoPricing} sectionTitle="SMO Packages for Every Stage of Growth" />
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects

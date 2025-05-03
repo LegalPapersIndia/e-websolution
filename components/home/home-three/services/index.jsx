@@ -10,9 +10,9 @@ import ServiceCard from "./ServiceCard";
 const servicesData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Step 1: Discover & Strategize",
+		title: "Step 1: Kickstart with Expert Team",
 		description:
-			"Understand client needs and define goals with a tailored strategy for success.",
+			"Discuss your vision and goals with our expert team for tailored web solutions.",
 		icon: Icon5,
 	},
 	{
@@ -63,10 +63,10 @@ function Services() {
 						</div>
 					</div>
 				</div> */}
-				<div className="mt-5 sofax-section-title center">
+				<div className="mt-2 sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
 						<h2>
-							<TextSplitFadeIn>How We Ensure Best Quality</TextSplitFadeIn>
+							<TextSplitFadeIn>Our Proven Working Process</TextSplitFadeIn>
 						</h2>
 					</div>
 				</div>

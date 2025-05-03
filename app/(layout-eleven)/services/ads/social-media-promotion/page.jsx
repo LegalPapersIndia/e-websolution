@@ -259,7 +259,7 @@ function SingleService() {
 				]}
 			/>
 			<Features title="Key Features" features={socialMediaPromotionFeatures} />
-			<AutoSlider />
+			{/* <AutoSlider /> */}
 			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Our Successful Social Media Campaigns"
