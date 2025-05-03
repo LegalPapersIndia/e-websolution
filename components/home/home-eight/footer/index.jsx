@@ -277,29 +277,27 @@ function Footer() {
 									style={{ width: "100%", height: "auto" }}
 								/>
 							</div>
-							<div className="col-md-6 d-flex justify-content-end align-items-start gap-4 flex-nowrap footer-right">
+							<div className="col-md-6 d-flex justify-content-end align-items-start gap-3 flex-nowrap footer-right">
 								<div className="d-flex flex-column align-items-center partner-image">
 									<Image src={GooglePartner} alt="Google Partner" height={50} />
 								</div>
 								<div className="d-flex flex-column align-items-center partner-image">
 									<Image src={Phonepe} alt="PhonePe" height={40} />
-									<button
-										className="btn btn-sm text-white mt-2"
-										style={{ backgroundColor: '#387dd9' }}
-									>Pay Now</button>
+									<Link href="https://legalpapersindia.com/phonepay.php" target="_blank" rel="noopener noreferrer">
+										<button
+											className="payment-btn mt-2"
+											style={{ backgroundColor: '#387dd9' }}
+										>Pay Now</button>
+									</Link>
 								</div>
 								<div className="d-flex flex-column align-items-center partner-image">
-									<a
-										href="https://www.instamojo.com"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<Image src={InstaMozo} alt="Instamojo Pay Now" height={40} />
-									</a>
-									<button
-										className="btn btn-sm text-white mt-2"
-										style={{ backgroundColor: '#387dd9' }}
-									>Pay Now</button>
+									<Image src={InstaMozo} alt="Instamojo Pay Now" height={40} />
+									<Link href="https://www.instamojo.com/@LegalPapersIndia/" target="_blank" rel="noopener noreferrer">
+										<button
+											className="payment-btn mt-2"
+											// style={{ backgroundColor: '#387dd9' }}
+										>Pay Now</button>
+									</Link>
 								</div>
 							</div>
 						</div>

@@ -6758,6 +6758,31 @@ h1.post__title {
 	}
 }
 
+.payment-btn {
+	position: relative;
+	z-index: 5;
+	border-radius: 6px;
+	border: 0;
+	font-size: 16px;
+	font-weight: 700;
+	height: 40px;
+	min-width: 130px;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: -0.3px;
+	color: var(--white-color);
+	background-color: var(--accent-color);
+	padding: 15px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.4s ease-in-out;
+}
+  
+.payment-btn:hover {
+	transform: scale(1.05);
+}
+  
 
 .sofax-hero-shape-v8 {
 	position: absolute;

@@ -50,7 +50,7 @@ function ContactInfo() {
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h5>Registered Office</h5>
-					<p>F-2, HQ Connect, Near Sector 6 Police Chowki, Sector 8 Noida, 201301</p>
+					<p>F-2, Near Sector 6 Police Chowki, Sector 8 Noida, 201301</p>
 				</div>
 			</div>
 		</div>
