@@ -50,7 +50,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="services-section sofax-section-padding2 bg-light">
+    <section className="services-section sofax-section-padding2 bg-light" id="services">
       <div className="container">
         <div className="mt-5 sofax-section-title center">
             <div className="tg-heading-subheading animation-style3">

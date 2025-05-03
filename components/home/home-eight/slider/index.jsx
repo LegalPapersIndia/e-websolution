@@ -14,7 +14,7 @@ const HeroSlider = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrent((prev) => (prev + 1) % totalSlides);
-        }, 10000);
+        }, 15000);
         return () => clearInterval(interval);
     }, [totalSlides]);
 
@@ -26,7 +26,7 @@ const HeroSlider = () => {
         setCurrent((prev) => (prev + 1) % totalSlides);
     };
 
-    const { title, description, buttonText, buttonLink, imageUrl } = slideContent[current];
+    const { title, description, buttonOneText, buttonTwoText, buttonOneLink, buttonTwoLink, imageUrl } = slideContent[current];
 
     return (
         <section className={styles.hero}>
@@ -66,13 +66,13 @@ const HeroSlider = () => {
                                 </Link> */}
                                 <FadeInStaggerTwo className="sofax-hero-btn-wrap sofax-hero5-btn extra-mt">
                                     <FadeInStaggerTwoChildren>
-                                        <Link className="sofax-default-btn pill" data-text="Explore More" href="/contact-us">
-                                            <span className="button-wraper">Explore More</span>
+                                        <Link className="sofax-default-btn pill" data-text={slide.buttonOneText} href={slide.buttonOneLink}>
+                                            <span className="button-wraper">{slide.buttonOneText}</span>
                                         </Link>
                                     </FadeInStaggerTwoChildren>
                                     <FadeInStaggerTwoChildren>
-                                        <Link className="sofax-default-btn pill outline-btn" data-text="Contact Us" href="/service">
-                                            <span className="button-wraper">Contact Us</span>
+                                        <Link className="sofax-default-btn pill outline-btn" data-text={slide.buttonTwoText} href={slide.buttonTwoLink}>
+                                            <span className="button-wraper">{slide.buttonTwoText}</span>
                                         </Link>
                                     </FadeInStaggerTwoChildren>
                                 </FadeInStaggerTwo>

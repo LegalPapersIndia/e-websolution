@@ -14,7 +14,7 @@ function Integrations() {
 								<h3>Ready to Start a Business but Not Sure Where to Begin?</h3>
 							</div>
 							<p>
-								At E-websolution, we take care of we craft stunning websites, amplify brands, and power growth through brand promotion with end-to-end solutions.
+								At E-Websolution, we specialize in Website Development, Digital Marketing, and Power Growth through Brand Promotion with End-to-End Solutions.
 							</p>
 							<FadeInUp>
 								<Link
