@@ -35,7 +35,7 @@ function ContactInfo() {
 					<p>Drop us an Email at <Link href="mailto:info@e-websolution.in"><span className="contact-call-text">info@e-websolution.in</span></Link> and you'll receive a reply within 24 hours.</p>
 				</div>
 			</div>
-			<div className="sofax-iconbox-wrap3">
+			{/* <div className="sofax-iconbox-wrap3">
 				<div className="sofax-iconbox-icon2">
 					<Image src={Icon4} alt="Location Icon" />
 				</div>
@@ -43,14 +43,14 @@ function ContactInfo() {
 					<h5>Corporate Office</h5>
 					<p>K, 159, Gali No. 8, Samta Vihar, Mukandpur Part 2, North West, Delhi, 110042</p>
 				</div>
-			</div>
+			</div> */}
 			<div className="sofax-iconbox-wrap3">
 				<div className="sofax-iconbox-icon2">
-					<Image src={Icon5} alt="Location Icon" />
+					<Image src={Icon4} alt="Location Icon" />
 				</div>
 				<div className="sofax-iconbox-data2">
 					<h5>Registered Office</h5>
-					<p>F-2, Near Sector 6 Police Chowki, Sector 8 Noida, 201301</p>
+					<p>F-2, Near Sector 6 Police Chowki, Sector 8, Noida, 201301</p>
 				</div>
 			</div>
 		</div>

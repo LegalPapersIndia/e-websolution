@@ -14,6 +14,7 @@ import Integrations from "@/components/home/home-seven/integrations";
 import Services from "@/components/home/home-eight/services";
 import ServiceOne from "@/components/home/home-eight/services-one";
 import LatestUpdates from "@/components/home/home-eight/LatestUpdates";
+import SideBanner from "@/components/home/home-eight/sidebanner";
 import Blogs from "@/components/home/home-nine/latest-updates";
 import Testimonials from "@/components/home/home-one/testimonial";
 
@@ -21,6 +22,7 @@ function HomeEight() {
 	return (
 		<>
 			{/* <Hero /> */}
+			<SideBanner />
 			<HeroSlider />
 			{/* <Features /> */}
 			{/* <AboutOne /> */}

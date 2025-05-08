@@ -3,6 +3,7 @@ import CompanyOne from "@/public/images/footer/lpi-one.jpeg";
 import CompanyTwo from "@/public/images/footer/lpi-two.jpeg";
 import CompanyThree from "@/public/images/footer/e-web.jpeg";
 import PaymentMode from "@/public/images/footer/paymentmode.png";
+import PaymentGateway from "@/public/images/footer/paymentgateway.svg";
 import GooglePartner from "@/public/images/footer/gpartner.jpg";
 import Phonepe from "@/public/images/footer/phonepe.png";
 import InstaMozo from "@/public/images/footer/roz.png";
@@ -34,7 +35,7 @@ function Footer() {
 								<div className="sofax-social-icon">
 									<ul>
 										<li>
-											<a target="_blank" href="https://www.twitter.com/">
+											<a className="twitter" target="_blank" href="https://www.twitter.com/">
 												<svg
 													width="17"
 													height="18"
@@ -50,7 +51,7 @@ function Footer() {
 											</a>
 										</li>
 										<li>
-											<a target="_blank" href="https://www.facebook.com/LegalPapersIndiaofficial">
+											<a className="facebook" target="_blank" href="https://www.facebook.com/LegalPapersIndiaofficial">
 												<svg
 													width="11"
 													height="18"
@@ -66,7 +67,7 @@ function Footer() {
 											</a>
 										</li>
 										<li>
-											<a target="_blank" href="https://www.instagram.com/legalpapersindia/?hl=en">
+											<a className="instagram" target="_blank" href="https://www.instagram.com/legalpapersindia/?hl=en">
 												<svg
 													width="18"
 													height="17"
@@ -90,7 +91,7 @@ function Footer() {
 											</a>
 										</li>
 										<li>
-											<a target="_blank" href="https://bd.linkedin.com/">
+											<a className="linkedin" target="_blank" href="https://bd.linkedin.com/">
 												<svg
 													width="16"
 													height="16"
@@ -190,8 +191,7 @@ function Footer() {
 								<div className="d-flex align-items-start mb-3">
 									<MapPin className="me-2 mt-1 text-primary" size={20} />
 									<p className="mb-0">
-										K, 159, Street Number 8, Samta Vihar,<br />
-										Mukandpur Part 2, North West, Delhi, 110042
+										F-2, Near Sector 6 Police Chowki, Sector 8, Noida, 201301
 									</p>
 								</div>
 								<div className="d-flex align-items-center mb-2">
@@ -271,7 +271,7 @@ function Footer() {
 						<div className="row align-items-center d-flex footer-row">
 							<div className="col-md-6 d-flex justify-content-start align-items-center footer-left">
 								<Image
-									src={PaymentMode}
+									src={PaymentGateway}
 									alt="All Payment Methods"
 									className="img-fluid"
 									style={{ width: "100%", height: "auto" }}

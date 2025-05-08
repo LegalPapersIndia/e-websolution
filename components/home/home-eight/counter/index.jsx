@@ -13,21 +13,21 @@ function Counter() {
 					</div>
 					<div className="sofax-counter-data  counterv8">
 						<h2>
-							<CountUp className="sofax-counter" end={150} duration={3} redraw={true} enableScrollSpy />+
+							<CountUp className="sofax-counter" end={500} duration={3} redraw={true} enableScrollSpy />+
 						</h2>
 						<p>Satisfied Clients</p>
 					</div>
 					<div className="border-right3"></div>
 					<div className="sofax-counter-data  counterv8">
 						<h2>
-							<CountUp className="sofax-counter" end={70} duration={3} redraw={true} enableScrollSpy />+
+							<CountUp className="sofax-counter" end={300} duration={3} redraw={true} enableScrollSpy />+
 						</h2>
 						<p>Finished Projects</p>
 					</div>
 					<div className="border-right4"></div>
 					<div className="sofax-counter-data  counterv8">
 						<h2>
-							<CountUp className="sofax-counter" end={15} duration={3} redraw={true} enableScrollSpy />+
+							<CountUp className="sofax-counter" end={25} duration={3} redraw={true} enableScrollSpy />+
 						</h2>
 						<p>Skilled Experts</p>
 					</div>

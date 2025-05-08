@@ -5,7 +5,7 @@ import slide4 from "@/public/images/slider/banner.jpg";
 
 const slideContent = [
   {
-    title: " #1 Choice for Digital Marketing—Transforming Brands, Maximizing Reach",
+    title: "India's Leading Website Designing & Development Agency",  // previous title: "#1 Choice for Digital Marketing—Transforming Brands, Maximizing Reach",
     description: "High-quality website, SEO, and marketing solutions at prices designed for every budget.",
     buttonOneText: "Get Started",
     buttonOneLink: "/services",
@@ -15,7 +15,7 @@ const slideContent = [
   },
   {
     // title: "Best & Affordable Plans for Every Business Size",
-    title: "India's Fastest Growing No. 1 Digital Marketing Agency",
+    title: "India's No. 1 Fastest Growing Digital Marketing Agency",
     description: "We help your brand grow with expert digital strategies and data-driven solutions.",
     buttonOneText: "View Services",
     buttonOneLink: "/services",
@@ -24,7 +24,7 @@ const slideContent = [
     imageUrl: slide4,
   },
   {
-    title: "Hurry Up! Let’s Grow Your Business Today & Together",
+    title: "Hurry Up! Let’s Grow Your Business Today on Digital Platform",
     description: "Act now and grow your business with our expert digital solutions, tailored for success.",
     buttonOneText: "Act Now",
     buttonOneLink: "/services",
