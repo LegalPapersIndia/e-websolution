@@ -8,6 +8,7 @@ import SingleServiceDetails from "@/components/service-page/service-features";
 import Projects from "@/components/service-page/projects";
 import Features from "@/components/service-page/feautres";
 import Testimonials from "@/components/service-page/testimonials";
+import PortfolioFilter from "@/components/project-filter/PortfolioFilter";
 import Prices from "@/components/service-page/price-plan";
 import Icon5 from "@/public/images/service/icon5.png";
 import AboutThumb from "@/public/images/services/webiste/web-design/about.jpg";
@@ -71,7 +72,7 @@ const smallBusinessFeatures = [
 /* Service Features */
 
 const serviceData = {
-	title: "Our Web Design Approach",
+	title: "Why Choose Us",
 	shapeImage: Shape2,
 	strategyTitle: "Web Design strategies",
 	strategyDescription:
@@ -256,15 +257,16 @@ function SingleService() {
 					{ icon: Icon5, text: "Smooth Integration with Essential Tools" },
 				]}
 			/>
-			<Features title="Key Features" features={smallBusinessFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Affordable Pricing for Small Businesses" />
-			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Our Recent Website Designs"
 				projectsData={customProjects}
 				viewAllLink="/projects"
 			/>
+			<PortfolioFilter />
+			<Features title="Key Features" features={smallBusinessFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

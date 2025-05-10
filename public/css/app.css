@@ -945,7 +945,7 @@ blockquote {
 	color: #7b878c;
 }
 
-.white-color{
+.white-color {
 	color: #fff;
 }
 
@@ -2712,7 +2712,7 @@ a.social-icon img {
 	background-color: var(--heading-color);
 }
 
-.sofax-default-btn:hover svg path{
+.sofax-default-btn:hover svg path {
 	fill: var(--white-color);
 }
 
@@ -2806,7 +2806,7 @@ a.sofax-icon-btn img {
 }
 
 .sofax-default-btn .button-wraper,
-.sofax-integration-btn .button-wraper{
+.sofax-integration-btn .button-wraper {
 	transition: opacity 0.2s, transform 0.2s;
 	transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
@@ -2933,6 +2933,12 @@ select {
 
 select:focus-visible {
 	outline: navajowhite;
+}
+
+select.form-select:focus {
+	border: 1px solid var(--accent-color) !important;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 11 6-6 6 6'/%3e%3c/svg%3e");
+	transition: background-image 0.5s ease-in-out;
 }
 
 select:focus {
@@ -5276,11 +5282,11 @@ h1.post__title {
 	}
 }
 
-.sofax-testimonial-author-data h5{
+.sofax-testimonial-author-data h5 {
 	font-size: 18px;
 }
 
-.sofax-testimonial-author-data p{
+.sofax-testimonial-author-data p {
 	font-size: 16px;
 }
 
@@ -5580,7 +5586,8 @@ h1.post__title {
 }
 
 .sofax-testimonial-authore-data p {
-	font-size: 16px;;
+	font-size: 16px;
+	;
 }
 
 .sofax-testimonial-authore-icon ul li {
@@ -5646,6 +5653,7 @@ h1.post__title {
 	transition: all 0.4s;
 	justify-content: center;
 }
+
 /* 
 .sofax-social-icon ul li a:hover {
 	background-color: var(--accent-color);
@@ -5656,16 +5664,16 @@ h1.post__title {
 }
 
 .sofax-social-icon ul li a.facebook:hover {
-	background-color: #1877F2;
+	background-color: #0466ff;
 }
 
 .sofax-social-icon ul li a.instagram:hover {
 	background: #d6249f;
-  	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 
 .sofax-social-icon ul li a.linkedin:hover {
-	background-color: #0A66C2;
+	background-color: #047ba5;
 }
 
 .sofax-social-icon ul li a:hover svg path {
@@ -6796,11 +6804,11 @@ h1.post__title {
 	justify-content: center;
 	transition: all 0.4s ease-in-out;
 }
-  
+
 .payment-btn:hover {
 	transform: scale(1.05);
 }
-  
+
 
 .sofax-hero-shape-v8 {
 	position: absolute;
@@ -7392,7 +7400,7 @@ a.sofax-connect-login img {
 }
 
 .sofax-portfolio-thumb {
-	margin-bottom: 24px;
+	margin-bottom: 18px;
 }
 
 @media (max-width: 991px) {
@@ -7431,8 +7439,8 @@ a.sofax-connect-login img {
 	.sofax-inner-service-thumb img {
 		width: 50%;
 		display: block;
-        margin-left: auto;
-        margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -7440,8 +7448,8 @@ a.sofax-connect-login img {
 	.sofax-inner-service-thumb img {
 		width: 70%;
 		display: block;
-        margin-left: auto;
-        margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -8745,7 +8753,7 @@ img.plasicon {
 	}
 }
 
-.integration-vertsion7 p{
+.integration-vertsion7 p {
 	margin-top: 12px;
 	font-size: 17px;
 }
@@ -8761,6 +8769,129 @@ img.plasicon {
 		padding: 15px 0;
 	}
 }
+
+/* PortfolioFilter.css */
+
+.portfolio-filter-wrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.filter-controls {
+	position: relative;
+	flex: 0 0 80%;
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.search-icon {
+	position: absolute;
+	left: 12px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #888;
+	pointer-events: none;
+	z-index: 2;
+  }
+
+.filter-controls select {
+	border-radius: 500px;
+}
+
+.filter-controls input {
+	padding: 1.8rem 1rem;
+}
+
+.filter-controls input:focus {
+	border-color: var(--accent-color) !important;
+	box-shadow: -8px -8px 0px -3px var(--accent-color) inset;
+	outline: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.filter-controls select,
+.filter-controls input {
+	flex: 1 1 45%;
+	min-width: 200px;
+	padding-left: 20px;
+}
+
+.clear-filter-button {
+	flex: 0 0 18%;
+	min-width: 150px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.clear-filter-button button.clear-filter-btn {
+	font-weight: 700;
+	background-color: var(--accent-color);
+	color: var(--white-color) !important;
+	border-radius: 50px;
+	font-size: 16px;
+	padding: 8px;
+	position: static;
+	width: 100%;
+	height: 50px;
+	transition: all 0.4s;
+}
+
+.clear-filter-button button.clear-filter-btn:hover {
+	background-color: var(--heading-color);
+}
+
+@media (max-width: 768px) {
+
+	.filter-controls,
+	.clear-filter-button {
+		flex: 100%;
+	}
+
+	.filter-controls select,
+	.filter-controls input,
+	.clear-filter-button button {
+		width: 100%;
+	}
+
+	.clear-filter-button {
+		justify-content: center;
+	}
+}
+
+.view-more-btn {
+	font-weight: 700;
+	background-color: var(--accent-color);
+	color: var(--white-color) !important;
+	border-radius: 50px;
+	font-size: 16px;
+	padding: 8px 20px;
+	position: static;
+	width: 200px;
+	max-width: 100%;
+	height: 50px;
+	transition: all 0.4s;
+	text-align: center;
+	display: inline-block;
+}
+
+/* Hover effect */
+.view-more-btn:hover {
+	background-color: var(--heading-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.view-more-btn {
+		width: 100%;
+		font-size: 15px;
+		padding: 10px;
+	}
+}
+
 
 /*1.3 pages css*/
 /* top scroll */
@@ -9265,7 +9396,7 @@ ul.list-unstyled li {
 	text-decoration: none;
 }
 
-.item-link-icon{
+.item-link-icon {
 	transition: transform 0.3s ease;
 }
 
@@ -9891,9 +10022,9 @@ ul.list-unstyled li {
 	transform: translate(-50%, -50%);
 }
 
-.contact-form-title{
+.contact-form-title {
 	color: var(--white-color);
-	font-size: 28px ;
+	font-size: 28px;
 }
 
 .contact-call-text {
@@ -10041,6 +10172,7 @@ ul.list-unstyled li {
 .sofax-form-box .contact-tnc {
 	color: var(--heading-color);
 }
+
 .sofax-form-box .contact-tnc:hover {
 	font-weight: 600;
 }
@@ -10335,17 +10467,22 @@ button#sofax-submit-btn:hover {
 }
 
 .sofax-portfolio-author-data h4 {
-	margin-bottom: 5px;
+	font-size: 20px;
+	margin-bottom: 1.5px;
 }
 
 .sofax-portfolio-author-data p {
+	font-size: 18px;
 	color: var(--body-color);
+}
+
+.sofax-portfolio-author-icon img{
+	width: 90%;
 }
 
 .sofax-portfolio-author-icon {
 	align-self: center;
 	transform: translateX(-20px);
-	/* Initially move 10px left */
 	transition: transform 0.3s ease-in-out;
 }
 
