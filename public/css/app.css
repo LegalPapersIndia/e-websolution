@@ -2652,8 +2652,8 @@ a.social-icon img {
 #sofax-submit-btn.outline-btn {
 	padding: 17px 40px;
 	background-color: transparent;
-	color: var(--white-color) !important;
-	border: 1px solid var(--white-color);
+	color: var(--heading-color) !important;
+	border: 1px solid var(--heading-color);
 	transition: all 0.4s;
 }
 
@@ -2662,6 +2662,15 @@ a.social-icon img {
 	background: var(--accent-color);
 	color: var(--white-color) !important;
 	border: 1px solid var(--accent-color);
+}
+
+.sofax-default-btn.outline-btn-slider,
+#sofax-submit-btn.outline-btn-slider {
+	padding: 17px 40px;
+	background-color: transparent;
+	color: var(--white-color) !important;
+	border: 1px solid var(--white-color);
+	transition: all 0.4s;
 }
 
 .sofax-default-btn.dark-btn,
@@ -6121,6 +6130,82 @@ h1.post__title {
 	border-top: 1px solid var(--light-color);
 }
 
+.pricing-card-header {
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid var(--grey-color);
+}
+
+.pricing-title {
+	font-size: 32px;
+	font-weight: 700;
+	color: var(--heading-color);
+	margin-bottom: 4px;
+}
+
+.pricing-subtitle {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.pricing-info-box {
+	display: inline-block;
+	background: #fff;
+	border: 1px solid var(--border-color);
+	border-radius: 10px;
+	padding: 5px 5px;
+	margin-bottom: 5px;
+}
+
+.pricing-top-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.pricing-amount {
+	font-size: 22px;
+	font-weight: 700;
+	color: var(--primary-color);
+}
+
+.pricing-bottom-row {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 0px;
+	font-size: 14px;
+}
+
+.pricing-original {
+	font-weight: 600;
+	text-decoration: line-through;
+	color: var(--text-light);
+}
+
+.pricing-discount {
+	color: #d9531e;
+	font-weight: 600;
+}
+
+.pricing-pay-today,
+.pricing-renew {
+	font-weight: 600;
+	font-size: 14px;
+	color: var(--body-color);
+	margin: 0;
+}
+
+.pricing-gst-note {
+	color: red;
+	font-size: 14px;
+	font-style: italic;
+}
+
+
 .sofax-hero-shape {
 	position: absolute;
 	left: 0;
@@ -9072,6 +9157,30 @@ img.plasicon {
 .sofax-service-table-btn:hover .sofax-default-btn.outline-btn {
 	background-color: var(--accent-color);
 	border: 1px solid var(--accent-color);
+}
+
+.sofax-pricing-body button.sofax-default-btn.small {
+  padding: 6px 10px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: var(--grey-color);
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.sofax-pricing-body button.sofax-default-btn.small:hover {
+  background-color: var(--heading-color);
+}
+
+.sofax-pricing-body button svg {
+  vertical-align: middle;
+  margin-left: 6px;
 }
 
 .sofax-service-table-titlev5 {

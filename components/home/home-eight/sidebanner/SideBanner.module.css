@@ -1,7 +1,6 @@
-.sideBannerBox {
+/* .sideBannerBox {
     position: fixed;
     left: -160px;
-    /* Partially visible */
     top: 50%;
     transform: translateY(-50%);
     width: 200px;
@@ -12,6 +11,22 @@
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     transition: left 1s ease;
+} */
+
+.sideBannerBox {
+  position: fixed;
+  left: -160px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  z-index: 9999;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: left 1s ease;
+  perspective: 1000px;
 }
 
 .sideBannerBox:hover {

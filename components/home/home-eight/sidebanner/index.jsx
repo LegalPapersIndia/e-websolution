@@ -35,10 +35,11 @@ const SideBanner = () => {
         <motion.div
           key={index}
           className={styles.bannerItem}
-          initial={{ x: 100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          exit={{ x: -100, opacity: 0 }}
-          transition={{ duration: 0.5 }}
+          initial={{ rotateY: 90, opacity: 0 }}
+          animate={{ rotateY: 0, opacity: 1 }}
+          exit={{ rotateY: -90, opacity: 0 }}
+          transition={{ duration: 0.6, ease: 'easeInOut' }}
+          style={{ transformStyle: 'preserve-3d' }}
         >
           <img src={banners[index].image} alt={banners[index].title} className={styles.bannerImage} />
           <h3 className={styles.bannerTitle}>{banners[index].title}</h3>

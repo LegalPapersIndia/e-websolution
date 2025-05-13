@@ -29,7 +29,7 @@ function PricePlan({ pricingPlans = [], sectionTitle = "Discover the Right Price
 					</div>
 				</div>
 
-				<div className="pricing-btn">
+				{/* <div className="pricing-btn">
 					<label>Per Month</label>
 					<div className="toggle-btn">
 						<input
@@ -39,7 +39,7 @@ function PricePlan({ pricingPlans = [], sectionTitle = "Discover the Right Price
 						/>
 					</div>
 					<label>Per Year</label>
-				</div>
+				</div> */}
 
 				<div className="row" id="table-price-value">
 					{pricingPlans.map((pricing, index) => (

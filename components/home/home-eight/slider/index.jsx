@@ -216,7 +216,7 @@ const HeroSlider = () => {
                                         </Link>
                                     </FadeInStaggerTwoChildren>
                                     <FadeInStaggerTwoChildren>
-                                        <Link className="sofax-default-btn pill outline-btn" data-text={buttonTwoText} href={buttonTwoLink}>
+                                        <Link className="sofax-default-btn pill outline-btn-slider" data-text={buttonTwoText} href={buttonTwoLink}>
                                             <span className="button-wraper">{buttonTwoText}</span>
                                         </Link>
                                     </FadeInStaggerTwoChildren>

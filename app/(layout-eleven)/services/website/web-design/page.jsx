@@ -121,50 +121,74 @@ const customProjects = [
 
 const smallBusinessPricing = [
 	{
-		id: 1,
-		plan: "Essential",
-		price: [
-			{ id: 1, value: 30 },
-			{ id: 2, value: 8 },
-		],
-		features: [
-			"One Page Website",
-			"Mobile Responsive",
-			"SEO Friendly Design",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Professional",
-		price: [
-			{ id: 1, value: 55 },
-			{ id: 2, value: 12 },
-		],
-		features: [
-			"Multi Page Website",
-			"Free Hosting for 1 Year",
-			"Custom Contact Forms",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Enterprise",
-		price: [
-			{ id: 1, value: 75 },
-			{ id: 2, value: 20 },
-		],
-		features: [
-			"Advanced CMS Integration",
-			"E-commerce Ready",
-			"Dedicated Support",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+    id: 1,
+    plan: "Bronze",
+    description: "Great for first-time users.",
+    duration: "24 Month",
+    pricePerMonth: "1187",
+    originalPrice: "58000",
+    savings: "103.61%",
+    payToday: "28486",
+    renewsAt: "9995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Responsive Design",
+      "5 Pages Included",
+      "Basic SEO Setup",
+      "SSL Certificate",
+      "Email Support",
+      "Blog Setup",
+      "Google Analytics Integration"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "Silver",
+    description: "Ideal for new blogs and startups.",
+    duration: "12 Month",
+    pricePerMonth: "2499",
+    originalPrice: "39000",
+    savings: "30.04%",
+    payToday: "29990",
+    renewsAt: "14995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Bronze",
+      "Up to 10 Pages",
+      "Advanced SEO",
+      "Monthly Backups",
+      "Priority Email Support",
+      "Blog Management Tools",
+      "Speed Optimization"
+    ],
+    featureIcon,
+    highlighted: true // Silver is "Recommended"
+  },
+  {
+    id: 3,
+    plan: "Gold",
+    description: "Optimized for growing businesses.",
+    duration: "12 Month",
+    pricePerMonth: "3333",
+    originalPrice: "49000",
+    savings: "22.53%",
+    payToday: "39990",
+    renewsAt: "19995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Silver",
+      "Unlimited Pages",
+      "E-commerce Integration",
+      "24/7 Phone Support",
+      "Custom Features",
+      "Dedicated Manager",
+      "Performance Reports"
+    ],
+    featureIcon,
+    highlighted: false
+  },
 ];
 
 /* Testimonials */
@@ -258,11 +282,11 @@ function SingleService() {
 				]}
 			/>
 			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Affordable Pricing for Small Businesses" />
-			<Projects
+			{/* <Projects
 				title="Our Recent Website Designs"
 				projectsData={customProjects}
 				viewAllLink="/projects"
-			/>
+			/> */}
 			<PortfolioFilter />
 			<Features title="Key Features" features={smallBusinessFeatures} />
 			{/* <AutoSlider /> */}
