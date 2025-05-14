@@ -5956,6 +5956,7 @@ h1.post__title {
 }
 
 .sofax-pricing-body {
+	margin-top: 10px;
 	margin-bottom: 40px;
 }
 
@@ -5969,7 +5970,7 @@ h1.post__title {
 	font-size: 18px;
 	font-weight: 500;
 	padding-left: 40px;
-	margin-bottom: 8px;
+	margin-bottom: 6px;
 }
 
 .sofax-pricing-body ul li:last-child {
@@ -6188,6 +6189,9 @@ h1.post__title {
 
 .pricing-discount {
 	color: #d9531e;
+	background-color: #FFF7F2;
+	padding: 0px 10px;
+	border-radius: 8px;
 	font-weight: 600;
 }
 
@@ -7276,6 +7280,88 @@ a.sofax-connect-login img {
 	width: 100%;
 	height: 100%;
 }
+
+.google-review-card {
+  background: var(--white-color);
+  border: 1px solid var(--light-color);
+  border-radius: 12px;
+  margin: 5px 0;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.google-review-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.google-review-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.google-review-author {
+  display: flex;
+  align-items: center;
+}
+
+.author-img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-info h5 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.author-name {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-weight: 600;
+}
+
+.google-verified-icon {
+	width: 16px;
+	height: 16px;
+}
+
+.google-review-rating img {
+  margin-left: 2px;
+}
+
+.google-review-text {
+  font-size: 16px;
+  color: var(--body-color);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.see-more {
+  color: var(--accent-color);
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 5px;
+  user-select: none;
+}
+
+
+.google-review-footer {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: var(--grey-color);
+  gap: 6px;
+}
+
 
 .sofax-hero-thumb2 {
 	position: relative;

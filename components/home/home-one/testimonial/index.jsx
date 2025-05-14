@@ -17,6 +17,7 @@ const testimonialOneData = [
 		author: "Rajesh Mehra",
 		designation: "Industry: Electronics Retailer",
 		img: Thumb1Img,
+		date: "2024-09-10",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -26,6 +27,7 @@ const testimonialOneData = [
 		author: "Neha Patil",
 		designation: "Industry: Educational Consultancy",
 		img: Thumb2Img,
+		date: "2025-03-18",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -35,6 +37,7 @@ const testimonialOneData = [
 		author: "Sameer Joshi",
 		designation: "Industry: Fitness & Wellness Studio",
 		img: Thumb3Img,
+		date: "2025-02-07",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -44,16 +47,17 @@ const testimonialOneData = [
 		author: "Vikram Shetty",
 		designation: "Industry: Travel Agency",
 		img: Thumb1Img,
+		date: "2024-11-13",
 	},
 	{
 		id: crypto.randomUUID(),
 		rating: 4,
-
 		description:
 			"Their branding and website design helped us stand out. Very creative team and excellent communication throughout!",
 		author: "Aisha Sharma",
 		designation: "Industry: Handmade Skincare Prdcts",
 		img: Thumb2Img,
+		date: "2024-02-15",
 	},
 ];
 
@@ -66,6 +70,7 @@ const testimonialTwoData = [
 		author: "Deepak Malhotra",
 		designation: "Industry: Fashion & Lifestyle Brand",
 		img: Thumb1Img,
+		date: "2024-03-10",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -76,6 +81,7 @@ const testimonialTwoData = [
 		author: "Meena Iyer",
 		designation: "Industry: Home Interior Design",
 		img: Thumb2Img,
+		date: "2024-03-10",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -85,6 +91,7 @@ const testimonialTwoData = [
 		author: "Anjali Deshmukhn",
 		designation: "Industry: Online Boutique",
 		img: Thumb3Img,
+		date: "2024-03-10",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -94,6 +101,7 @@ const testimonialTwoData = [
 		author: "Manav Tiwari",
 		designation: "Industry: Insurance & Financial Advisory",
 		img: Thumb1Img,
+		date: "2024-03-10",
 	},
 	{
 		id: crypto.randomUUID(),
@@ -104,6 +112,7 @@ const testimonialTwoData = [
 		author: "Sudeep Nair",
 		designation: "Industry: Medical Clinic",
 		img: Thumb2Img,
+		date: "2024-03-10",
 	},
 ];
 

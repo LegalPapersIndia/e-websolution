@@ -8,16 +8,16 @@ import Icon from "@/public/images/v5/icon5.png";
 import SearchIcon from "@/public/images/blog/search-icon.png";
 import portfolioData from "./portfolioData";
 
-const categories = ["All", "Web Design", "Mobile App", "UI/UX", "Digital World"];
+const categories = ["All Industry", "Agriculture", "Pharmaceuticals", "Fashion", "Furniture", "Food", "Fabrication"];
 
 function PortfolioFilter() {
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("All Industry");
   const [searchTerm, setSearchTerm] = useState("");
   const [visibleCount, setVisibleCount] = useState(6);
   const portfolioRef = useRef(null);
 
   const filteredData = portfolioData.filter((item) => {
-    const matchCategory = selectedCategory === "All" || item.category === selectedCategory;
+    const matchCategory = selectedCategory === "All Industry" || item.category === selectedCategory;
     const matchSearch = item.title.toLowerCase().includes(searchTerm.toLowerCase());
     return matchCategory && matchSearch;
   });
@@ -25,7 +25,7 @@ function PortfolioFilter() {
   const visibleData = filteredData.slice(0, visibleCount);
 
   const handleClear = () => {
-    setSelectedCategory("All");
+    setSelectedCategory("All Industry");
     setSearchTerm("");
     setVisibleCount(6);
   };
