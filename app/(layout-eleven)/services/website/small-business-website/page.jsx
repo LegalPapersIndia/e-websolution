@@ -65,6 +65,7 @@ import image3 from "@/public/images/v8/image6v8.png";
 import Icon from "@/public/images/service/icon5.png";
 import Shape2 from "@/public/images/v5/shape2.png";
 import featureIcon from "@/public/images/v1/icon8.png";
+import PortfolioFilter from "@/components/project-filter/PortfolioFilter";
 
 export const metadata = {
 	title: "Best Web Designing Agency in Delhi",
@@ -301,15 +302,16 @@ function SingleService() {
 					{ icon: Icon5, text: "Integrated marketing tools for growth" },
 				]}
 			/>
-			<Features title="Key Features" features={smallBusinessFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Affordable Pricing for Small Businesses" />
-			<SingleServiceDetails serviceData={serviceData} />
-			<Projects
+			{/* <Projects
 				title="Our Recent Small Business Website Projects"
 				projectsData={customProjects}
 				viewAllLink="/projects"
-			/>
+			/> */}
+			<PortfolioFilter />
+			<Features title="Key Features" features={smallBusinessFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

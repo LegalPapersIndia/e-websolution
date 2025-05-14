@@ -27,6 +27,7 @@ import image3 from "@/public/images/v8/image6v8.png";
 import Icon from "@/public/images/service/icon5.png";
 import Shape2 from "@/public/images/v5/shape2.png";
 import featureIcon from "@/public/images/v1/icon8.png";
+import PortfolioFilter from "@/components/project-filter/PortfolioFilter";
 
 export const metadata = {
 	title: "Best Web Designing Agency in Delhi",
@@ -259,18 +260,19 @@ function SingleService() {
 					{ icon: Icon5, text: "Smart Integrations & API Syncing" },
 				]}
 			/>
-			<Features title="Key Features" features={customizeWebsiteFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices
 				pricingPlans={customizeWebsitePricing}
 				sectionTitle="Flexible Pricing for Custom Projects"
 			/>
-			<SingleServiceDetails serviceData={customizeWebsiteServiceData} />
-			<Projects
+			{/* <Projects
 				title="Custom Website Projects We've Built"
 				projectsData={customizeWebsiteProjects}
 				viewAllLink="/projects"
-			/>
+			/> */}
+			<PortfolioFilter />
+			<Features title="Key Features" features={customizeWebsiteFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={customizeWebsiteServiceData} />
 			<Testimonials data={customizeWebsiteTestimonials} />
 			<Faq faqDataGroups={customizeWebsiteFaqGroups} />
 		</>

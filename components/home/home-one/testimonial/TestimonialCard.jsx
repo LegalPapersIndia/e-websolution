@@ -76,7 +76,7 @@ function TestimonialCard({ testimonial: { rating, description, author, designati
 					<div className="author-info">
 						<h5 className="author-name">
 							{author}
-							<Image src={GoogleVerified} alt="Google Verified" width={16} height={16} className="google-verified-icon" />
+							<Image src={GoogleVerified} alt="Google Verified" width={17} height={17} className="google-verified-icon" />
 						</h5>
 					</div>
 				</div>

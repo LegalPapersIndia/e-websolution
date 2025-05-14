@@ -2,6 +2,8 @@
 import Thumb1Img from "@/public/images/v1/member1.png";
 import Thumb2Img from "@/public/images/v1/member2.png";
 import Thumb3Img from "@/public/images/v1/member3.png";
+import Thumb4Img from "@/public/images/v1/member4.png";
+import Thumb5Img from "@/public/images/v1/member5.png";
 import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -26,7 +28,7 @@ const testimonialOneData = [
 			"Highly recommend! They understood our business needs perfectly and delivered a clean, fast website with strong results.",
 		author: "Neha Patil",
 		designation: "Industry: Educational Consultancy",
-		img: Thumb2Img,
+		img: Thumb5Img,
 		date: "2025-03-18",
 	},
 	{
@@ -46,7 +48,7 @@ const testimonialOneData = [
 			"We’re ranking on Google now! Their SEO work has been effective and totally worth the investment. Totally recommended.",
 		author: "Vikram Shetty",
 		designation: "Industry: Travel Agency",
-		img: Thumb1Img,
+		img: Thumb4Img,
 		date: "2024-11-13",
 	},
 	{

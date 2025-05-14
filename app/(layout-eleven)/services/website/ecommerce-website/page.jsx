@@ -27,6 +27,7 @@ import image3 from "@/public/images/v8/image6v8.png";
 import Icon from "@/public/images/service/icon5.png";
 import Shape2 from "@/public/images/v5/shape2.png";
 import featureIcon from "@/public/images/v1/icon8.png";
+import PortfolioFilter from "@/components/project-filter/PortfolioFilter";
 
 export const metadata = {
 	title: "Best Web Designing Agency in Delhi",
@@ -256,15 +257,16 @@ function EcommerceWebsiteService() {
 					{ icon: Icon5, text: "Scalable for Future Expansion" },
 				]}
 			/>
-			<Features title="Key Features" features={ecommerceFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={ecommercePricing} sectionTitle="Flexible Pricing for Every E-commerce Need" />
-			<SingleServiceDetails serviceData={ecommerceServiceData} />
 			<Projects
 				title="Our E-commerce Website Projects"
 				projectsData={ecommerceProjects}
 				viewAllLink="/projects"
 			/>
+			<PortfolioFilter />
+			<Features title="Key Features" features={ecommerceFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={ecommerceServiceData} />
 			<Testimonials data={ecommerceTestimonials} />
 			<Faq faqDataGroups={ecommerceFaqDataGroups} />
 		</>

@@ -27,6 +27,7 @@ import image3 from "@/public/images/v8/image6v8.png";
 import Icon from "@/public/images/service/icon5.png";
 import Shape2 from "@/public/images/v5/shape2.png";
 import featureIcon from "@/public/images/v1/icon8.png";
+import PortfolioFilter from "@/components/project-filter/PortfolioFilter";
 
 export const metadata = {
 	title: "Best Web Designing Agency in Delhi",
@@ -258,15 +259,16 @@ function SingleService() {
 					{ icon: Icon5, text: "Future-Proof & Scalable Codebase" },
 				]}
 			/>
-			<Features title="Dynamic Website Features" features={dynamicWebsiteFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={dynamicWebsitePricing} sectionTitle="Flexible Plans for Dynamic Website Development" />
-			<SingleServiceDetails serviceData={serviceData} />
-			<Projects
+			{/* <Projects
 				title="Dynamic Projects We've Built"
 				projectsData={dynamicProjects}
 				viewAllLink="/projects"
-			/>
+			/> */}
+			<PortfolioFilter />
+			<Features title="Dynamic Website Features" features={dynamicWebsiteFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

@@ -27,6 +27,7 @@ import image3 from "@/public/images/v8/image6v8.png";
 import Icon from "@/public/images/service/icon5.png";
 import Shape2 from "@/public/images/v5/shape2.png";
 import featureIcon from "@/public/images/v1/icon8.png";
+import PortfolioFilter from "@/components/project-filter/PortfolioFilter";
 
 export const metadata = {
 	title: "Best Web Designing Agency in Delhi",
@@ -257,15 +258,16 @@ function SingleService() {
 					{ icon: Icon5, text: "Dedicated Enterprise Support" },
 				]}
 			/>
-			<Features title="Key Features for Large Businesses" features={largeBusinessFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={enterprisePricing} sectionTitle="Tailored Plans for Enterprise Growth" />
-			<SingleServiceDetails serviceData={serviceData} />
-			<Projects
+			{/* <Projects
 				title="Our Enterprise-Level Projects"
 				projectsData={enterpriseProjects}
 				viewAllLink="/projects"
-			/>
+			/> */}
+			<PortfolioFilter />
+			<Features title="Key Features for Large Businesses" features={largeBusinessFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={enterpriseTestimonials} />
 			<Faq faqDataGroups={enterpriseFaqDataGroups} />
 		</>

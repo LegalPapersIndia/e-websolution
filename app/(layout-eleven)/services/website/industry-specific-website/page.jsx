@@ -27,6 +27,7 @@ import image3 from "@/public/images/v8/image6v8.png";
 import Icon from "@/public/images/service/icon5.png";
 import Shape2 from "@/public/images/v5/shape2.png";
 import featureIcon from "@/public/images/v1/icon8.png";
+import PortfolioFilter from "@/components/project-filter/PortfolioFilter";
 
 export const metadata = {
 	title: "Best Web Designing Agency in Delhi",
@@ -256,15 +257,16 @@ function IndustrySpecificService() {
 					{ icon: Icon5, text: "Support for Future Growth" },
 				]}
 			/>
-			<Features title="Key Features" features={industryFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={industryPricing} sectionTitle="Pricing That Matches Your Industry Needs" />
-			<SingleServiceDetails serviceData={serviceData} />
-			<Projects
+			{/* <Projects
 				title="Industry Websites We've Delivered"
 				projectsData={industryProjects}
 				viewAllLink="/projects"
-			/>
+			/> */}
+			<PortfolioFilter />
+			<Features title="Key Features" features={industryFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>
