@@ -120,51 +120,78 @@ const ecommerceProjects = [
 /* Price Plan */
 
 const ecommercePricing = [
-	{
-		id: 1,
-		plan: "Starter Store",
-		price: [
-			{ id: 1, value: 120 },
-			{ id: 2, value: 30 },
-		],
-		features: [
-			"Up to 20 Products",
-			"Payment Gateway Integration",
-			"Mobile-Friendly Design",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Growth Store",
-		price: [
-			{ id: 1, value: 180 },
-			{ id: 2, value: 45 },
-		],
-		features: [
-			"Unlimited Products",
-			"Advanced Filtering & Sorting",
-			"Customer Account Management",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Enterprise Store",
-		price: [
-			{ id: 1, value: 250 },
-			{ id: 2, value: 70 },
-		],
-		features: [
-			"Custom Functionality",
-			"Multi-Vendor & Wholesale Setup",
-			"Ongoing Priority Support",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 16,
+    plan: "Ecom Start",
+    description: "Perfect for launching your first online store.",
+    duration: "12 Month",
+    pricePerMonth: "3333",
+    originalPrice: "50000",
+    savings: "20.04%",
+    payToday: "39990",
+    renewsAt: "17995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Up to 25 Products",
+      "Responsive Store Design",
+      "Basic Product Categories",
+      "Secure Payment Gateway Integration",
+      "Order Management System",
+      "Inventory Control Dashboard",
+      "Mobile Optimization",
+      "Basic SEO Setup"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 17,
+    plan: "Ecom Growth",
+    description: "Advanced solution for growing online businesses.",
+    duration: "12 Month",
+    pricePerMonth: "4583",
+    originalPrice: "72000",
+    savings: "23.61%",
+    payToday: "54990",
+    renewsAt: "19995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Ecom Start",
+      "Up to 100 Products",
+      "Advanced Filtering & Search",
+      "Coupon & Discount Code System",
+      "Customer Accounts & Login",
+      "Email Order Notifications",
+      "Shipping & Tax Configuration",
+      "Payment Tracking Dashboard"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 18,
+    plan: "Ecom Pro",
+    description: "Enterprise-grade e-commerce experience with full automation.",
+    duration: "12 Month",
+    pricePerMonth: "6666",
+    originalPrice: "100000",
+    savings: "20.01%",
+    payToday: "79990",
+    renewsAt: "29995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Ecom Growth",
+      "Unlimited Products",
+      "Multi-Vendor Support",
+      "Abandoned Cart Recovery",
+      "Affiliate Program Integration",
+      "Advanced Analytics & Reporting",
+      "Loyalty/Rewards System",
+      "Dedicated Support & Maintenance"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */

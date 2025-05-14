@@ -119,51 +119,75 @@ const brandPromotionProjects = [
 /* Price Plan */
 
 const brandPromotionPricing = [
-	{
-		id: 1,
-		plan: "Basic",
-		price: [
-			{ id: 1, value: 45 },
-			{ id: 2, value: 10 },
-		],
-		features: [
-			"Single Channel Promotion",
-			"Social Media Focused Campaign",
-			"Basic Analytics Report",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Advanced",
-		price: [
-			{ id: 1, value: 95 },
-			{ id: 2, value: 20 },
-		],
-		features: [
-			"Multi-Channel Campaigns",
-			"Influencer Collaboration",
-			"Advanced Analytics and Reporting",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Premium",
-		price: [
-			{ id: 1, value: 150 },
-			{ id: 2, value: 30 },
-		],
-		features: [
-			"Comprehensive Brand Strategy",
-			"Cross-Platform Integration",
-			"Dedicated Account Manager",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "Brand Seed",
+    description: "Perfect for startups and personal brands beginning their journey.",
+    duration: "3 Month",
+    pricePerMonth: "14999",
+    originalPrice: "60000",
+    savings: "25%",
+    payToday: "44997",
+    renewsAt: "29997",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Logo Enhancement",
+      "Basic Brand Guidelines",
+      "Social Media Branding",
+      "Intro Video Creation",
+      "Online Reputation Setup",
+      "1 Press Mention",
+      "Monthly Brand Audit"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "Growth Accelerator",
+    description: "Designed for growing brands seeking strong online and offline visibility.",
+    duration: "6 Month",
+    pricePerMonth: "27999",
+    originalPrice: "210000",
+    savings: "20%",
+    payToday: "167994",
+    renewsAt: "83994",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Brand Seed",
+      "Comprehensive Brand Manual",
+      "Creative Storytelling Strategy",
+      "Social Media Campaigns",
+      "Influencer Association",
+      "3 Press Mentions",
+      "Bi-Monthly Brand Health Report"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "Elite Brand Mastery",
+    description: "Top-tier branding solution for dominant market positioning.",
+    duration: "12 Month",
+    pricePerMonth: "45999",
+    originalPrice: "720000",
+    savings: "25%",
+    payToday: "539988",
+    renewsAt: "229998",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Growth Accelerator",
+      "National Brand Campaigns",
+      "TV + Print Branding Collaboration",
+      "PR Management",
+      "10+ Media Coverages",
+      "Brand Sentiment Monitoring",
+      "Quarterly Brand Review & Strategy Adjustments"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */
@@ -256,15 +280,15 @@ function SingleService() {
 					{ icon: Icon5, text: "Boosted Visibility Across Platforms" },
 				]}
 			/>
-			<Features title="Key Features" features={brandPromotionFeatures} />
-			{/* <AutoSlider /> */}
-			<SingleServiceDetails serviceData={serviceData} />
+			<Prices pricingPlans={brandPromotionPricing} sectionTitle="Affordable Brand Promotion Plans" />
 			<Projects
 				title="Our Recent Brand Promotion Campaigns"
 				projectsData={brandPromotionProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={brandPromotionPricing} sectionTitle="Affordable Brand Promotion Plans" />
+			<Features title="Key Features" features={brandPromotionFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

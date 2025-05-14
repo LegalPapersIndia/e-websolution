@@ -120,51 +120,78 @@ const industryProjects = [
 /* Price Plan */
 
 const industryPricing = [
-	{
-		id: 1,
-		plan: "Basic Industry Site",
-		price: [
-			{ id: 1, value: 60 },
-			{ id: 2, value: 15 },
-		],
-		features: [
-			"Customized Industry Template",
-			"Responsive Layout",
-			"Contact & Inquiry Forms",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Standard Industry Site",
-		price: [
-			{ id: 1, value: 90 },
-			{ id: 2, value: 25 },
-		],
-		features: [
-			"CMS Integration",
-			"Product or Service Pages",
-			"SEO & Speed Optimization",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Advanced Enterprise Site",
-		price: [
-			{ id: 1, value: 140 },
-			{ id: 2, value: 35 },
-		],
-		features: [
-			"Custom Features & APIs",
-			"Industry-Specific Tool Integration",
-			"Extended Support & Maintenance",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 19,
+    plan: "Industry Basic",
+    description: "Tailored for niche industries getting started online.",
+    duration: "12 Month",
+    pricePerMonth: "3750",
+    originalPrice: "60000",
+    savings: "16.7%",
+    payToday: "44990",
+    renewsAt: "19995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Up to 8 Custom Pages",
+      "Responsive & Mobile Friendly",
+      "Basic Branding Integration",
+      "Industry-Specific Layouts",
+      "Contact Form & Map Integration",
+      "Lead Capture Form",
+      "Basic SEO Setup",
+      "One-time Content Upload"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 20,
+    plan: "Industry Advance",
+    description: "Smart solution for businesses requiring functional depth.",
+    duration: "12 Month",
+    pricePerMonth: "4999",
+    originalPrice: "75000",
+    savings: "26.67%",
+    payToday: "54990",
+    renewsAt: "24995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Industry Basic",
+      "Up to 20 Pages with Dynamic Sections",
+      "Gallery or Portfolio Section",
+      "Industry-Based Icons & Visuals",
+      "Live Chat Integration",
+      "News/Events/Blog Module",
+      "Monthly Backup",
+      "Speed Optimization"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 21,
+    plan: "Industry Elite",
+    description: "Comprehensive, branded experience with high-end features.",
+    duration: "12 Month",
+    pricePerMonth: "7499",
+    originalPrice: "105000",
+    savings: "23.82%",
+    payToday: "79990",
+    renewsAt: "29995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Industry Advance",
+      "Unlimited Pages",
+      "Multilingual Support",
+      "Custom Features & Integrations",
+      "CRM or API Integration",
+      "Dedicated Account Manager",
+      "Monthly Reports & Insights",
+      "Premium Hosting & Maintenance"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */

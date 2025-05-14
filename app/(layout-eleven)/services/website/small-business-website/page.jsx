@@ -164,51 +164,75 @@ const customProjects = [
 /* Price Plan */
 
 const smallBusinessPricing = [
-	{
-		id: 1,
-		plan: "Starter",
-		price: [
-			{ id: 1, value: 30 },
-			{ id: 2, value: 8 },
-		],
-		features: [
-			"One Page Website",
-			"Mobile Responsive",
-			"SEO Friendly Design",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Growth",
-		price: [
-			{ id: 1, value: 55 },
-			{ id: 2, value: 12 },
-		],
-		features: [
-			"Multi Page Website",
-			"Free Hosting for 1 Year",
-			"Custom Contact Forms",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Pro",
-		price: [
-			{ id: 1, value: 75 },
-			{ id: 2, value: 20 },
-		],
-		features: [
-			"Advanced CMS Integration",
-			"E-commerce Ready",
-			"Dedicated Support",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 4,
+    plan: "Starter Biz",
+    description: "Essential package for small businesses.",
+    duration: "12 Month",
+    pricePerMonth: "1416",
+    originalPrice: "24000",
+    savings: "29.2%",
+    payToday: "16990",
+    renewsAt: "9999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Mobile-Friendly Design",
+      "Up to 5 Pages",
+      "Logo Integration",
+      "Basic SEO Setup",
+      "Contact Form & Google Maps",
+      "1 Business Email",
+      "WhatsApp Integration"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 5,
+    plan: "Growth Biz",
+    description: "Smart choice for growing small enterprises.",
+    duration: "12 Month",
+    pricePerMonth: "2333",
+    originalPrice: "39000",
+    savings: "23%",
+    payToday: "29990",
+    renewsAt: "14999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Starter",
+      "Up to 10 Pages",
+      "Image Gallery",
+      "Call-to-Action Buttons",
+      "Live Chat Integration",
+      "Google Analytics Setup",
+      "Monthly Backups"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 6,
+    plan: "Pro Biz",
+    description: "Comprehensive package for maximum growth.",
+    duration: "12 Month",
+    pricePerMonth: "3250",
+    originalPrice: "51000",
+    savings: "21.5%",
+    payToday: "39990",
+    renewsAt: "19999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Growth",
+      "Unlimited Pages",
+      "Custom Forms",
+      "E-commerce Readiness",
+      "Advanced SEO Tools",
+      "24/7 Phone & Email Support",
+      "Performance Optimization"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */

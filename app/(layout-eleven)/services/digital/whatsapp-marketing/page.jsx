@@ -119,52 +119,77 @@ const whatsappProjects = [
 /* Price Plan */
 
 const whatsappPricingPlans = [
-	{
-		id: 1,
-		plan: "Starter Plan",
-		price: [
-			{ id: 1, value: 39 },
-			{ id: 2, value: 10 },
-		],
-		features: [
-			"Up to 500 Messages/Month",
-			"One Campaign Template",
-			"Basic Analytics",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Growth Plan",
-		price: [
-			{ id: 1, value: 79 },
-			{ id: 2, value: 20 },
-		],
-		features: [
-			"Up to 2,000 Messages/Month",
-			"Multiple Campaign Templates",
-			"Automation & Scheduling",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Enterprise Plan",
-		price: [
-			{ id: 1, value: 149 },
-			{ id: 2, value: 39 },
-		],
-		features: [
-			"Unlimited Messaging",
-			"Custom Integrations",
-			"Dedicated Support Manager",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "WhatsBlast Starter",
+    description: "Perfect for startups to begin their WhatsApp outreach journey.",
+    duration: "6 Month",
+    pricePerMonth: "1666",
+    originalPrice: "14999",
+    savings: "20.01%",
+    payToday: "11999",
+    renewsAt: "7499",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Up to 10,000 Messages/Month",
+      "Message Scheduling",
+      "Text + Image Message Support",
+      "Custom Sender ID",
+      "Delivery Report Tracking",
+      "Basic Campaign Report",
+      "Email Support"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "BuzzPro Connect",
+    description: "Engage wider audiences with enriched messaging campaigns.",
+    duration: "12 Month",
+    pricePerMonth: "2999",
+    originalPrice: "53988",
+    savings: "25.94%",
+    payToday: "39988",
+    renewsAt: "15999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in WhatsBlast Starter",
+      "Up to 30,000 Messages/Month",
+      "Rich Media Support (PDF, Video, Links)",
+      "Smart Contact Segmentation",
+      "Click-through Tracking",
+      "Dedicated Campaign Manager",
+      "Chatbot Integration (Basic)"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "MaxReach Pro",
+    description: "Scale to the next level with automation and real-time analytics.",
+    duration: "12 Month",
+    pricePerMonth: "4999",
+    originalPrice: "89999",
+    savings: "33.34%",
+    payToday: "59999",
+    renewsAt: "24999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in BuzzPro Connect",
+      "Unlimited Monthly Messages",
+      "Advanced Analytics Dashboard",
+      "AI Chatbot + Live Agent Routing",
+      "CRM Integration",
+      "Real-Time Broadcast Scheduling",
+      "24/7 Support & Troubleshooting"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
+
 
 /* Testimonials */
 
@@ -256,15 +281,15 @@ function SingleService() {
 					{ icon: Icon5, text: "Live Chat & Support Integration" },
 				]}
 			/>
-			<Features title="Why Choose Our WhatsApp Marketing Services" features={whatsappMarketingFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={whatsappPricingPlans} sectionTitle="WhatsApp Marketing Plans for All Business Sizes" />
-			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Successful WhatsApp Campaigns"
 				projectsData={whatsappProjects}
 				viewAllLink="/projects"
 			/>
+			<Features title="Why Choose Our WhatsApp Marketing Services" features={whatsappMarketingFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

@@ -91,51 +91,75 @@ const googleMarketingProjects = [
 
 /* Price Plan */
 const googleMarketingPricing = [
-	{
-		id: 1,
-		plan: "Starter Plan",
-		price: [
-			{ id: 1, value: 249 },
-			{ id: 2, value: 59 },
-		],
-		features: [
-			"Google Ads Setup & Management",
-			"Basic Analytics & Tracking",
-			"Monthly Performance Summary",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Growth Plan",
-		price: [
-			{ id: 1, value: 499 },
-			{ id: 2, value: 99 },
-		],
-		features: [
-			"Multi-Channel Campaign Integration",
-			"Conversion Tracking & Optimization",
-			"Ad Creative Strategy",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Enterprise Plan",
-		price: [
-			{ id: 1, value: 899 },
-			{ id: 2, value: 169 },
-		],
-		features: [
-			"Full Google Marketing Suite Access",
-			"Custom Reports & Dashboards",
-			"Dedicated Account Manager",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "Google Launchpad",
+    description: "Kickstart your visibility with targeted Google Ads.",
+    duration: "6 Month",
+    pricePerMonth: "2999",
+    originalPrice: "23999",
+    savings: "25.01%",
+    payToday: "17999",
+    renewsAt: "11999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Google Search Ad Campaign Setup",
+      "10 Keywords Targeting",
+      "Ad Copywriting & A/B Testing",
+      "Conversion Tracking Setup",
+      "Basic Geo Targeting",
+      "Monthly Performance Report",
+      "Email Support"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "Traffic Booster",
+    description: "Drive more clicks, conversions, and sales through Google Ads.",
+    duration: "12 Month",
+    pricePerMonth: "3999",
+    originalPrice: "71988",
+    savings: "30.57%",
+    payToday: "49988",
+    renewsAt: "19999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Google Launchpad",
+      "Search + Display Network Campaigns",
+      "Up to 30 Keywords",
+      "Call Tracking Integration",
+      "Remarketing Campaigns",
+      "Competitor Ad Monitoring",
+      "Dedicated Ad Manager Support"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "Conversion Commander",
+    description: "Dominate search and display ads with data-driven strategies.",
+    duration: "12 Month",
+    pricePerMonth: "5416",
+    originalPrice: "89999",
+    savings: "33.34%",
+    payToday: "59999",
+    renewsAt: "24999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Traffic Booster",
+      "Up to 60 Targeted Keywords",
+      "YouTube Ads Setup & Management",
+      "Gmail Sponsored Promotions",
+      "Google Shopping Ads (if applicable)",
+      "Weekly Performance Optimization",
+      "24/7 Phone & Chat Support"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */
@@ -226,15 +250,15 @@ function SingleService() {
 					{ icon: Icon5, text: "Cross-Channel Campaign Support" },
 				]}
 			/>
-			<Features title="Why Choose Google Marketing with Us?" features={googleMarketingFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={googleMarketingPricing} sectionTitle="Google Marketing Plans for All Sizes" />
-			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Google Marketing Success Stories"
 				projectsData={googleMarketingProjects}
 				viewAllLink="/projects"
 			/>
+			<Features title="Why Choose Google Marketing with Us?" features={googleMarketingFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

@@ -119,51 +119,75 @@ const enterpriseProjects = [
 /* Price Plan */
 
 const enterprisePricing = [
-	{
-		id: 1,
-		plan: "Business Pro",
-		price: [
-			{ id: 1, value: 150 },
-			{ id: 2, value: 40 },
-		],
-		features: [
-			"Corporate Website (10+ Pages)",
-			"Advanced Analytics Integration",
-			"High-Speed Hosting & SSL",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Enterprise Plus",
-		price: [
-			{ id: 1, value: 250 },
-			{ id: 2, value: 65 },
-		],
-		features: [
-			"Custom CMS & CRM Integration",
-			"Advanced Security Measures",
-			"Dedicated Project Manager",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Elite Suite",
-		price: [
-			{ id: 1, value: 400 },
-			{ id: 2, value: 120 },
-		],
-		features: [
-			"Custom Applications & Portals",
-			"Enterprise Workflow Automation",
-			"24/7 Premium Support",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 7,
+    plan: "Enterprise Basic",
+    description: "Foundational plan for large-scale presence.",
+    duration: "12 Month",
+    pricePerMonth: "3332",
+    originalPrice: "60000",
+    savings: "20.02%",
+    payToday: "39990",
+    renewsAt: "19995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Responsive Enterprise Design",
+      "Up to 15 Pages",
+      "Corporate Branding Setup",
+      "Advanced SEO Configuration",
+      "Live Chat & Support Integration",
+      "Multiple Admin Access",
+      "Google Analytics & Tag Manager"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 8,
+    plan: "Enterprise Pro",
+    description: "Optimized for complex business requirements.",
+    duration: "12 Month",
+    pricePerMonth: "4416",
+    originalPrice: "72000",
+    savings: "26.4%",
+    payToday: "52990",
+    renewsAt: "24999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Enterprise Basic",
+      "Up to 25 Pages",
+      "CRM Integration",
+      "On-page & Technical SEO",
+      "High-Speed Hosting",
+      "Weekly Backups",
+      "Content Management Training"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 9,
+    plan: "Enterprise Elite",
+    description: "Ultimate package for large business scalability.",
+    duration: "12 Month",
+    pricePerMonth: "6250",
+    originalPrice: "95000",
+    savings: "21%",
+    payToday: "74990",
+    renewsAt: "32999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Enterprise Pro",
+      "Unlimited Pages",
+      "ERP/Inventory System Integration",
+      "AI Chatbot Setup",
+      "Dedicated Account Manager",
+      "Full Security Suite",
+      "Multi-language Support"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */

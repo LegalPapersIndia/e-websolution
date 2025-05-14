@@ -119,51 +119,75 @@ const paidPRProjects = [
 /* Pricing Plans */
 
 const paidPRPricingPlans = [
-	{
-		id: 1,
-		plan: "Starter",
-		price: [
-			{ id: 1, value: 300 },
-			{ id: 2, value: 50 },
-		],
-		features: [
-			"Press Release Distribution",
-			"One National Media Placement",
-			"Media Outreach for Specific Industry",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Professional",
-		price: [
-			{ id: 1, value: 600 },
-			{ id: 2, value: 120 },
-		],
-		features: [
-			"Targeted Media Outreach",
-			"Custom Press Campaign Strategy",
-			"Media Partnership for Long-Term PR",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Premium",
-		price: [
-			{ id: 1, value: 1200 },
-			{ id: 2, value: 300 },
-		],
-		features: [
-			"Comprehensive Paid PR Strategy",
-			"Multiple National & Local Placements",
-			"Crisis PR Management",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "PR Starter",
+    description: "Perfect for businesses making their first public appearance.",
+    duration: "3 Month",
+    pricePerMonth: "8999",
+    originalPrice: "36000",
+    savings: "25.01%",
+    payToday: "26997",
+    renewsAt: "17997",
+    gstNote: "*18% GST Extra",
+    features: [
+      "1 Press Release/Month",
+      "Distribution on 5+ Platforms",
+      "SEO-Optimized Copywriting",
+      "Brand Introduction Coverage",
+      "Media Placement Report",
+      "Basic Editorial Support",
+      "Email Support"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "PR Pro",
+    description: "Gain consistent media visibility and industry authority.",
+    duration: "6 Month",
+    pricePerMonth: "14999",
+    originalPrice: "108000",
+    savings: "30.56%",
+    payToday: "89994",
+    renewsAt: "44994",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in PR Starter",
+      "2 Press Releases/Month",
+      "Distribution to 10+ High Authority Platforms",
+      "Interview Coverage (1 per quarter)",
+      "Inclusion in Business News Sites",
+      "Monthly Media Performance Report",
+      "Priority Email & Chat Support"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "PR Elite",
+    description: "For top-tier brands seeking wide, high-impact media exposure.",
+    duration: "12 Month",
+    pricePerMonth: "20999",
+    originalPrice: "312000",
+    savings: "35.26%",
+    payToday: "161988",
+    renewsAt: "80988",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in PR Pro",
+      "4 Press Releases/Month",
+      "National News Media Placement",
+      "Video Interview Distribution",
+      "Guaranteed Google News Inclusion",
+      "Industry Feature Story",
+      "Dedicated PR Manager"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */
@@ -252,15 +276,15 @@ function SingleService() {
 					{ icon: Icon5, text: "ROI-Focused Strategies" },
 				]}
 			/>
-			<Features title="Key Features" features={paidPRFeatures} />
-			{/* <AutoSlider /> */}
-			<SingleServiceDetails serviceData={paidPRServiceData} />
+			<Prices pricingPlans={paidPRPricingPlans} sectionTitle="Affordable Paid PR Campaigns" />
 			<Projects
 				title="Our Successful Paid PR Campaigns"
 				projectsData={paidPRProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={paidPRPricingPlans} sectionTitle="Affordable Paid PR Campaigns" />
+			<Features title="Key Features" features={paidPRFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={paidPRServiceData} />
 			<Testimonials data={paidPRTestimonials} />
 			<Faq faqDataGroups={paidPRFaqData} />
 		</>

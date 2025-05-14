@@ -95,51 +95,75 @@ const seoProjects = [
 /* Price Plan */
 
 const seoPricingPlans = [
-	{
-		id: 1,
-		plan: "Starter SEO",
-		price: [
-			{ id: 1, value: 199 },
-			{ id: 2, value: 49 },
-		],
-		features: [
-			"Basic Keyword Optimization",
-			"Google Analytics Setup",
-			"Monthly Performance Report",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Growth SEO",
-		price: [
-			{ id: 1, value: 399 },
-			{ id: 2, value: 89 },
-		],
-		features: [
-			"Advanced Keyword Strategy",
-			"Backlink Building",
-			"On-Page SEO for 10 Pages",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Enterprise SEO",
-		price: [
-			{ id: 1, value: 699 },
-			{ id: 2, value: 149 },
-		],
-		features: [
-			"Complete SEO Audit",
-			"Custom SEO Strategy",
-			"Dedicated SEO Manager",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "Bronze",
+    description: "Perfect for startups looking to get visibility.",
+    duration: "12 Month",
+    pricePerMonth: "1999",
+    originalPrice: "36000",
+    savings: "33.36%",
+    payToday: "23988",
+    renewsAt: "11994",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Keyword Research (10 Keywords)",
+      "Basic On-Page SEO",
+      "Meta Tags Optimization",
+      "Monthly Ranking Report",
+      "Google Analytics Setup",
+      "1 Blog/Month",
+      "Mobile Optimization"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "Silver",
+    description: "Great for growing businesses aiming for local SEO impact.",
+    duration: "12 Month",
+    pricePerMonth: "2999",
+    originalPrice: "48000",
+    savings: "25.02%",
+    payToday: "35988",
+    renewsAt: "17994",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Bronze",
+      "20 Targeted Keywords",
+      "Local SEO Setup",
+      "Advanced On-Page SEO",
+      "Google My Business Optimization",
+      "2 Blogs/Month",
+      "Technical SEO Audit"
+    ],
+    featureIcon,
+    highlighted: true // Recommended
+  },
+  {
+    id: 3,
+    plan: "Gold",
+    description: "Advanced SEO strategy for national or competitive markets.",
+    duration: "12 Month",
+    pricePerMonth: "4299",
+    originalPrice: "66000",
+    savings: "21.79%",
+    payToday: "49988",
+    renewsAt: "22994",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Silver",
+      "40+ Targeted Keywords",
+      "Competitor Analysis",
+      "Conversion Tracking",
+      "Backlink Building",
+      "Weekly Ranking Reports",
+      "Dedicated SEO Manager"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */
@@ -235,12 +259,12 @@ function SingleService() {
 			<Features title="Why Choose Our SEO Services" features={seoMarketingFeatures} />
 			{/* <AutoSlider /> */}
 			<Prices pricingPlans={seoPricingPlans} sectionTitle="Flexible SEO Packages for Every Business" />
-			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="SEO Campaigns That Delivered Results"
 				projectsData={seoProjects}
 				viewAllLink="/projects"
 			/>
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

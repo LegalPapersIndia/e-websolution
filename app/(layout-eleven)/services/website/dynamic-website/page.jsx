@@ -120,51 +120,75 @@ const dynamicProjects = [
 /* Price Plan */
 
 const dynamicWebsitePricing = [
-	{
-		id: 1,
-		plan: "Dynamic Lite",
-		price: [
-			{ id: 1, value: 85 },
-			{ id: 2, value: 25 },
-		],
-		features: [
-			"5 Dynamic Pages",
-			"Basic CMS Integration",
-			"Responsive Design",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Pro Dynamic",
-		price: [
-			{ id: 1, value: 140 },
-			{ id: 2, value: 45 },
-		],
-		features: [
-			"10+ Dynamic Pages",
-			"Custom CMS & Admin Panel",
-			"Advanced Forms & User Input",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Dynamic Max",
-		price: [
-			{ id: 1, value: 220 },
-			{ id: 2, value: 70 },
-		],
-		features: [
-			"Full API Integration",
-			"User Roles & Permissions",
-			"Custom Dashboard + Automation",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 10,
+    plan: "Dynamic Start",
+    description: "Perfect for interactive small to mid-size websites.",
+    duration: "12 Month",
+    pricePerMonth: "2082",
+    originalPrice: "35000",
+    savings: "28.57%",
+    payToday: "24990",
+    renewsAt: "12495",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Dynamic Content Management",
+      "Up to 10 Pages",
+      "Contact Forms & Inquiry System",
+      "Mobile Responsive Layout",
+      "Basic SEO Optimization",
+      "CMS Access for Updates",
+      "Social Media Integration"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 11,
+    plan: "Dynamic Growth",
+    description: "Designed for growing websites needing flexibility.",
+    duration: "12 Month",
+    pricePerMonth: "2916",
+    originalPrice: "48000",
+    savings: "24.98%",
+    payToday: "34990",
+    renewsAt: "16995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Dynamic Start",
+      "Up to 20 Pages",
+      "Enhanced Page Speed Optimization",
+      "Live Chat Integration",
+      "Blog/News Module",
+      "Media Gallery & Popups",
+      "Monthly Maintenance"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 12,
+    plan: "Dynamic Advance",
+    description: "Advanced dynamic website solutions for enterprises.",
+    duration: "12 Month",
+    pricePerMonth: "4332",
+    originalPrice: "70000",
+    savings: "25%",
+    payToday: "51990",
+    renewsAt: "23995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Dynamic Growth",
+      "Unlimited Pages",
+      "Custom Dynamic Components",
+      "Real-Time Data Integration",
+      "User Registration System",
+      "Search Functionality",
+      "Admin Panel & Permissions"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */

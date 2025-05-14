@@ -119,53 +119,75 @@ const googleAdsProjects = [
 /* Price Plan */
 
 const googleAdsPricing = [
-	{
-		id: 1,
-		plan: "Starter",
-		price: [
-			{ id: 1, value: 150 },
-			{ id: 2, value: 50 },
-		],
-		features: [
-			"Keyword Research",
-			"Basic Ad Copy Creation",
-			"Monthly Performance Reports",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Professional",
-		price: [
-			{ id: 1, value: 300 },
-			{ id: 2, value: 100 },
-		],
-		features: [
-			"Comprehensive Keyword Strategy",
-			"Ad Copy Optimization",
-			"Advanced Analytics & Reporting",
-			"Monthly Budget Management",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Enterprise",
-		price: [
-			{ id: 1, value: 500 },
-			{ id: 2, value: 150 },
-		],
-		features: [
-			"Full-Scale Campaign Management",
-			"Bid Management & Strategy",
-			"Custom Ad Design",
-			"24/7 Support",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "AdStarter Boost",
+    description: "Perfect for new businesses testing Google Ads.",
+    duration: "3 Month",
+    pricePerMonth: "4999",
+    originalPrice: "18000",
+    savings: "16.68%",
+    payToday: "14997",
+    renewsAt: "15999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Campaign Setup",
+      "Keyword Research",
+      "Ad Extensions Included",
+      "Geo Targeting",
+      "Monthly Reporting",
+      "Budget Monitoring",
+      "Ad Copy Optimization"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "Growth Accelerator",
+    description: "Best for growing businesses looking for leads.",
+    duration: "6 Month",
+    pricePerMonth: "9499",
+    originalPrice: "72000",
+    savings: "20.84%",
+    payToday: "56994",
+    renewsAt: "28497",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in AdStarter",
+      "Conversion Tracking Setup",
+      "A/B Ad Testing",
+      "Retargeting Ads",
+      "Device Bid Adjustment",
+      "Custom Audience Targeting",
+      "Bi-weekly Performance Review"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "Elite PPC Mastery",
+    description: "For established brands with high ad spend needs.",
+    duration: "12 Month",
+    pricePerMonth: "14999",
+    originalPrice: "210000",
+    savings: "14.28%",
+    payToday: "153990",
+    renewsAt: "74995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Growth Accelerator",
+      "Advanced Analytics Integration",
+      "Shopping & Display Campaigns",
+      "Video Ads Management",
+      "24/7 Campaign Monitoring",
+      "Competitor Analysis",
+      "Dedicated Ad Strategist"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */
@@ -254,15 +276,15 @@ function GoogleAdsService() {
 					{ icon: Icon5, text: "Comprehensive Budget Management for Maximum ROI" },
 				]}
 			/>
-			<Features title="Google Ads Features" features={googleAdsFeatures} />
-			{/* <AutoSlider /> */}
-			<SingleServiceDetails serviceData={serviceData} />
+			<Prices pricingPlans={googleAdsPricing} sectionTitle="Flexible Google Ads Plans" />
 			<Projects
 				title="Our Successful Google Ads Campaigns"
 				projectsData={googleAdsProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={googleAdsPricing} sectionTitle="Flexible Google Ads Plans" />
+			<Features title="Google Ads Features" features={googleAdsFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

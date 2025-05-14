@@ -12,7 +12,7 @@ function TestimonialCard({
 	return (
 		<div className="sofax-iconbox-wrap">
 			<div className="sofax-iconbox-icon">
-				<Image src={image} alt="icons" />
+				<Image src={image} width={75} height={75} alt="icons" />
 			</div>
 			<div className="sofax-iconbox-data testimonial-vr8">
 				<p>{review}</p>

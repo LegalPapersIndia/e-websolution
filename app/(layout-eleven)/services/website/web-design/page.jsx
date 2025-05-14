@@ -120,76 +120,77 @@ const customProjects = [
 /* Price Plan */
 
 const smallBusinessPricing = [
-	{
+  {
     id: 1,
-    plan: "Bronze",
-    description: "Great for first-time users.",
-    duration: "24 Month",
-    pricePerMonth: "1187",
-    originalPrice: "58000",
-    savings: "103.61%",
-    payToday: "28486",
-    renewsAt: "9995",
+    plan: "Basic Design",
+    description: "Perfect for individuals and freelancers.",
+    duration: "12 Month",
+    pricePerMonth: "1166",
+    originalPrice: "20000",
+    savings: "30%",
+    payToday: "14000",
+    renewsAt: "9999",
     gstNote: "*18% GST Extra",
     features: [
       "Responsive Design",
-      "5 Pages Included",
-      "Basic SEO Setup",
-      "SSL Certificate",
-      "Email Support",
-      "Blog Setup",
-      "Google Analytics Integration"
+      "Upto 5 Pages",
+      "Basic SEO Optimization",
+      "Contact Form Integration",
+      "Mobile Friendly Layout",
+      "Social Media Links",
+      "1 Round of Revisions"
     ],
     featureIcon,
     highlighted: false
   },
   {
     id: 2,
-    plan: "Silver",
-    description: "Ideal for new blogs and startups.",
+    plan: "Pro Design",
+    description: "Ideal for startups and small businesses.",
     duration: "12 Month",
-    pricePerMonth: "2499",
-    originalPrice: "39000",
-    savings: "30.04%",
-    payToday: "29990",
-    renewsAt: "14995",
+    pricePerMonth: "1999",
+    originalPrice: "36000",
+    savings: "27.8%",
+    payToday: "25999",
+    renewsAt: "14999",
     gstNote: "*18% GST Extra",
     features: [
-      "Everything in Bronze",
+      "Everything in Basic",
       "Up to 10 Pages",
       "Advanced SEO",
-      "Monthly Backups",
-      "Priority Email Support",
-      "Blog Management Tools",
-      "Speed Optimization"
+      "Blog Setup",
+      "Basic Animations",
+      "Google Analytics Setup",
+      "Priority Email Support"
     ],
     featureIcon,
-    highlighted: true // Silver is "Recommended"
+    highlighted: true
   },
   {
     id: 3,
-    plan: "Gold",
-    description: "Optimized for growing businesses.",
+    plan: "Premium Design",
+    description: "Best for growing brands and agencies.",
     duration: "12 Month",
     pricePerMonth: "3333",
-    originalPrice: "49000",
-    savings: "22.53%",
-    payToday: "39990",
-    renewsAt: "19995",
+    originalPrice: "54000",
+    savings: "25.9%",
+    payToday: "39999",
+    renewsAt: "19999",
     gstNote: "*18% GST Extra",
     features: [
-      "Everything in Silver",
+      "Everything in Pro",
       "Unlimited Pages",
-      "E-commerce Integration",
-      "24/7 Phone Support",
-      "Custom Features",
-      "Dedicated Manager",
-      "Performance Reports"
+      "Custom UI/UX",
+      "Performance Optimization",
+      "Chatbot Integration",
+      "Dedicated Designer",
+      "Monthly Reports"
     ],
     featureIcon,
     highlighted: false
-  },
+  }
 ];
+
 
 /* Testimonials */
 

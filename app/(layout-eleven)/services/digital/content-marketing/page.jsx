@@ -119,53 +119,75 @@ const contentMarketingProjects = [
 /* Price Plan */
 
 const contentMarketingPricing = [
-	{
-		id: 1,
-		plan: "Basic",
-		price: [
-			{ id: 1, value: 40 },
-			{ id: 2, value: 10 },
-		],
-		features: [
-			"1 Blog Post/Week",
-			"Keyword Research & SEO",
-			"Basic Social Media Posts",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Growth",
-		price: [
-			{ id: 1, value: 85 },
-			{ id: 2, value: 25 },
-		],
-		features: [
-			"2 Blog Posts/Week",
-			"Advanced Content SEO & Optimization",
-			"Social Media Strategy & Posts",
-			"Content Distribution Strategy",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Premium",
-		price: [
-			{ id: 1, value: 150 },
-			{ id: 2, value: 40 },
-		],
-		features: [
-			"3+ Blog Posts/Week",
-			"Full Content Strategy Development",
-			"Video & Interactive Content Creation",
-			"Comprehensive Analytics & Reporting",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "ContentLite",
+    description: "Perfect for startups and personal brands looking to build foundational content.",
+    duration: "6 Month",
+    pricePerMonth: "1299",
+    originalPrice: "9999",
+    savings: "22.02%",
+    payToday: "7799",
+    renewsAt: "4999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "8 SEO-Optimized Blog Posts",
+      "2 Social Media Captions/Week",
+      "Keyword Research",
+      "Stock Images Included",
+      "Basic Proofreading",
+      "Content Calendar Access",
+      "Performance Tracking Dashboard"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "BrandVoice Pro",
+    description: "Ideal for growing businesses needing consistent, brand-driven content.",
+    duration: "12 Month",
+    pricePerMonth: "2499",
+    originalPrice: "45999",
+    savings: "27.18%",
+    payToday: "33499",
+    renewsAt: "14999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in ContentLite",
+      "16 Blog Articles (1000+ Words)",
+      "Weekly Social Media Content",
+      "Content Strategy Plan",
+      "Branded Visual Assets",
+      "Monthly Content Reports",
+      "Audience Engagement Boost"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "AuthorityMax",
+    description: "Built for brands aiming to dominate search and thought leadership content.",
+    duration: "12 Month",
+    pricePerMonth: "3999",
+    originalPrice: "74999",
+    savings: "26.67%",
+    payToday: "54999",
+    renewsAt: "19999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in BrandVoice Pro",
+      "24 Long-Form Articles (1500+ Words)",
+      "Thought Leadership & PR Content",
+      "Infographics & E-books",
+      "Advanced Content SEO Audits",
+      "Dedicated Content Manager",
+      "Quarterly Strategy Review"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */
@@ -254,15 +276,15 @@ function SingleService() {
 					{ icon: Icon5, text: "Long-Term Growth and Consistent Engagement" },
 				]}
 			/>
-			<Features title="Content Marketing Features" features={contentMarketingFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={contentMarketingPricing} sectionTitle="Affordable Content Marketing Plans for Every Business" />
-			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Our Successful Content Marketing Campaigns"
 				projectsData={contentMarketingProjects}
 				viewAllLink="/projects"
 			/>
+			<Features title="Content Marketing Features" features={contentMarketingFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

@@ -119,51 +119,75 @@ const customProjects = [
 /* Price Plan */
 
 const smallBusinessPricing = [
-	{
-		id: 1,
-		plan: "Starter",
-		price: [
-			{ id: 1, value: 49 },
-			{ id: 2, value: 12 },
-		],
-		features: [
-			"Up to 2 Campaigns/Month",
-			"Basic Email Templates",
-			"Performance Tracking",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Growth",
-		price: [
-			{ id: 1, value: 99 },
-			{ id: 2, value: 25 },
-		],
-		features: [
-			"Up to 6 Campaigns/Month",
-			"Custom Template Design",
-			"List Segmentation & A/B Testing",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Pro",
-		price: [
-			{ id: 1, value: 149 },
-			{ id: 2, value: 40 },
-		],
-		features: [
-			"Unlimited Campaigns",
-			"Advanced Automation",
-			"Dedicated Campaign Manager",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "InstaMailer Basic",
+    description: "Designed for beginners to kickstart their email campaigns effectively.",
+    duration: "6 Month",
+    pricePerMonth: "999",
+    originalPrice: "8999",
+    savings: "22.24%",
+    payToday: "6999",
+    renewsAt: "4999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Send Up to 25,000 Emails/Month",
+      "Responsive Email Templates",
+      "Email List Management",
+      "Basic Performance Analytics",
+      "Drag & Drop Editor",
+      "Unsubscribe & Bounce Tracking",
+      "Standard Delivery Speed"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "ReachBoost Plus",
+    description: "Perfect for small businesses looking for high engagement and reliability.",
+    duration: "12 Month",
+    pricePerMonth: "1999",
+    originalPrice: "35988",
+    savings: "27.79%",
+    payToday: "25988",
+    renewsAt: "11999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in InstaMailer Basic",
+      "Send Up to 100,000 Emails/Month",
+      "A/B Testing",
+      "Advanced Email Scheduling",
+      "Custom Domain Tracking",
+      "Behavioral Targeting",
+      "Dedicated IP Option"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "EngageElite Pro",
+    description: "Best for enterprises and marketers requiring deep insights and automation.",
+    duration: "12 Month",
+    pricePerMonth: "3499",
+    originalPrice: "65999",
+    savings: "27.28%",
+    payToday: "47999",
+    renewsAt: "17999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in ReachBoost Plus",
+      "Unlimited Monthly Emails",
+      "CRM & E-commerce Integration",
+      "Advanced Campaign Automation",
+      "Real-Time Delivery Reports",
+      "AI-Powered List Segmentation",
+      "24/7 Priority Support"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */
@@ -255,15 +279,15 @@ function SingleService() {
 					{ icon: Icon5, text: "Seamless CRM & Tool Integration" },
 				]}
 			/>
-			<Features title="Email Marketing Features" features={smallBusinessFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={smallBusinessPricing} sectionTitle="Flexible Plans for Every Stage of Growth" />
-			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Email Campaigns We've Delivered"
 				projectsData={customProjects}
 				viewAllLink="/projects"
 			/>
+			<Features title="Email Marketing Features" features={smallBusinessFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

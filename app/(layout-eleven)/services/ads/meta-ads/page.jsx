@@ -119,51 +119,75 @@ const metaAdsProjects = [
 /* Price Plan */
 
 const metaAdsPricing = [
-	{
-		id: 1,
-		plan: "Starter",
-		price: [
-			{ id: 1, value: 50 },
-			{ id: 2, value: 15 },
-		],
-		features: [
-			"Ad Creation & Setup",
-			"Basic Audience Targeting",
-			"Basic Campaign Monitoring",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Growth",
-		price: [
-			{ id: 1, value: 150 },
-			{ id: 2, value: 30 },
-		],
-		features: [
-			"Advanced Audience Targeting",
-			"Retargeting Ads",
-			"Campaign Optimization & Analytics",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Enterprise",
-		price: [
-			{ id: 1, value: 300 },
-			{ id: 2, value: 50 },
-		],
-		features: [
-			"Comprehensive Meta Ads Strategy",
-			"Full Campaign Management",
-			"Dedicated Support & Consultation",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "Social Launchpad",
+    description: "Great for small brands starting with Meta Ads.",
+    duration: "3 Month",
+    pricePerMonth: "4499",
+    originalPrice: "16500",
+    savings: "18.2%",
+    payToday: "13497",
+    renewsAt: "14997",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Ad Account Setup",
+      "Facebook & Instagram Campaigns",
+      "Target Audience Creation",
+      "Creative Guidance",
+      "Basic Ad Copywriting",
+      "Monthly Report",
+      "Budget Optimization"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "Engage Pro",
+    description: "Built for brands aiming to scale with engagement.",
+    duration: "6 Month",
+    pricePerMonth: "8999",
+    originalPrice: "66000",
+    savings: "18.17%",
+    payToday: "53994",
+    renewsAt: "26997",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Social Launchpad",
+      "Lookalike Audience Targeting",
+      "Retargeting Campaigns",
+      "Ad Creative Variants",
+      "Weekly Insights",
+      "Pixel Integration",
+      "Story & Reel Promotion"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "AdDominance Suite",
+    description: "Advanced advertising for high-growth campaigns.",
+    duration: "12 Month",
+    pricePerMonth: "13999",
+    originalPrice: "198000",
+    savings: "22.71%",
+    payToday: "153588",
+    renewsAt: "69995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Engage Pro",
+      "Video Ad Campaigns",
+      "Advanced Funnel Strategy",
+      "Conversion Tracking",
+      "Ad Spend Forecasting",
+      "24/7 Monitoring & Adjustments",
+      "Dedicated Meta Ads Manager"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */
@@ -252,15 +276,15 @@ function MetaAdsServicePage() {
 					{ icon: Icon5, text: "Dedicated Ad Campaign Management" },
 				]}
 			/>
-			<Features title="Key Features of Meta Ads" features={metaAdsFeatures} />
-			{/* <AutoSlider /> */}
-			<SingleServiceDetails serviceData={serviceData} />
+			<Prices pricingPlans={metaAdsPricing} sectionTitle="Flexible Meta Ads Pricing Plans" />
 			<Projects
 				title="Our Successful Meta Ads Campaigns"
 				projectsData={metaAdsProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={metaAdsPricing} sectionTitle="Flexible Meta Ads Pricing Plans" />
+			<Features title="Key Features of Meta Ads" features={metaAdsFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

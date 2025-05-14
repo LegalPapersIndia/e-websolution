@@ -119,53 +119,75 @@ const customProjects = [
 /* Price Plan */
 
 const socialMediaPricing = [
-	{
-		id: 1,
-		plan: "Starter",
-		price: [
-			{ id: 1, value: 150 },
-			{ id: 2, value: 30 },
-		],
-		features: [
-			"One Platform Promotion",
-			"10 Posts per Month",
-			"Basic Engagement & Analytics",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Advanced",
-		price: [
-			{ id: 1, value: 300 },
-			{ id: 2, value: 50 },
-		],
-		features: [
-			"Two Platform Promotion",
-			"30 Posts per Month",
-			"Advanced Analytics & Engagement",
-			"Custom Ad Campaigns",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Enterprise",
-		price: [
-			{ id: 1, value: 500 },
-			{ id: 2, value: 100 },
-		],
-		features: [
-			"Multi-Platform Promotion",
-			"Unlimited Posts",
-			"Comprehensive Analytics & Reporting",
-			"24/7 Support & Strategy Consultation",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "Social Spark",
+    description: "Kickstart your brand presence on major social platforms.",
+    duration: "3 Month",
+    pricePerMonth: "7999",
+    originalPrice: "36000",
+    savings: "33.35%",
+    payToday: "23997",
+    renewsAt: "17997",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Profile Optimization (FB & Insta)",
+      "12 Posts/Month",
+      "Hashtag Strategy",
+      "Engagement Boosting",
+      "Monthly Reporting",
+      "1 Ad Campaign (₹2000 Budget Included)",
+      "Content Calendar Planning"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "Viral Vibe",
+    description: "Amplify brand buzz across platforms with targeted campaigns.",
+    duration: "6 Month",
+    pricePerMonth: "13499",
+    originalPrice: "108000",
+    savings: "25.01%",
+    payToday: "80994",
+    renewsAt: "40494",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Social Spark",
+      "Multi-Platform Support (FB, Insta, Twitter)",
+      "Ad Spend Planning & Execution",
+      "24 Posts/Month",
+      "Story Highlights Design",
+      "Bi-Weekly Analytics",
+      "Influencer Shoutout Coordination"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "Trend Dominator",
+    description: "Dominate social media trends with pro strategies and viral content.",
+    duration: "12 Month",
+    pricePerMonth: "19999",
+    originalPrice: "300000",
+    savings: "33.34%",
+    payToday: "159990",
+    renewsAt: "79995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Viral Vibe",
+      "Short Video/Reel Creation (4/month)",
+      "Trend Monitoring & Execution",
+      "Advanced Audience Targeting",
+      "Cross-Platform Strategy (LinkedIn, YouTube Shorts included)",
+      "Monthly Strategy Review",
+      "Dedicated Social Media Manager"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */
@@ -258,15 +280,15 @@ function SingleService() {
 					{ icon: Icon5, text: "Creative & Compelling Content" },
 				]}
 			/>
-			<Features title="Key Features" features={socialMediaPromotionFeatures} />
-			{/* <AutoSlider /> */}
-			<SingleServiceDetails serviceData={serviceData} />
+			<Prices pricingPlans={socialMediaPricing} sectionTitle="Affordable Social Media Plans for Every Business" />
 			<Projects
 				title="Our Successful Social Media Campaigns"
 				projectsData={customProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={socialMediaPricing} sectionTitle="Affordable Social Media Plans for Every Business" />
+			<Features title="Key Features" features={socialMediaPromotionFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

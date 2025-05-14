@@ -119,51 +119,75 @@ const tvAdsProjects = [
 /* Price Plan */
 
 const tvAdsPricing = [
-	{
-		id: 1,
-		plan: "Basic",
-		price: [
-			{ id: 1, value: 500 },
-			{ id: 2, value: 100 },
-		],
-		features: [
-			"30-Second Commercial",
-			"Targeted Ad Placement",
-			"Broadcast on Local Channels",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Premium",
-		price: [
-			{ id: 1, value: 1000 },
-			{ id: 2, value: 200 },
-		],
-		features: [
-			"60-Second Commercial",
-			"Targeted National Ad Placement",
-			"Creative Script Writing",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Elite",
-		price: [
-			{ id: 1, value: 1500 },
-			{ id: 2, value: 500 },
-		],
-		features: [
-			"Full Campaign Strategy",
-			"National and Global Placement",
-			"High-Quality Video Production",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "Local Spotlight",
+    description: "Perfect for regional exposure on local channels.",
+    duration: "3 Month",
+    pricePerMonth: "29999",
+    originalPrice: "120000",
+    savings: "16.67%",
+    payToday: "89997",
+    renewsAt: "74997",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Ad Spot on Local Channels",
+      "15-Second Commercial Slot",
+      "Targeted Time Slots",
+      "Basic Script Consultation",
+      "One-Time Ad Edit",
+      "Audience Reach Report",
+      "Campaign Scheduling"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "Prime View",
+    description: "Mid-tier campaign with prime-time TV coverage.",
+    duration: "6 Month",
+    pricePerMonth: "59999",
+    originalPrice: "420000",
+    savings: "19.05%",
+    payToday: "339996",
+    renewsAt: "179997",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Local Spotlight",
+      "30-Second Commercial Slot",
+      "Multiple Regional Channels",
+      "Ad Frequency Boost",
+      "Prime-Time Booking",
+      "Monthly Analytics Report",
+      "Creative Editing Support"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "National Prime Wave",
+    description: "Full-scale national ad presence across top channels.",
+    duration: "12 Month",
+    pricePerMonth: "99999",
+    originalPrice: "1440000",
+    savings: "22.92%",
+    payToday: "1109880",
+    renewsAt: "499995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Prime View",
+      "National TV Channel Placements",
+      "Professional Ad Production Assistance",
+      "High-Frequency Prime Slots",
+      "Audience Targeting by Region/Interest",
+      "Quarterly Strategy Review",
+      "Dedicated Media Coordinator"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */
@@ -252,15 +276,15 @@ function SingleService() {
 					{ icon: Icon5, text: "Proven ROI and Analytics" },
 				]}
 			/>
-			<Features title="Key Features" features={tvAdsFeatures} />
-			{/* <AutoSlider /> */}
-			<SingleServiceDetails serviceData={serviceData} />
+			<Prices pricingPlans={tvAdsPricing} sectionTitle="Affordable TV Ad Campaign Packages" />
 			<Projects
 				title="Our Recent TV Ad Campaigns"
 				projectsData={tvAdsProjects}
 				viewAllLink="/projects"
 			/>
-			<Prices pricingPlans={tvAdsPricing} sectionTitle="Affordable TV Ad Campaign Packages" />
+			<Features title="Key Features" features={tvAdsFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>

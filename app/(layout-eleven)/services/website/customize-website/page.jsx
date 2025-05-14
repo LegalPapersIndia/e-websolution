@@ -116,51 +116,75 @@ const customizeWebsiteProjects = [
 
 /* Price Plan */
 const customizeWebsitePricing = [
-	{
-		id: 1,
-		plan: "Essential",
-		price: [
-			{ id: 1, value: 50 },
-			{ id: 2, value: 10 },
-		],
-		features: [
-			"Up to 5 Custom Pages",
-			"Responsive Design",
-			"Contact & Inquiry Forms",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Professional",
-		price: [
-			{ id: 1, value: 85 },
-			{ id: 2, value: 18 },
-		],
-		features: [
-			"10+ Pages with Custom Features",
-			"API Integrations",
-			"Admin Dashboard or CMS",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Enterprise",
-		price: [
-			{ id: 1, value: 120 },
-			{ id: 2, value: 25 },
-		],
-		features: [
-			"Fully Tailored Architecture",
-			"Advanced Functional Modules",
-			"Dedicated Maintenance & Support",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 13,
+    plan: "Custom Basic",
+    description: "Tailored layout and features for unique business needs.",
+    duration: "12 Month",
+    pricePerMonth: "2666",
+    originalPrice: "45000",
+    savings: "25.35%",
+    payToday: "31990",
+    renewsAt: "15995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Customized Homepage Design",
+      "Upto 10 Unique Pages",
+      "Basic Functionality Integration",
+      "Mobile Responsive Design",
+      "Custom Contact & Inquiry Forms",
+      "On-Page SEO Setup",
+      "CMS Access for Edits"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 14,
+    plan: "Custom Pro",
+    description: "Advanced customization for complex website structures.",
+    duration: "12 Month",
+    pricePerMonth: "3750",
+    originalPrice: "60000",
+    savings: "22.51%",
+    payToday: "46500",
+    renewsAt: "18995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Custom Basic",
+      "Up to 20 Custom Pages",
+      "Interactive Animations",
+      "Advanced SEO Implementation",
+      "Multimedia Integration",
+      "Admin Dashboard",
+      "Monthly Website Backup"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 15,
+    plan: "Custom Enterprise",
+    description: "Full-scale web customization for enterprise-level businesses.",
+    duration: "12 Month",
+    pricePerMonth: "5249",
+    originalPrice: "85000",
+    savings: "23.53%",
+    payToday: "64990",
+    renewsAt: "24995",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Custom Pro",
+      "Unlimited Custom Pages",
+      "Integration with CRM/ERP",
+      "Custom Backend Functionality",
+      "User Access Control",
+      "API Integration Support",
+      "Dedicated Account Manager"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
 
 /* Testimonials */

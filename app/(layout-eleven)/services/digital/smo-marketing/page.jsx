@@ -91,52 +91,78 @@ const customProjects = [
 
 /* Price Plan */
 const smoPricing = [
-	{
-		id: 1,
-		plan: "Starter",
-		price: [
-			{ id: 1, value: 50 },
-			{ id: 2, value: 12 },
-		],
-		features: [
-			"2 Social Platforms",
-			"12 Posts per Month",
-			"Basic Reporting",
-		],
-		featureIcon,
-		highlighted: false,
-	},
-	{
-		id: 2,
-		plan: "Growth",
-		price: [
-			{ id: 1, value: 90 },
-			{ id: 2, value: 20 },
-		],
-		features: [
-			"Up to 4 Platforms",
-			"20+ Posts per Month",
-			"Monthly Performance Reports",
-		],
-		featureIcon,
-		highlighted: true,
-	},
-	{
-		id: 3,
-		plan: "Elite",
-		price: [
-			{ id: 1, value: 150 },
-			{ id: 2, value: 35 },
-		],
-		features: [
-			"All Major Platforms",
-			"Custom Strategy & Content",
-			"Advanced Analytics & Support",
-		],
-		featureIcon,
-		highlighted: false,
-	},
+  {
+    id: 1,
+    plan: "Social Spark",
+    description: "Perfect for individuals and small brands starting their social journey.",
+    duration: "6 Month",
+    pricePerMonth: "2166",
+    originalPrice: "19999",
+    savings: "34.07%",
+    payToday: "12999",
+    renewsAt: "9999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Facebook & Instagram Optimization",
+      "12 Branded Posts/Month",
+      "Hashtag Research & Strategy",
+      "Monthly Engagement Reports",
+      "Profile Bio & Banner Optimization",
+      "Basic Ads Setup Guidance",
+      "Email Support"
+    ],
+    featureIcon,
+    highlighted: false
+  },
+  {
+    id: 2,
+    plan: "Engage Pro",
+    description: "Best suited for growing businesses seeking deeper engagement.",
+    duration: "12 Month",
+    pricePerMonth: "2999",
+    originalPrice: "53988",
+    savings: "33.35%",
+    payToday: "35988",
+    renewsAt: "14999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "All features in Social Spark",
+      "Multi-Platform Strategy (FB, IG, Twitter)",
+      "20 Custom Posts/Month",
+      "Community Engagement (Comments & DMs)",
+      "Competitor Monitoring",
+      "Monthly Analytics Reports",
+      "Ad Boost Strategy Consultation"
+    ],
+    featureIcon,
+    highlighted: true
+  },
+  {
+    id: 3,
+    plan: "Viral Velocity",
+    description: "High-performance plan for aggressive brand visibility & growth.",
+    duration: "12 Month",
+    pricePerMonth: "4166",
+    originalPrice: "69999",
+    savings: "28.57%",
+    payToday: "49999",
+    renewsAt: "19999",
+    gstNote: "*18% GST Extra",
+    features: [
+      "Everything in Engage Pro",
+      "30+ Creative Posts/Month",
+      "Video Reels & Story Designs",
+      "Influencer Collaboration Strategy",
+      "Social Media Ad Management",
+      "Lead Generation Campaigns",
+      "24/7 Priority Support",
+      "Detailed ROI Tracking"
+    ],
+    featureIcon,
+    highlighted: false
+  }
 ];
+
 
 /* Testimonials */
 const testimonialsData = [
@@ -227,15 +253,15 @@ function SingleService() {
 					{ icon: Icon5, text: "Performance Monitoring & Improvement" },
 				]}
 			/>
-			<Features title="Key SMO Features" features={smoFeatures} />
-			{/* <AutoSlider /> */}
 			<Prices pricingPlans={smoPricing} sectionTitle="SMO Packages for Every Stage of Growth" />
-			<SingleServiceDetails serviceData={serviceData} />
 			<Projects
 				title="Our Social Media Optimization Projects"
 				projectsData={customProjects}
 				viewAllLink="/projects"
 			/>
+			<Features title="Key SMO Features" features={smoFeatures} />
+			{/* <AutoSlider /> */}
+			<SingleServiceDetails serviceData={serviceData} />
 			<Testimonials data={testimonialsData} />
 			<Faq faqDataGroups={faqDataGroups} />
 		</>
