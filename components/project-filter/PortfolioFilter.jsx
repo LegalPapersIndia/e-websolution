@@ -45,7 +45,7 @@ function PortfolioFilter() {
   };
 
   return (
-    <div className="section sofax-section-padding7" ref={portfolioRef}>
+    <div className="section sofax-section-padding7" ref={portfolioRef} id="portfolio">
       <div className="container">
         <div className="sofax-section-title center pb-50">
           <div className="tg-heading-subheading animation-style3">

@@ -9,7 +9,7 @@ const testimonialsData = [
 		id: 1,
 		image: image1,
 		rating: 5,
-		review: "We are very satisfied to with a Sofax services we have to a recived from Sofax so far. Although Sofax has to only been around.",
+		review: "We are very satisfied to with a E-websolution services we have to a recived from Sofax so far. Although Sofax has to only been around.",
 		author: {
 			name: "Derrick Turner",
 			title: "Web Developer",

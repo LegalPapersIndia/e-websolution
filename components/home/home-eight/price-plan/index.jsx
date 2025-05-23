@@ -12,8 +12,8 @@ const pricePlanData = [
 		id: crypto.randomUUID(),
 		plan: "Essential",
 		price: [
-			{ id: 1, value: 35 },
-			{ id: 2, value: 10 },
+			{ id: 1, value: 10 },
+			{ id: 2, value: 5 },
 		],
 		img: Icon7,
 		features: [
@@ -28,8 +28,8 @@ const pricePlanData = [
 		id: crypto.randomUUID(),
 		plan: "Professional",
 		price: [
-			{ id: 1, value: 48 },
-			{ id: 2, value: 15 },
+			{ id: 1, value: 15 },
+			{ id: 2, value: 10 },
 		],
 		img: Icon5,
 		features: [
@@ -44,8 +44,8 @@ const pricePlanData = [
 		id: crypto.randomUUID(),
 		plan: "Enterprise",
 		price: [
-			{ id: 1, value: 62 },
-			{ id: 2, value: 20 },
+			{ id: 1, value: 20 },
+			{ id: 2, value: 15 },
 		],
 		img: Icon6,
 		features: [

@@ -17,7 +17,14 @@ export const metadata = {
 function SingleService() {
 	return (
 		<>
-			<BreadCrumb title="Web Design & Development" bgImage={Banner} />
+			<BreadCrumb
+				bgImage={Banner}
+				trail={[
+					{ label: "Home", href: "/" },
+					{ label: "Services", href: "/services" },
+					{ label: "Website Design and Development" }
+				]}
+			/>
 			<Hero serviceId={1} imageSrc={Thumb} />
 			<Features />
 			<AutoSlider />
