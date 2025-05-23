@@ -8,7 +8,7 @@ import SingleServiceDetails from "@/components/service-page/service-features";
 import Projects from "@/components/service-page/projects";
 import Features from "@/components/service-page/feautres";
 import Testimonials from "@/components/service-page/testimonials";
-import Prices from "@/components/service-page/price-plan";
+import Prices from "@/components/service-page/price-plan-per-year";
 import Icon5 from "@/public/images/service/icon5.png";
 import AboutThumb from "@/public/images/services/webiste/large-business/about.jpg";
 
@@ -120,13 +120,13 @@ const enterpriseProjects = [
 
 const enterprisePricing = [
   {
-    id: 7,
+    id: 1,
     plan: "Enterprise Basic",
     description: "Foundational plan for large-scale presence.",
-    duration: "12 Month",
-    pricePerMonth: "3332",
-    originalPrice: "60000",
+    duration: "12 Months",
+    pricePerYear: "4999",
     savings: "20.02%",
+    originalPrice: "6250",
     payToday: "39990",
     renewsAt: "19995",
     gstNote: "*18% GST Extra",
@@ -143,11 +143,11 @@ const enterprisePricing = [
     highlighted: false
   },
   {
-    id: 8,
+    id: 2,
     plan: "Enterprise Pro",
     description: "Optimized for complex business requirements.",
-    duration: "12 Month",
-    pricePerMonth: "4416",
+    duration: "12 Months",
+    pricePerYear: "9999",
     originalPrice: "72000",
     savings: "26.4%",
     payToday: "52990",
@@ -166,11 +166,11 @@ const enterprisePricing = [
     highlighted: true
   },
   {
-    id: 9,
+    id: 3,
     plan: "Enterprise Elite",
     description: "Ultimate package for large business scalability.",
-    duration: "12 Month",
-    pricePerMonth: "6250",
+    duration: "12 Months",
+    pricePerYear: "14999",
     originalPrice: "95000",
     savings: "21%",
     payToday: "74990",

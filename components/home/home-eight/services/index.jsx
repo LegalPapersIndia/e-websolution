@@ -10,7 +10,7 @@ import TextSplitFadeIn from "../../../animation/TextSplitFadeIn";
 
 function Services() {
 	return (
-		<section className="sofax-section-padding7 bg-light" id="service">
+		<section className="sofax-section-padding7 bg-light" id="main-service">
 			<div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">

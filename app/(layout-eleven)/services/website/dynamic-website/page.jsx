@@ -8,7 +8,7 @@ import SingleServiceDetails from "@/components/service-page/service-features";
 import Projects from "@/components/service-page/projects";
 import Features from "@/components/service-page/feautres";
 import Testimonials from "@/components/service-page/testimonials";
-import Prices from "@/components/service-page/price-plan";
+import Prices from "@/components/service-page/price-plan-per-year";
 import Icon5 from "@/public/images/service/icon5.png";
 import AboutThumb from "@/public/images/services/webiste/dynamic/about.jpg";
 
@@ -121,11 +121,11 @@ const dynamicProjects = [
 
 const dynamicWebsitePricing = [
   {
-    id: 10,
+    id: 1,
     plan: "Dynamic Start",
     description: "Perfect for interactive small to mid-size websites.",
-    duration: "12 Month",
-    pricePerMonth: "2082",
+    duration: "12 Months",
+    pricePerYear: "4999",
     originalPrice: "35000",
     savings: "28.57%",
     payToday: "24990",
@@ -144,11 +144,11 @@ const dynamicWebsitePricing = [
     highlighted: false
   },
   {
-    id: 11,
+    id: 2,
     plan: "Dynamic Growth",
     description: "Designed for growing websites needing flexibility.",
-    duration: "12 Month",
-    pricePerMonth: "2916",
+    duration: "12 Months",
+    pricePerYear: "9999",
     originalPrice: "48000",
     savings: "24.98%",
     payToday: "34990",
@@ -167,11 +167,11 @@ const dynamicWebsitePricing = [
     highlighted: true
   },
   {
-    id: 12,
+    id: 3,
     plan: "Dynamic Advance",
     description: "Advanced dynamic website solutions for enterprises.",
-    duration: "12 Month",
-    pricePerMonth: "4332",
+    duration: "12 Months",
+    pricePerYear: "14999",
     originalPrice: "70000",
     savings: "25%",
     payToday: "51990",

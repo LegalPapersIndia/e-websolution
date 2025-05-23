@@ -8,7 +8,7 @@ import SingleServiceDetails from "@/components/service-page/service-features";
 import Projects from "@/components/service-page/projects";
 import Features from "@/components/service-page/feautres";
 import Testimonials from "@/components/service-page/testimonials";
-import Prices from "@/components/service-page/price-plan";
+import Prices from "@/components/service-page/price-plan-per-year";
 import Icon5 from "@/public/images/service/icon5.png";
 import AboutThumb from "@/public/images/services/webiste/industry-based/about.jpg";
 
@@ -121,11 +121,11 @@ const industryProjects = [
 
 const industryPricing = [
   {
-    id: 19,
+    id: 1,
     plan: "Industry Basic",
     description: "Tailored for niche industries getting started online.",
-    duration: "12 Month",
-    pricePerMonth: "3750",
+    duration: "12 Months",
+    pricePerYear: "4999",
     originalPrice: "60000",
     savings: "16.7%",
     payToday: "44990",
@@ -145,11 +145,11 @@ const industryPricing = [
     highlighted: false
   },
   {
-    id: 20,
+    id: 2,
     plan: "Industry Advance",
     description: "Smart solution for businesses requiring functional depth.",
-    duration: "12 Month",
-    pricePerMonth: "4999",
+    duration: "12 Months",
+    pricePerYear: "9999",
     originalPrice: "75000",
     savings: "26.67%",
     payToday: "54990",
@@ -169,11 +169,11 @@ const industryPricing = [
     highlighted: true
   },
   {
-    id: 21,
+    id: 3,
     plan: "Industry Elite",
     description: "Comprehensive, branded experience with high-end features.",
-    duration: "12 Month",
-    pricePerMonth: "7499",
+    duration: "12 Months",
+    pricePerYear: "14999",
     originalPrice: "105000",
     savings: "23.82%",
     payToday: "79990",

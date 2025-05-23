@@ -36,6 +36,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import YellowStar from "@/public/images/v1/yellow-ratting.png";
 import GoogleIcon from "@/public/images/v1/google-icon.svg";
+import Google2015Icon from "@/public/images/v1/Google_2015_logo.svg";
 import GoogleVerified from "@/public/images/v1/google-verified.svg";
 
 function getTimeAgo(dateString) {
@@ -98,6 +99,7 @@ function TestimonialCard({ testimonial: { rating, description, author, designati
 
 			<div className="google-review-footer">
 				<Image src={GoogleIcon} alt="Google Icon" width={25} height={25} />
+				{/* <Image src={Google2015Icon} alt="Google Icon" width={60} height={60} /> */}
 				<span className="review-time">{getTimeAgo(date)}</span>
 			</div>
 		</div>

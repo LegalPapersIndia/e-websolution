@@ -8,7 +8,7 @@ import SingleServiceDetails from "@/components/service-page/service-features";
 import Projects from "@/components/service-page/projects";
 import Features from "@/components/service-page/feautres";
 import Testimonials from "@/components/service-page/testimonials";
-import Prices from "@/components/service-page/price-plan";
+import Prices from "@/components/service-page/price-plan-per-year";
 import Icon5 from "@/public/images/service/icon5.png";
 import AboutThumb from "@/public/images/services/webiste/customize/about.jpg";
 
@@ -117,11 +117,11 @@ const customizeWebsiteProjects = [
 /* Price Plan */
 const customizeWebsitePricing = [
   {
-    id: 13,
+    id: 1,
     plan: "Custom Basic",
     description: "Tailored layout and features for unique business needs.",
-    duration: "12 Month",
-    pricePerMonth: "2666",
+    duration: "12 Months",
+    pricePerYear: "4999",
     originalPrice: "45000",
     savings: "25.35%",
     payToday: "31990",
@@ -140,11 +140,11 @@ const customizeWebsitePricing = [
     highlighted: false
   },
   {
-    id: 14,
+    id: 2,
     plan: "Custom Pro",
     description: "Advanced customization for complex website structures.",
-    duration: "12 Month",
-    pricePerMonth: "3750",
+    duration: "12 Months",
+    pricePerYear: "9999",
     originalPrice: "60000",
     savings: "22.51%",
     payToday: "46500",
@@ -163,11 +163,11 @@ const customizeWebsitePricing = [
     highlighted: true
   },
   {
-    id: 15,
+    id: 3,
     plan: "Custom Enterprise",
     description: "Full-scale web customization for enterprise-level businesses.",
-    duration: "12 Month",
-    pricePerMonth: "5249",
+    duration: "12 Months",
+    pricePerYear: "14999",
     originalPrice: "85000",
     savings: "23.53%",
     payToday: "64990",

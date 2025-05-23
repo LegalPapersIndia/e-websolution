@@ -3666,6 +3666,10 @@ button#sofax-subscription-btn:hover {
 	margin-top: 15px;
 }
 
+.sofax-countdown-bottom-text a:hover{
+	font-weight: 600;
+}
+
 .field-icon {
 	float: right;
 	margin-right: 25px;

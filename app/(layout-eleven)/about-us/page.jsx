@@ -18,7 +18,13 @@ export const metadata = {
 function AboutUs() {
 	return (
 		<>
-			<BreadCrumb title="About Us" bgImage={Banner} />
+			<BreadCrumb 
+				bgImage={Banner}
+				trail={[
+					{ label: "Home", href: "/" },
+					{ label: "About Us" }
+				]} 
+			/>
 			{/* <Hero /> */}
 			<Hero2 />
 			<Steps />

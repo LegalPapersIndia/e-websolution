@@ -34,9 +34,10 @@ function ContactForm() {
 				toast.success(result.message);
 				reset();
 				console.log("Submitted Form Data =", formData);
-				setTimeout(() => {
-					window.location.href = '/';
-				}, 10000); // wait 10 seconds after success, then redirect
+				window.location.href = '/thank-you'; // Redirect immediately
+				// setTimeout(() => {
+				// 	window.location.href = '/thank-you';
+				// }, 10000); // wait 10 seconds after success, then redirect
 			} else {
 				toast.error(result.error);
 			}

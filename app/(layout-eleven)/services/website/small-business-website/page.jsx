@@ -46,7 +46,7 @@ import SingleServiceDetails from "@/components/service-page/service-features";
 import Projects from "@/components/service-page/projects";
 import Features from "@/components/service-page/feautres";
 import Testimonials from "@/components/service-page/testimonials";
-import Prices from "@/components/service-page/price-plan";
+import Prices from "@/components/service-page/price-plan-per-year";
 import Icon5 from "@/public/images/service/icon5.png";
 import AboutThumb from "@/public/images/services/webiste/small-business/about.jpg";
 
@@ -165,13 +165,13 @@ const customProjects = [
 
 const smallBusinessPricing = [
   {
-    id: 4,
+    id: 1,
     plan: "Starter Biz",
     description: "Essential package for small businesses.",
-    duration: "12 Month",
-    pricePerMonth: "1416",
-    originalPrice: "24000",
+    duration: "12 Months",
+    pricePerYear: "4999",
     savings: "29.2%",
+    originalPrice: "7,060",
     payToday: "16990",
     renewsAt: "9999",
     gstNote: "*18% GST Extra",
@@ -188,13 +188,13 @@ const smallBusinessPricing = [
     highlighted: false
   },
   {
-    id: 5,
+    id: 2,
     plan: "Growth Biz",
     description: "Smart choice for growing small enterprises.",
-    duration: "12 Month",
-    pricePerMonth: "2333",
-    originalPrice: "39000",
+    duration: "12 Months",
+    pricePerYear: "9999",
     savings: "23%",
+    originalPrice: "12,985",
     payToday: "29990",
     renewsAt: "14999",
     gstNote: "*18% GST Extra",
@@ -211,13 +211,13 @@ const smallBusinessPricing = [
     highlighted: true
   },
   {
-    id: 6,
+    id: 3,
     plan: "Pro Biz",
     description: "Comprehensive package for maximum growth.",
-    duration: "12 Month",
-    pricePerMonth: "3250",
-    originalPrice: "51000",
+    duration: "12 Months",
+    pricePerYear: "14999",
     savings: "21.5%",
+    originalPrice: "19,098",
     payToday: "39990",
     renewsAt: "19999",
     gstNote: "*18% GST Extra",

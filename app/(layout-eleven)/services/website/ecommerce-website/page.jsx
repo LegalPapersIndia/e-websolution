@@ -8,7 +8,7 @@ import SingleServiceDetails from "@/components/service-page/service-features";
 import Projects from "@/components/service-page/projects";
 import Features from "@/components/service-page/feautres";
 import Testimonials from "@/components/service-page/testimonials";
-import Prices from "@/components/service-page/price-plan";
+import Prices from "@/components/service-page/price-plan-per-year";
 import Icon5 from "@/public/images/service/icon5.png";
 import AboutThumb from "@/public/images/services/webiste/ecommerce/about.jpg";
 
@@ -121,11 +121,11 @@ const ecommerceProjects = [
 
 const ecommercePricing = [
   {
-    id: 16,
+    id: 1,
     plan: "Ecom Start",
     description: "Perfect for launching your first online store.",
-    duration: "12 Month",
-    pricePerMonth: "3333",
+    duration: "12 Months",
+    pricePerYear: "4999",
     originalPrice: "50000",
     savings: "20.04%",
     payToday: "39990",
@@ -145,11 +145,11 @@ const ecommercePricing = [
     highlighted: false
   },
   {
-    id: 17,
+    id: 2,
     plan: "Ecom Growth",
     description: "Advanced solution for growing online businesses.",
-    duration: "12 Month",
-    pricePerMonth: "4583",
+    duration: "12 Months",
+    pricePerYear: "9999",
     originalPrice: "72000",
     savings: "23.61%",
     payToday: "54990",
@@ -169,11 +169,11 @@ const ecommercePricing = [
     highlighted: true
   },
   {
-    id: 18,
+    id: 3,
     plan: "Ecom Pro",
     description: "Enterprise-grade e-commerce experience with full automation.",
-    duration: "12 Month",
-    pricePerMonth: "6666",
+    duration: "12 Months",
+    pricePerYear: "14999",
     originalPrice: "100000",
     savings: "20.01%",
     payToday: "79990",

@@ -9,7 +9,7 @@ import Projects from "@/components/service-page/projects";
 import Features from "@/components/service-page/feautres";
 import Testimonials from "@/components/service-page/testimonials";
 import PortfolioFilter from "@/components/project-filter/PortfolioFilter";
-import Prices from "@/components/service-page/price-plan";
+import Prices from "@/components/service-page/price-plan-per-year";
 import Icon5 from "@/public/images/service/icon5.png";
 import AboutThumb from "@/public/images/services/webiste/web-design/about.jpg";
 
@@ -124,9 +124,9 @@ const smallBusinessPricing = [
     id: 1,
     plan: "Basic Design",
     description: "Perfect for individuals and freelancers.",
-    duration: "12 Month",
-    pricePerMonth: "1166",
-    originalPrice: "20000",
+    duration: "12 Months",
+    pricePerYear: "4999",
+    originalPrice: "7142",
     savings: "30%",
     payToday: "14000",
     renewsAt: "9999",
@@ -147,9 +147,9 @@ const smallBusinessPricing = [
     id: 2,
     plan: "Pro Design",
     description: "Ideal for startups and small businesses.",
-    duration: "12 Month",
-    pricePerMonth: "1999",
-    originalPrice: "36000",
+    duration: "12 Months",
+    pricePerYear: "9999",
+    originalPrice: "13845",
     savings: "27.8%",
     payToday: "25999",
     renewsAt: "14999",
@@ -170,9 +170,9 @@ const smallBusinessPricing = [
     id: 3,
     plan: "Premium Design",
     description: "Best for growing brands and agencies.",
-    duration: "12 Month",
-    pricePerMonth: "3333",
-    originalPrice: "54000",
+    duration: "12 Months",
+    pricePerYear: "14999",
+    originalPrice: "20250",
     savings: "25.9%",
     payToday: "39999",
     renewsAt: "19999",

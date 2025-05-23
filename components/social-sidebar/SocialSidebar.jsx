@@ -12,14 +12,14 @@ const socialLinks = [
   {
     name: 'Facebook',
     icon: <FaFacebookF />,
-    url: 'https://facebook.com',
+    url: 'https://www.facebook.com/ewebsolution.in/',
     class: 'facebook',
     color: '#0466ff',
   },
   {
     name: 'Instagram',
     icon: <FaInstagram />,
-    url: 'https://instagram.com',
+    url: 'https://www.instagram.com/ewebsolution.in/',
     class: 'instagram-logo',
     color: '#E4405F',
   },
