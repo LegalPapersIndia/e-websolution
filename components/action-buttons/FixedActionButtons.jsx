@@ -6,7 +6,7 @@ import './FixedActionButtons.css';
 const FixedActionButtons = () => {
   const [showForm, setShowForm] = useState(false);
 
-  const whatsappNumber = '919876543210'; // Change to your number
+  const whatsappNumber = '9354305099';
   const message = 'Hi, I am reaching out to you through E-websolution.in. I want to know more about the services.';
 
   const openWhatsApp = () => {
