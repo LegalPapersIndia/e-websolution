@@ -35,22 +35,6 @@ function Footer() {
 								<div className="sofax-social-icon">
 									<ul>
 										<li>
-											<a className="twitter" target="_blank" href="https://www.twitter.com/">
-												<svg
-													width="17"
-													height="18"
-													viewBox="0 0 17 18"
-													fill="none"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														d="M9.96447 7.24539L16.1975 0H14.7205L9.30833 6.29107L4.98567 0H0L6.5367 9.51321L0 17.1111H1.47711L7.19246 10.4675L11.7575 17.1111H16.7432L9.9641 7.24539H9.96447ZM7.94136 9.59702L7.27906 8.64972L2.00933 1.11194H4.27809L8.53082 7.19517L9.19312 8.14247L14.7212 16.0497H12.4524L7.94136 9.59739V9.59702Z"
-														fill="#387dd9"
-													/>
-												</svg>
-											</a>
-										</li>
-										<li>
 											<a className="facebook" target="_blank" href="https://www.facebook.com/LegalPapersIndiaofficial">
 												<svg
 													width="11"
@@ -85,6 +69,22 @@ function Footer() {
 													/>
 													<path
 														d="M13.3527 4.29821C13.653 4.29821 13.8964 4.05602 13.8964 3.75726C13.8964 3.4585 13.653 3.21631 13.3527 3.21631C13.0525 3.21631 12.8091 3.4585 12.8091 3.75726C12.8091 4.05602 13.0525 4.29821 13.3527 4.29821Z"
+														fill="#387dd9"
+													/>
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a className="twitter" target="_blank" href="https://www.twitter.com/">
+												<svg
+													width="17"
+													height="18"
+													viewBox="0 0 17 18"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M9.96447 7.24539L16.1975 0H14.7205L9.30833 6.29107L4.98567 0H0L6.5367 9.51321L0 17.1111H1.47711L7.19246 10.4675L11.7575 17.1111H16.7432L9.9641 7.24539H9.96447ZM7.94136 9.59702L7.27906 8.64972L2.00933 1.11194H4.27809L8.53082 7.19517L9.19312 8.14247L14.7212 16.0497H12.4524L7.94136 9.59739V9.59702Z"
 														fill="#387dd9"
 													/>
 												</svg>
@@ -129,10 +129,7 @@ function Footer() {
 										<Link href="/about-us">About Us</Link>
 									</li>
 									<li>
-										<Link href="/services">Services</Link>
-									</li>
-									<li>
-										<Link href="/pricing">Packages</Link>
+										<Link href="#services">Services</Link>
 									</li>
 									<li>
 										<Link href="/contact-us">Contact Us</Link>
@@ -214,19 +211,19 @@ function Footer() {
 						</div>
 						<div className="col-xl-3 col-md-4">
 							<div className="sofax-footer-menu ml-50">
-								<h5>More Useful Links</h5>
+								<h5>Our Major Services</h5>
 								<ul>
 									<li>
-										<Link href="/">Home</Link>
+										<Link href="#services">Website Development</Link>
 									</li>
 									<li>
-										<Link href="/about">About Us</Link>
+										<Link href="#services">Digital Marketing & SEO</Link>
 									</li>
 									<li>
-										<Link href="/services">Services</Link>
+										<Link href="#services">Promotions & Ads</Link>
 									</li>
 									<li>
-										<Link href="/pricing">Packages</Link>
+										<Link href="/contact-us">Contact Us</Link>
 									</li>
 								</ul>
 							</div>
