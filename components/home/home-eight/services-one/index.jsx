@@ -84,7 +84,7 @@ import Icon3 from "@/public/images/v8/ads.png";
 const services = [
   {
     title: "Website Design & Development",
-    price: "₹5999",
+    price: "₹4999",
     icon: Icon1,
     showPortfolioLink: true,
     items: [

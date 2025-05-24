@@ -15,13 +15,13 @@ const TopBar = () => {
     <div className="sofax-topbar-section">
       <div className="container topbar-inner">
         <div className="topbar-left">
-          <Link href="#">
+          <Link href="tel:+919354305099">
             <span className="topbar-item topbar-item-phone">
               <FaPhoneAlt size={14} />
               <span className="topbar-text">+919354305099</span>
             </span>
           </Link>
-          <Link href="#">
+          <Link href="mailto:info@e-websolution.in">
             <span className="topbar-item">
               <FaEnvelope size={14} />
               <span className="topbar-text">info@e-websolution.in</span>
