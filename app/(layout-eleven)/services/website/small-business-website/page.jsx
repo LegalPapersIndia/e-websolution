@@ -243,21 +243,21 @@ const testimonialsData = [
 		image: image1,
 		rating: 5,
 		review: "Tailored testimonial for this service page.",
-		author: { name: "Alice Williams", title: "Startup Founder" },
+		author: { name: "Nishant Shanker", title: "Startup Founder" },
 	},
 	{
 		id: 2,
 		image: image2,
 		rating: 4,
 		review: "Another satisfied customer with specific feedback.",
-		author: { name: "John Doe", title: "Business Owner" },
+		author: { name: "Jayendra Pandya", title: "CEO" },
 	},
 	{
 		id: 3,
 		image: image3,
 		rating: 5,
 		review: "Top-notch services that helped scale our operations.",
-		author: { name: "Jane Smith", title: "CEO" },
+		author: { name: "Sai Grover", title: "Business Owner" },
 	},
 ];
 

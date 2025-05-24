@@ -198,21 +198,21 @@ const enterpriseTestimonials = [
 		image: image1,
 		rating: 5,
 		review: "The level of professionalism and scalability was unmatched. Our enterprise site is sleek, secure, and optimized for global access.",
-		author: { name: "Ethan Cooper", title: "CTO, FinTech Co." },
+		author: { name: "Nishant Shanker", title: "Startup Founder" },
 	},
 	{
 		id: 2,
 		image: image3,
 		rating: 5,
 		review: "From planning to execution, they handled everything with precision. The custom integrations made our internal workflows so much easier.",
-		author: { name: "Michelle Tan", title: "Operations Director" },
+		author: { name: "Jayendra Pandya", title: "CEO" },
 	},
 	{
 		id: 3,
 		image: image2,
 		rating: 5,
 		review: "Reliable, fast, and secure. Everything you'd want in an enterprise-grade website build. The ROI was immediate.",
-		author: { name: "Carlos Ramirez", title: "CEO, B2B Platform" },
+		author: { name: "Sai Grover", title: "Business Owner" },
 	},
 ];
 

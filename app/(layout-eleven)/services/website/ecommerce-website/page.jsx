@@ -202,21 +202,21 @@ const ecommerceTestimonials = [
 		image: image1,
 		rating: 5,
 		review: "Our online sales skyrocketed after launching the new e-commerce site! Seamless experience and excellent support throughout.",
-		author: { name: "Emily Carter", title: "Fashion Retailer" },
+		author: { name: "Sunil Pandey", title: "Fashion Retailer" },
 	},
 	{
 		id: 2,
 		image: image3,
 		rating: 5,
 		review: "From design to launch, the process was smooth. Our customers love the intuitive layout and fast checkout experience.",
-		author: { name: "Daniel Lee", title: "Gadget Store Owner" },
+		author: { name: "Shri Gupta", title: "Gadget Store Owner" },
 	},
 	{
 		id: 3,
 		image: image2,
 		rating: 4,
 		review: "They built a powerful backend for managing inventory and orders. Highly recommend for serious online sellers!",
-		author: { name: "Sophia Patel", title: "Health & Beauty Brand" },
+		author: { name: "Raghav Patel", title: "Health & Beauty Brand" },
 	},
 ];
 

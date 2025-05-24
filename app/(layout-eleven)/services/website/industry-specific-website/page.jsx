@@ -209,7 +209,7 @@ const testimonialsData = [
 		image: image3,
 		rating: 5,
 		review: "We needed a pharma-compliant platform with easy product search. The result exceeded our expectations!",
-		author: { name: "Dr. Priya S.", title: "Pharma Director" },
+		author: { name: "Dr. Mahesh S.", title: "Pharma Director" },
 	},
 	{
 		id: 3,

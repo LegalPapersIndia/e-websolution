@@ -254,17 +254,105 @@ export const menuItemsData = [
 				title: "All Services",
 				url: "service",
 			},
-
 			{
-				title: "Web Design & Development",
-				url: "services/web-development",
+				title: "Website Development",
+				url: "#",
+				submenu: [
+					{
+						title: "Web Design",
+						url: "services/website/web-design",
+					},
+
+					{
+						title: "Small Business Website",
+						url: "services/website/small-business-website",
+					},
+					{
+						title: "Large Business Website",
+						url: "services/website/large-business-website",
+					},
+					{
+						title: "Dynamic Website",
+						url: "services/website/dynamic-website",
+					},
+					{
+						title: "Customised Website",
+						url: "services/website/customised-website",
+					},
+					{
+						title: "Eccommerce Website",
+						url: "services/website/ecommerce-website",
+					},
+					{
+						title: "Industry Based Website",
+						url: "services/website/industry-based-website",
+					},
+				],
+			},
+			{
+				title: "Digital Marketing",
+				url: "#",
+				submenu: [
+					{
+						title: "SEO Marketing",
+						url: "services/digital/seo-marketing",
+					},
+
+					{
+						title: "SMO Marketing",
+						url: "services/digital/smo-marketing",
+					},
+					{
+						title: "Google Marketing Platform",
+						url: "services/digital/google-marketing-platform",
+					},
+					{
+						title: "WhatsApp Marketing",
+						url: "services/digital/whatsapp-marketing",
+					},
+					{
+						title: "Email Marketing",
+						url: "services/digital/email-marketing",
+					},
+					{
+						title: "Content Marketing",
+						url: "services/digital/content-marketing",
+					},
+				],
+			},
+			{
+				title: "Promotion & Advertisement",
+				url: "#",
+				submenu: [
+					{
+						title: "Google Ads",
+						url: "services/ads/google-ads",
+					},
+
+					{
+						title: "Meta Ads",
+						url: "services/ads/meta-ads",
+					},
+					{
+						title: "TV Ads",
+						url: "services/ads/tv-ads",
+					},
+					{
+						title: "Brand Promotion",
+						url: "services/ads/brand-promotion",
+					},
+					{
+						title: "Social Promotion",
+						url: "services/ads/social-promotion",
+					},
+					{
+						title: "Paid PR",
+						url: "services/ads/paid-pr",
+					},
+				],
 			},
 			{
 				title: "Social Media Management",
-				url: "services/web-development",
-			},
-			{
-				title: "Google Marketing Platform",
 				url: "services/web-development",
 			},
 			{
@@ -282,6 +370,41 @@ export const menuItemsData = [
 		],
 	},
 	// {
+	// 	title: "Services",
+	// 	url: "#",
+	// 	submenu: [
+	// 		{
+	// 			title: "All Services",
+	// 			url: "service",
+	// 		},
+
+	// 		{
+	// 			title: "Web Design & Development",
+	// 			url: "services/web-development",
+	// 		},
+	// 		{
+	// 			title: "Social Media Management",
+	// 			url: "services/web-development",
+	// 		},
+	// 		{
+	// 			title: "Google Marketing Platform",
+	// 			url: "services/web-development",
+	// 		},
+	// 		{
+	// 			title: "Logo & Graphic Designing",
+	// 			url: "services/web-development",
+	// 		},
+	// 		{
+	// 			title: "App Development",
+	// 			url: "services/web-development",
+	// 		},
+	// 		{
+	// 			title: "Ecommerce Development",
+	// 			url: "services/ecommerce-development",
+	// 		},
+	// 	],
+	// },
+	// {
 	// 	title: "Blog",
 	// 	url: "blog",
 	// 	submenu: [
@@ -296,10 +419,10 @@ export const menuItemsData = [
 	// 		},
 	// 	],
 	// },
-	{
-		title: "Packages",
-		url: "pricing",
-	},
+	// {
+	// 	title: "Packages",
+	// 	url: "pricing",
+	// },
 	{
 		title: "Contact Us",
 		url: "contact-us",

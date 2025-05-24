@@ -200,21 +200,21 @@ const testimonialsData = [
 		image: image1,
 		rating: 5,
 		review: "Incredible experience! Our website looks amazing, and the team made sure it aligns perfectly with our brand and goals.",
-		author: { name: "Alice Williams", title: "Startup Founder" },
+		author: { name: "Nishant Shanker", title: "Startup Founder" },
 	},
 	{
 		id: 2,
 		image: image3,
 		rating: 5,
 		review: "Fast, secure, and user-friendly! The team truly understood our needs and delivered a site that works for our customers and business.",
-		author: { name: "Jane Smith", title: "CEO" },
+		author: { name: "Jayendra Pandya", title: "CEO" },
 	},
 	{
 		id: 3,
 		image: image2,
 		rating: 4,
 		review: "The website redesign helped boost our conversion rates significantly. The process was smooth and the results speak for themselves!",
-		author: { name: "John Doe", title: "Business Owner" },
+		author: { name: "Sai Grover", title: "Business Owner" },
 	},
 ];
 

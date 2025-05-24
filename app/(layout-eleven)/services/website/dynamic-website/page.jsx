@@ -199,21 +199,21 @@ const testimonialsData = [
 		image: image1,
 		rating: 5,
 		review: "Our dynamic website is a game changer! Real-time updates and a smooth CMS backend made managing content effortless.",
-		author: { name: "Elena Foster", title: "Marketing Manager" },
+		author: { name: "Karthik Sinha", title: "Marketing Manager" },
 	},
 	{
 		id: 2,
 		image: image3,
 		rating: 5,
 		review: "Incredible job! They built us a dynamic platform that interacts with users and displays content based on behavior. Brilliant.",
-		author: { name: "Nathan Kim", title: "Product Owner" },
+		author: { name: "Nikhil Patil", title: "Product Owner" },
 	},
 	{
 		id: 3,
 		image: image2,
 		rating: 4,
 		review: "Highly functional, sleek, and scalable. The team went above and beyond with custom CMS and automated flows. Very happy!",
-		author: { name: "Tasha Reeds", title: "Founder, Digital Portal" },
+		author: { name: "Sanjit Andra", title: "Founder, Digital Portal" },
 	},
 ];
 
