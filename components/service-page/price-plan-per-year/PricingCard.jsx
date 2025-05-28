@@ -68,7 +68,7 @@ function PricingCard({ pricing: { plan,  description, duration, pricePerYear, or
 
 				<div className="pricing-info-box">
 					<div className="pricing-top-row">
-						<span className="pricing-duration">{duration} @</span>
+						{/* <span className="pricing-duration">{duration} @</span> */}
 						<span className="pricing-amount">₹{pricePerYear}</span>
 						<span className="pricing-unit">/yr</span>
 					</div>
