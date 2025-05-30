@@ -5966,15 +5966,45 @@ h1.post__title {
 
 .sofax-pricing-body h5 {
 	font-weight: 600;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .sofax-pricing-body ul li {
 	position: relative;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 500;
 	padding-left: 40px;
-	margin-bottom: 6px;
+	margin-bottom: 3px;
+}
+
+.feature-group {
+  margin-bottom: 1.5rem;
+}
+
+.feature-heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1px;
+  color: var(--heading-color);
+  border-bottom: 1px dashed var(--grey-color);
+  padding-bottom: 5px;
+}
+
+.feature-icon img {
+  width: 16px;
+  height: 16px;
+  margin-left: 15px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.feature-included {
+  color: var(--body-color);
+}
+
+.feature-excluded {
+  color: #aaa;
+  text-decoration: line-through;
 }
 
 .sofax-pricing-body ul li:last-child {
@@ -5992,7 +6022,7 @@ h1.post__title {
 }
 
 .sofax-pricing-wrap.recommended {
-	border: 2px solid var(--body-color);
+	border: 2px solid #fbb040;
 	box-shadow: 0px 5px 15px rgba(255, 127, 80, 0.3);
 	position: relative;
 }
@@ -6003,11 +6033,12 @@ h1.post__title {
 
 .recommended-tag {
 	position: absolute;
-	top: -20px;
+	top: -25px;
 	left: 50%;
 	transform: translateX(-50%);
-	background-color: var(--body-color);
-	color: white;
+	/* background-color: var(--accent-color); */
+	background: linear-gradient(90deg, #fed449, #fbb040, #fdd655);
+	color: var(--white-color);
 	padding: 10px 20px;
 	font-size: 15px;
 	font-weight: bold;

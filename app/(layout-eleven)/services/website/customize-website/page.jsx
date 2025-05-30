@@ -116,75 +116,299 @@ const customizeWebsiteProjects = [
 
 /* Price Plan */
 const customizeWebsitePricing = [
-  {
-    id: 1,
-    plan: "Custom Basic",
-    description: "Tailored layout and features for unique business needs.",
-    duration: "12 Months",
-    pricePerYear: "4999",
-    originalPrice: "45000",
-    savings: "25.35%",
-    payToday: "31990",
-    renewsAt: "15995",
-    gstNote: "*18% GST Extra",
-    features: [
-      "Customized Homepage Design",
-      "Upto 10 Unique Pages",
-      "Basic Functionality Integration",
-      "Mobile Responsive Design",
-      "Custom Contact & Inquiry Forms",
-      "On-Page SEO Setup",
-      "CMS Access for Edits"
-    ],
-    featureIcon,
-    highlighted: false
-  },
-  {
-    id: 2,
-    plan: "Custom Pro",
-    description: "Advanced customization for complex website structures.",
-    duration: "12 Months",
-    pricePerYear: "9999",
-    originalPrice: "60000",
-    savings: "22.51%",
-    payToday: "46500",
-    renewsAt: "18995",
-    gstNote: "*18% GST Extra",
-    features: [
-      "Everything in Custom Basic",
-      "Up to 20 Custom Pages",
-      "Interactive Animations",
-      "Advanced SEO Implementation",
-      "Multimedia Integration",
-      "Admin Dashboard",
-      "Monthly Website Backup"
-    ],
-    featureIcon,
-    highlighted: true
-  },
-  {
-    id: 3,
-    plan: "Custom Enterprise",
-    description: "Full-scale web customization for enterprise-level businesses.",
-    duration: "12 Months",
-    pricePerYear: "14999",
-    originalPrice: "85000",
-    savings: "23.53%",
-    payToday: "64990",
-    renewsAt: "24995",
-    gstNote: "*18% GST Extra",
-    features: [
-      "Everything in Custom Pro",
-      "Unlimited Custom Pages",
-      "Integration with CRM/ERP",
-      "Custom Backend Functionality",
-      "User Access Control",
-      "API Integration Support",
-      "Dedicated Account Manager"
-    ],
-    featureIcon,
-    highlighted: false
-  }
+	{
+		id: 1,
+		plan: "Custom Basic",
+		description: "Tailored layout and features for unique business needs.",
+		duration: "12 Months",
+		pricePerYear: "4999",
+		originalPrice: "45000",
+		savings: "25.35%",
+		payToday: "31990",
+		renewsAt: "15995",
+		gstNote: "*18% GST Extra",
+		features: [
+			{
+				heading: "Features",
+				items: [
+					{ label: "Web Pages - 5", included: true },
+					{ label: "Template Based", included: true },
+					{ label: "No Optimisation", included: true }
+				]
+			},
+			{
+				heading: "Web Pages",
+				items: [
+					{ label: "Home", included: true },
+					{ label: "About", included: true },
+					{ label: "Contact", included: true },
+					{ label: "Photo Gallery", included: true },
+					{ label: "Inner Pages (Product/Service) - 1 Page Only", included: true },
+					{ label: "Enquiry Form", included: true },
+					{ label: "Shopping Cart & Checkout Process", included: false },
+				]
+			},
+			{
+				heading: "Additional Pages (Optional)",
+				items: [
+					{ label: "Testimonials", included: false },
+					{ label: "FAQs", included: false },
+					{ label: "Social Media Links", included: false },
+					{ label: "Whatsapp Integration", included: false },
+					{ label: "Live Chat Integration", included: false },
+					{ label: "Clientele (Show Logos)", included: false },
+					{ label: "Video Gallery (Embed YT Videos)", included: false },
+					{ label: "Google Map on Contact Us", included: false },
+					{ label: "Policy Page", included: false },
+					{ label: "Blog", included: false },
+				]
+			},
+			{
+				heading: "Package Includes",
+				items: [
+					{ label: "Free Domain Name", included: false },
+					{ label: "Admin Panel", included: false },
+					{ label: "Total Image Upload Limit - 25 Images", included: true },
+					{ label: "Free Web Shared Hosting", included: true },
+					{ label: "1-Free POP Email ID", included: true },
+					{ label: "2-Home Page Banner Slideshow", included: true },
+					{ label: "Mobile Responsive", included: true },
+					{ label: "Free Live Chat Integration", included: true },
+					{ label: "Newsletter Signup Form", included: false },
+				]
+			},
+			{
+				heading: "Basic On Page SEO",
+				items: [
+					{ label: "SEO-friendly URLs", included: true },
+					{ label: "Meta Title", included: true },
+					{ label: "Meta Description", included: false },
+					{ label: "Meta Keywords", included: false },
+					{ label: "Content Writing - AI Generated", included: true }
+				]
+			},
+			{
+				heading: "Additional Features",
+				items: [
+					{ label: "Google Analytics Integration", included: false },
+					{ label: "Google Search Console Integration", included: false },
+					{ label: "HTML Sitemap Page", included: false },
+					{ label: "XML Sitemap", included: false }
+				]
+			},
+			{
+				heading: "Customer Support",
+				items: [
+					{ label: "Phone (IST 10am-6pm) - Mon-Fri", included: true },
+					{ label: "Email (24x7)", included: true }
+				]
+			},
+			{
+				heading: "Delivery",
+				items: [
+					{ label: "Delivery Time - 7 Working Days", included: true }
+				]
+			}
+		],
+		featureIcon,
+		highlighted: false
+	},
+	{
+		id: 2,
+		plan: "Custom Pro",
+		description: "Advanced customization for complex website structures.",
+		duration: "12 Months",
+		pricePerYear: "9999",
+		originalPrice: "60000",
+		savings: "22.51%",
+		payToday: "46500",
+		renewsAt: "18995",
+		gstNote: "*18% GST Extra",
+		features: [
+			{
+				heading: "Features",
+				items: [
+					{ label: "Web Pages - 10", included: true },
+					{ label: "Template Based", included: true },
+					{ label: "No Optimisation", included: true }
+				]
+			},
+			{
+				heading: "Web Pages",
+				items: [
+					{ label: "Home", included: true },
+					{ label: "About", included: true },
+					{ label: "Contact", included: true },
+					{ label: "Photo Gallery", included: true },
+					{ label: "Inner Pages (Product/Service) - Up to 5 Pages", included: true },
+					{ label: "Enquiry Form", included: true },
+					{ label: "Signup/Login", included: true },
+					{ label: "Shopping Cart & Checkout Process", included: false },
+				]
+			},
+			{
+				heading: "Additional Pages (Optional)",
+				items: [
+					{ label: "Testimonials", included: true },
+					{ label: "FAQs", included: true },
+					{ label: "Social Media Links", included: true },
+					{ label: "Whatsapp Integration", included: true },
+					{ label: "Live Chat Integration", included: false },
+					{ label: "Clientele (Show Logos)", included: false },
+					{ label: "Video Gallery (Embed YT Videos)", included: false },
+					{ label: "Google Map on Contact Us", included: false },
+					{ label: "Policy Page", included: false },
+					{ label: "Blog", included: false }
+				]
+			},
+			{
+				heading: "Package Includes",
+				items: [
+					{ label: "Free Domain Name", included: false },
+					{ label: "Admin Panel", included: false },
+					{ label: "Total Image Upload Limit - 50 Images", included: true },
+					{ label: "Free Web Shared Hosting", included: true },
+					{ label: "2-Free POP Email ID", included: true },
+					{ label: "3-Home Page Banner Slideshow", included: true },
+					{ label: "Mobile Responsive", included: true },
+					{ label: "Free Live Chat Integration", included: true },
+					{ label: "Newsletter Signup Form", included: false }
+				]
+			},
+			{
+				heading: "Basic On Page SEO",
+				items: [
+					{ label: "SEO-friendly URLs", included: true },
+					{ label: "Meta Title", included: true },
+					{ label: "Meta Description", included: true },
+					{ label: "Meta Keywords", included: false },
+					{ label: "Content Writing - AI Generated", included: true }
+				]
+			},
+			{
+				heading: "Additional Features",
+				items: [
+					{ label: "Google Analytics Integration", included: false },
+					{ label: "Google Search Console Integration", included: false },
+					{ label: "HTML Sitemap Page", included: true },
+					{ label: "XML Sitemap", included: true }
+				]
+			},
+			{
+				heading: "Customer Support",
+				items: [
+					{ label: "Phone (IST 10am-6pm) - Mon-Fri", included: true },
+					{ label: "Email (24x7)", included: true }
+				]
+			},
+			{
+				heading: "Delivery",
+				items: [
+					{ label: "Delivery Time - 10 Working Days", included: true }
+				]
+			}
+		],
+		featureIcon,
+		highlighted: true
+	},
+	{
+		id: 3,
+		plan: "Custom Enterprise",
+		description: "Full-scale web customization for enterprise-level businesses.",
+		duration: "12 Months",
+		pricePerYear: "14999",
+		originalPrice: "85000",
+		savings: "23.53%",
+		payToday: "64990",
+		renewsAt: "24995",
+		gstNote: "*18% GST Extra",
+		features: [
+			{
+				heading: "Features",
+				items: [
+					{ label: "Web Pages - 20", included: true },
+					{ label: "Template Based / Customizable", included: true },
+					{ label: "Optimisable (To Some Extent)", included: true }
+				]
+			},
+			{
+				heading: "Web Pages",
+				items: [
+					{ label: "Home", included: true },
+					{ label: "About", included: true },
+					{ label: "Contact", included: true },
+					{ label: "Photo Gallery", included: true },
+					{ label: "Inner Pages (Product/Service) - Up to 10 Pages", included: true },
+					{ label: "Enquiry Form", included: true },
+					{ label: "Signup/Login", included: true },
+					{ label: "Shopping Cart & Checkout Process", included: true },
+				]
+			},
+			{
+				heading: "Additional Pages (Optional)",
+				items: [
+					{ label: "Testimonials", included: true },
+					{ label: "FAQs", included: true },
+					{ label: "Social Media Links", included: true },
+					{ label: "Whatsapp Integration", included: true },
+					{ label: "Live Chat Integration", included: true },
+					{ label: "Clientele (Show Logos)", included: true },
+					{ label: "Video Gallery (Embed YT Videos)", included: true },
+					{ label: "Google Map on Contact Us", included: true },
+					{ label: "Policy Page", included: true },
+					{ label: "Blog", included: true }
+				]
+			},
+			{
+				heading: "Package Includes",
+				items: [
+					{ label: "Free Domain Name", included: false },
+					{ label: "Admin Panel", included: true },
+					{ label: "Total Image Upload Limit - 125 Images", included: true },
+					{ label: "Free Web Shared Hosting", included: true },
+					{ label: "3-Free POP Email ID", included: true },
+					{ label: "4-Home Page Banner Slideshow", included: true },
+					{ label: "Mobile Responsive", included: true },
+					{ label: "Free Live Chat Integration", included: true },
+					{ label: "Newsletter Signup Form", included: true }
+				]
+			},
+			{
+				heading: "Basic On Page SEO",
+				items: [
+					{ label: "SEO-friendly URLs", included: true },
+					{ label: "Meta Title", included: true },
+					{ label: "Meta Description", included: true },
+					{ label: "Meta Keywords", included: true },
+					{ label: "Content Writing - AI Generated", included: true }
+				]
+			},
+			{
+				heading: "Additional Features",
+				items: [
+					{ label: "Google Analytics Integration", included: true },
+					{ label: "Google Search Console Integration", included: true },
+					{ label: "HTML Sitemap Page", included: true },
+					{ label: "XML Sitemap", included: true }
+				]
+			},
+			{
+				heading: "Customer Support",
+				items: [
+					{ label: "Phone (IST 10am-6pm) - Mon-Fri", included: true },
+					{ label: "Email (24x7)", included: true }
+				]
+			},
+			{
+				heading: "Delivery",
+				items: [
+					{ label: "Delivery Time - 15 Working Days", included: true }
+				]
+			}
+		],
+		featureIcon,
+		highlighted: false
+	}
 ];
 
 /* Testimonials */

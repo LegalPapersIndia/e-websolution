@@ -164,75 +164,299 @@ const customProjects = [
 /* Price Plan */
 
 const smallBusinessPricing = [
-  {
-    id: 1,
-    plan: "Starter Biz",
-    description: "Essential package for small businesses.",
-    duration: "12 Months",
-    pricePerYear: "4999",
-    savings: "29.2%",
-    originalPrice: "7,060",
-    payToday: "16990",
-    renewsAt: "9999",
-    gstNote: "*18% GST Extra",
-    features: [
-      "Mobile-Friendly Design",
-      "Up to 5 Pages",
-      "Logo Integration",
-      "Basic SEO Setup",
-      "Contact Form & Google Maps",
-      "1 Business Email",
-      "WhatsApp Integration"
-    ],
-    featureIcon,
-    highlighted: false
-  },
-  {
-    id: 2,
-    plan: "Growth Biz",
-    description: "Smart choice for growing small enterprises.",
-    duration: "12 Months",
-    pricePerYear: "9999",
-    savings: "23%",
-    originalPrice: "12,985",
-    payToday: "29990",
-    renewsAt: "14999",
-    gstNote: "*18% GST Extra",
-    features: [
-      "Everything in Starter",
-      "Up to 10 Pages",
-      "Image Gallery",
-      "Call-to-Action Buttons",
-      "Live Chat Integration",
-      "Google Analytics Setup",
-      "Monthly Backups"
-    ],
-    featureIcon,
-    highlighted: true
-  },
-  {
-    id: 3,
-    plan: "Pro Biz",
-    description: "Comprehensive package for maximum growth.",
-    duration: "12 Months",
-    pricePerYear: "14999",
-    savings: "21.5%",
-    originalPrice: "19,098",
-    payToday: "39990",
-    renewsAt: "19999",
-    gstNote: "*18% GST Extra",
-    features: [
-      "Everything in Growth",
-      "Unlimited Pages",
-      "Custom Forms",
-      "E-commerce Readiness",
-      "Advanced SEO Tools",
-      "24/7 Phone & Email Support",
-      "Performance Optimization"
-    ],
-    featureIcon,
-    highlighted: false
-  }
+	{
+		id: 1,
+		plan: "Starter Biz",
+		description: "Essential package for small businesses.",
+		duration: "12 Months",
+		pricePerYear: "4999",
+		savings: "29.2%",
+		originalPrice: "7,060",
+		payToday: "16990",
+		renewsAt: "9999",
+		gstNote: "*18% GST Extra",
+		features: [
+			{
+				heading: "Features",
+				items: [
+					{ label: "Web Pages - 5", included: true },
+					{ label: "Template Based", included: true },
+					{ label: "No Optimisation", included: true }
+				]
+			},
+			{
+				heading: "Web Pages",
+				items: [
+					{ label: "Home", included: true },
+					{ label: "About", included: true },
+					{ label: "Contact", included: true },
+					{ label: "Photo Gallery", included: true },
+					{ label: "Inner Pages (Product/Service) - 1 Page Only", included: true },
+					{ label: "Enquiry Form", included: true },
+					{ label: "Shopping Cart & Checkout Process", included: false },
+				]
+			},
+			{
+				heading: "Additional Pages (Optional)",
+				items: [
+					{ label: "Testimonials", included: false },
+					{ label: "FAQs", included: false },
+					{ label: "Social Media Links", included: false },
+					{ label: "Whatsapp Integration", included: false },
+					{ label: "Live Chat Integration", included: false },
+					{ label: "Clientele (Show Logos)", included: false },
+					{ label: "Video Gallery (Embed YT Videos)", included: false },
+					{ label: "Google Map on Contact Us", included: false },
+					{ label: "Policy Page", included: false },
+					{ label: "Blog", included: false },
+				]
+			},
+			{
+				heading: "Package Includes",
+				items: [
+					{ label: "Free Domain Name", included: false },
+					{ label: "Admin Panel", included: false },
+					{ label: "Total Image Upload Limit - 25 Images", included: true },
+					{ label: "Free Web Shared Hosting", included: true },
+					{ label: "1-Free POP Email ID", included: true },
+					{ label: "2-Home Page Banner Slideshow", included: true },
+					{ label: "Mobile Responsive", included: true },
+					{ label: "Free Live Chat Integration", included: true },
+					{ label: "Newsletter Signup Form", included: false },
+				]
+			},
+			{
+				heading: "Basic On Page SEO",
+				items: [
+					{ label: "SEO-friendly URLs", included: true },
+					{ label: "Meta Title", included: true },
+					{ label: "Meta Description", included: false },
+					{ label: "Meta Keywords", included: false },
+					{ label: "Content Writing - AI Generated", included: true }
+				]
+			},
+			{
+				heading: "Additional Features",
+				items: [
+					{ label: "Google Analytics Integration", included: false },
+					{ label: "Google Search Console Integration", included: false },
+					{ label: "HTML Sitemap Page", included: false },
+					{ label: "XML Sitemap", included: false }
+				]
+			},
+			{
+				heading: "Customer Support",
+				items: [
+					{ label: "Phone (IST 10am-6pm) - Mon-Fri", included: true },
+					{ label: "Email (24x7)", included: true }
+				]
+			},
+			{
+				heading: "Delivery",
+				items: [
+					{ label: "Delivery Time - 7 Working Days", included: true }
+				]
+			}
+		],
+		featureIcon,
+		highlighted: false
+	},
+	{
+		id: 2,
+		plan: "Growth Biz",
+		description: "Smart choice for growing small enterprises.",
+		duration: "12 Months",
+		pricePerYear: "9999",
+		savings: "23%",
+		originalPrice: "12,985",
+		payToday: "29990",
+		renewsAt: "14999",
+		gstNote: "*18% GST Extra",
+		features: [
+			{
+				heading: "Features",
+				items: [
+					{ label: "Web Pages - 10", included: true },
+					{ label: "Template Based", included: true },
+					{ label: "No Optimisation", included: true }
+				]
+			},
+			{
+				heading: "Web Pages",
+				items: [
+					{ label: "Home", included: true },
+					{ label: "About", included: true },
+					{ label: "Contact", included: true },
+					{ label: "Photo Gallery", included: true },
+					{ label: "Inner Pages (Product/Service) - Up to 5 Pages", included: true },
+					{ label: "Enquiry Form", included: true },
+					{ label: "Signup/Login", included: true },
+					{ label: "Shopping Cart & Checkout Process", included: false },
+				]
+			},
+			{
+				heading: "Additional Pages (Optional)",
+				items: [
+					{ label: "Testimonials", included: true },
+					{ label: "FAQs", included: true },
+					{ label: "Social Media Links", included: true },
+					{ label: "Whatsapp Integration", included: true },
+					{ label: "Live Chat Integration", included: false },
+					{ label: "Clientele (Show Logos)", included: false },
+					{ label: "Video Gallery (Embed YT Videos)", included: false },
+					{ label: "Google Map on Contact Us", included: false },
+					{ label: "Policy Page", included: false },
+					{ label: "Blog", included: false }
+				]
+			},
+			{
+				heading: "Package Includes",
+				items: [
+					{ label: "Free Domain Name", included: false },
+					{ label: "Admin Panel", included: false },
+					{ label: "Total Image Upload Limit - 50 Images", included: true },
+					{ label: "Free Web Shared Hosting", included: true },
+					{ label: "2-Free POP Email ID", included: true },
+					{ label: "3-Home Page Banner Slideshow", included: true },
+					{ label: "Mobile Responsive", included: true },
+					{ label: "Free Live Chat Integration", included: true },
+					{ label: "Newsletter Signup Form", included: false }
+				]
+			},
+			{
+				heading: "Basic On Page SEO",
+				items: [
+					{ label: "SEO-friendly URLs", included: true },
+					{ label: "Meta Title", included: true },
+					{ label: "Meta Description", included: true },
+					{ label: "Meta Keywords", included: false },
+					{ label: "Content Writing - AI Generated", included: true }
+				]
+			},
+			{
+				heading: "Additional Features",
+				items: [
+					{ label: "Google Analytics Integration", included: false },
+					{ label: "Google Search Console Integration", included: false },
+					{ label: "HTML Sitemap Page", included: true },
+					{ label: "XML Sitemap", included: true }
+				]
+			},
+			{
+				heading: "Customer Support",
+				items: [
+					{ label: "Phone (IST 10am-6pm) - Mon-Fri", included: true },
+					{ label: "Email (24x7)", included: true }
+				]
+			},
+			{
+				heading: "Delivery",
+				items: [
+					{ label: "Delivery Time - 10 Working Days", included: true }
+				]
+			}
+		],
+		featureIcon,
+		highlighted: true
+	},
+	{
+		id: 3,
+		plan: "Pro Biz",
+		description: "Comprehensive package for maximum growth.",
+		duration: "12 Months",
+		pricePerYear: "14999",
+		savings: "21.5%",
+		originalPrice: "19,098",
+		payToday: "39990",
+		renewsAt: "19999",
+		gstNote: "*18% GST Extra",
+		features: [
+			{
+				heading: "Features",
+				items: [
+					{ label: "Web Pages - 20", included: true },
+					{ label: "Template Based / Customizable", included: true },
+					{ label: "Optimisable (To Some Extent)", included: true }
+				]
+			},
+			{
+				heading: "Web Pages",
+				items: [
+					{ label: "Home", included: true },
+					{ label: "About", included: true },
+					{ label: "Contact", included: true },
+					{ label: "Photo Gallery", included: true },
+					{ label: "Inner Pages (Product/Service) - Up to 10 Pages", included: true },
+					{ label: "Enquiry Form", included: true },
+					{ label: "Signup/Login", included: true },
+					{ label: "Shopping Cart & Checkout Process", included: true },
+				]
+			},
+			{
+				heading: "Additional Pages (Optional)",
+				items: [
+					{ label: "Testimonials", included: true },
+					{ label: "FAQs", included: true },
+					{ label: "Social Media Links", included: true },
+					{ label: "Whatsapp Integration", included: true },
+					{ label: "Live Chat Integration", included: true },
+					{ label: "Clientele (Show Logos)", included: true },
+					{ label: "Video Gallery (Embed YT Videos)", included: true },
+					{ label: "Google Map on Contact Us", included: true },
+					{ label: "Policy Page", included: true },
+					{ label: "Blog", included: true }
+				]
+			},
+			{
+				heading: "Package Includes",
+				items: [
+					{ label: "Free Domain Name", included: false },
+					{ label: "Admin Panel", included: true },
+					{ label: "Total Image Upload Limit - 125 Images", included: true },
+					{ label: "Free Web Shared Hosting", included: true },
+					{ label: "3-Free POP Email ID", included: true },
+					{ label: "4-Home Page Banner Slideshow", included: true },
+					{ label: "Mobile Responsive", included: true },
+					{ label: "Free Live Chat Integration", included: true },
+					{ label: "Newsletter Signup Form", included: true }
+				]
+			},
+			{
+				heading: "Basic On Page SEO",
+				items: [
+					{ label: "SEO-friendly URLs", included: true },
+					{ label: "Meta Title", included: true },
+					{ label: "Meta Description", included: true },
+					{ label: "Meta Keywords", included: true },
+					{ label: "Content Writing - AI Generated", included: true }
+				]
+			},
+			{
+				heading: "Additional Features",
+				items: [
+					{ label: "Google Analytics Integration", included: true },
+					{ label: "Google Search Console Integration", included: true },
+					{ label: "HTML Sitemap Page", included: true },
+					{ label: "XML Sitemap", included: true }
+				]
+			},
+			{
+				heading: "Customer Support",
+				items: [
+					{ label: "Phone (IST 10am-6pm) - Mon-Fri", included: true },
+					{ label: "Email (24x7)", included: true }
+				]
+			},
+			{
+				heading: "Delivery",
+				items: [
+					{ label: "Delivery Time - 15 Working Days", included: true }
+				]
+			}
+		],
+		featureIcon,
+		highlighted: false
+	}
 ];
 
 /* Testimonials */
