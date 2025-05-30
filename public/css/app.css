@@ -6028,7 +6028,7 @@ h1.post__title {
 }
 
 .sofax-pricing-wrap:hover {
-	transform: scale(1.03);
+	transform: scale(1.02);
 }
 
 .recommended-tag {
@@ -6036,7 +6036,7 @@ h1.post__title {
 	top: -25px;
 	left: 50%;
 	transform: translateX(-50%);
-	/* background-color: var(--accent-color); */
+	/* background-color: var(--body-color); */
 	background: linear-gradient(90deg, #fed449, #fbb040, #fdd655);
 	color: var(--white-color);
 	padding: 10px 20px;
