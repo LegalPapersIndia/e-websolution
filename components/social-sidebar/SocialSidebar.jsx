@@ -33,7 +33,7 @@ const socialLinks = [
   {
     name: 'X',
     icon: <FaXTwitter />,
-    url: 'https://x.com',
+    url: 'https://x.com/e_websolution',
     class: 'twitter',
     color: '#14171A',
   },

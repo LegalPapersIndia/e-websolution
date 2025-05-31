@@ -26,7 +26,7 @@ function Footer() {
 					<div className="row">
 						<div className="col-xl-4 col-md-12">
 							<div className="sofax-footer-wrap mr-25">
-								<Link href="/multi-page/home-eight">
+								<Link href="/">
 									<Image src={Logo} alt="Logo" />
 								</Link>
 								<p>
@@ -35,7 +35,7 @@ function Footer() {
 								<div className="sofax-social-icon">
 									<ul>
 										<li>
-											<a className="facebook" target="_blank" href="https://www.facebook.com/LegalPapersIndiaofficial">
+											<a className="facebook" target="_blank" href="https://www.facebook.com/ewebsolution.in/">
 												<svg
 													width="11"
 													height="18"
@@ -51,7 +51,7 @@ function Footer() {
 											</a>
 										</li>
 										<li>
-											<a className="instagram" target="_blank" href="https://www.instagram.com/legalpapersindia/?hl=en">
+											<a className="instagram" target="_blank" href="https://www.instagram.com/ewebsolution.in/">
 												<svg
 													width="18"
 													height="17"
@@ -75,7 +75,7 @@ function Footer() {
 											</a>
 										</li>
 										<li>
-											<a className="twitter" target="_blank" href="https://www.twitter.com/">
+											<a className="twitter" target="_blank" href="https://x.com/e_websolution">
 												<svg
 													width="17"
 													height="18"
