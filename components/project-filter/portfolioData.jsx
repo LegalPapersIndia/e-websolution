@@ -1,5 +1,5 @@
 import image1 from "@/public/images/services/webiste/web-design/about.jpg";
-import image2 from "@/public/images/services/webiste/web-design/about.jpg";
+import image2 from "@/public/images/services/webiste/web-design/main.png";
 import image3 from "@/public/images/services/webiste/web-design/about.jpg";
 import image4 from "@/public/images/services/webiste/web-design/about.jpg";
 import image5 from "@/public/images/portfolio/project1.png";
@@ -9,7 +9,7 @@ const portfolioData = [
     id: 1,
     title: "Agriculture",
     category: "Agriculture",
-    image: image1,
+    image: image2,
     link: "https://ravindra-kumar.vercel.app/",
     description: "Web design & development",
   },
