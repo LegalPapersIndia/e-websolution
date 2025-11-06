@@ -1,7 +1,6 @@
 import image1 from "@/public/images/services/webiste/web-design/about.jpg";
-import image2 from "@/public/images/services/webiste/web-design/main.png";
-import image3 from "@/public/images/services/webiste/web-design/about.jpg";
-import image4 from "@/public/images/services/webiste/web-design/about.jpg";
+import image2 from "@/public/images/services/webiste/web-design/argi1.png";
+import image3 from "@/public/images/services/webiste/web-design/agri2.jpg";
 import image5 from "@/public/images/portfolio/project1.png";
 
 const portfolioData = [
@@ -25,7 +24,7 @@ const portfolioData = [
     id: 3,
     title: "Fashion",
     category: "Fashion",
-    image: image3,
+    image: image1,
     link: "https://www.instagram.com",
     description: "UI/UX Design",
   },
@@ -58,7 +57,7 @@ const portfolioData = [
     title: "Agriculture",
     category: "Agriculture",
     image: image2,
-    link: "https://ravindra-kumar.vercel.app/",
+    link: "https://vyshnavicorporation.com/",
     description: "Development",
   },
   {
@@ -82,7 +81,7 @@ const portfolioData = [
     title: "Agriculture",
     category: "Agriculture",
     image: image2,
-    link: "https://ravindra-kumar.vercel.app/",
+    link: "https://vyshnavicorporation.com/",
     description: "Development",
   },
 ];
