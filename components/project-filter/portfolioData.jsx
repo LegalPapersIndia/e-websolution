@@ -1,6 +1,6 @@
 import image1 from "@/public/images/services/webiste/web-design/about.jpg";
 import image2 from "@/public/images/services/webiste/web-design/agri1.png";
-import image3 from "@/public/images/services/webiste/web-design/agri2.jpg";
+import image3 from "@/public/images/services/webiste/web-design/agri2.png";
 import image5 from "@/public/images/portfolio/project1.png";
 
 const portfolioData = [
