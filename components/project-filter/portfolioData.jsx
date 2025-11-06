@@ -74,7 +74,7 @@ const portfolioData = [
     title: "Agriculture",
     category: "Agriculture",
     image: image2,
-    link: "https://www.linkedin.com",
+    link: "https://ravindra-kumar.vercel.app/",
     description: "Development",
   },
   {
@@ -82,7 +82,7 @@ const portfolioData = [
     title: "Agriculture",
     category: "Agriculture",
     image: image2,
-    link: "https://www.reddit.com",
+    link: "https://ravindra-kumar.vercel.app/",
     description: "Development",
   },
 ];
