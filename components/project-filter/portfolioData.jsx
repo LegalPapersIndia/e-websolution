@@ -10,7 +10,7 @@ const portfolioData = [
     title: "Agriculture",
     category: "Agriculture",
     image: image1,
-    link: "https://www.google.com",
+    link: "https://www.linkedin.com",
     description: "Web design & development",
   },
   {
@@ -66,7 +66,7 @@ const portfolioData = [
     title: "Pharmaceuticals",
     category: "Pharmaceuticals",
     image: image2,
-    link: "https://www.reddit.com",
+    link: "https://www.snapchat.com",
     description: "Development",
   },
   {
@@ -74,7 +74,7 @@ const portfolioData = [
     title: "Agriculture",
     category: "Agriculture",
     image: image2,
-    link: "https://www.reddit.com",
+    link: "https://www.linkedin.com",
     description: "Development",
   },
   {
