@@ -1,7 +1,6 @@
-import image1 from "@/public/images/services/webiste/web-design/about.jpg";
+import image1 from "@/public/images/services/webiste/web-design/about.png";
 import image2 from "@/public/images/services/webiste/web-design/agri1.png";
 import image3 from "@/public/images/services/webiste/web-design/agri2.png";
-import image5 from "@/public/images/portfolio/project1.png";
 
 const portfolioData = [
   {
@@ -17,7 +16,7 @@ const portfolioData = [
     title: "Pharmaceuticals",
     category: "Pharmaceuticals",
     image: image1,
-    link: "https://www.facebook.com",
+    link: "https://lpi-pharma.vercel.app/",
     description: "App",
   },
   {
