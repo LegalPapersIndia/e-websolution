@@ -5,7 +5,8 @@ import image4 from "@/public/images/services/webiste/web-design/fabri.png";
 import image5 from "@/public/images/services/webiste/web-design/agri.png";
 import image6 from "@/public/images/services/webiste/web-design/food.png";
 import image7 from "@/public/images/services/webiste/web-design/furniture.png";
-import image8 from "@/public/images/services/webiste/web-design/pharma.png";
+import image8 from "@/public/images/services/webiste/web-design/about.jpg";
+
 
 const portfolioData = [
   {
@@ -28,7 +29,7 @@ const portfolioData = [
     id: 3,
     title: "Fashion",
     category: "Fashion",
-    image: image1,
+    image: image8,
     link: "https://www.instagram.com",
     description: "UI/UX Design",
   },
@@ -68,7 +69,7 @@ const portfolioData = [
     id: 8,
     title: "Pharmaceuticals",
     category: "Pharmaceuticals",
-    image: image8,
+    image: image1,
     link: "https://lpi-pharma.vercel.app/",
     description: "Development",
   },
