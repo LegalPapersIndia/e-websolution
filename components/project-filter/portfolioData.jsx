@@ -29,7 +29,7 @@ const portfolioData = [
     id: 3,
     title: "Fashion",
     category: "Fashion",
-    image: image8,
+    image: image2,
     link: "https://www.instagram.com",
     description: "UI/UX Design",
   },
