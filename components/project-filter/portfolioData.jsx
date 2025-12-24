@@ -15,7 +15,7 @@ const portfolioData = [
     category: "Agriculture",
     image: image5,
     link: "https://ravindra-kumar.vercel.app/",
-    description: "Web design & development",
+    description: "For International and domestic clients",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const portfolioData = [
     category: "Pharmaceuticals",
     image: image1,
     link: "https://lpi-pharma.vercel.app/",
-    description: "App",
+    description: "For Pharmaceutical companies",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const portfolioData = [
     category: "Furniture",
     image: image7,
     link: "https://lpi-furniture.vercel.app/",
-    description: "Digital World",
+    description: "Best UI/UX Development Website",
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const portfolioData = [
     category: "Food",
     image: image6,
     link: "https://lpi-food-2.vercel.app/",
-    description: "Development",
+    description: "Best UI/UX For Food Website",
   },
   {
     id: 6,
@@ -55,7 +55,7 @@ const portfolioData = [
     category: "Fabrication",
     image: image4,
     link: "https://lpi-fabri.vercel.app/",
-    description: "Development",
+    description: "Best for the client Engagagement",
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ const portfolioData = [
     category: "Agriculture",
     image: image5,
     link: "https://lpi-agri.vercel.app/",
-    description: "Development",
+    description: "For International and domestic clients",
   },
   {
     id: 8,
@@ -71,7 +71,7 @@ const portfolioData = [
     category: "Pharmaceuticals",
     image: image1,
     link: "https://lpi-pharma.vercel.app/",
-    description: "Development",
+    description: "Sample Website for Pharmaceutical companies",
   },
   {
     id: 9,
@@ -79,7 +79,7 @@ const portfolioData = [
     category: "Agriculture",
     image: image2,
     link: "https://ravindra-kumar.vercel.app/",
-    description: "Development",
+    description: "Sample Client Website",
   },
   {
     id: 10,
