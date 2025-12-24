@@ -3,6 +3,8 @@ import image2 from "@/public/images/services/webiste/web-design/agri1.png";
 import image3 from "@/public/images/services/webiste/web-design/agri2.png";
 import image4 from "@/public/images/services/webiste/web-design/fabri.png";
 import image5 from "@/public/images/services/webiste/web-design/agri.png";
+import image6 from "@/public/images/services/webiste/web-design/food.png";
+import image7 from "@/public/images/services/webiste/web-design/furniture.png";
 
 const portfolioData = [
   {
@@ -33,16 +35,16 @@ const portfolioData = [
     id: 4,
     title: "Furniture",
     category: "Furniture",
-    image: image1,
-    link: "https://www.snapchat.com",
+    image: image7,
+    link: "https://lpi-furniture.vercel.app/",
     description: "Digital World",
   },
   {
     id: 5,
     title: "Food",
     category: "Food",
-    image: image1,
-    link: "https://www.reddit.com",
+    image: image6,
+    link: "https://lpi-food-2.vercel.app/",
     description: "Development",
   },
   {
@@ -58,7 +60,7 @@ const portfolioData = [
     title: "Agriculture",
     category: "Agriculture",
     image: image3,
-    link: "https://vyshnavicorporation.com/",
+    link: "https://lpi-agri.vercel.app/",
     description: "Development",
   },
   {
