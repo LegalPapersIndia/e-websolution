@@ -13,7 +13,7 @@ const portfolioData = [
     id: 1,
     title: "Agriculture",
     category: "Agriculture",
-    image: image3,
+    image: image2,
     link: "https://ravindra-kumar.vercel.app/",
     description: "For International and domestic clients",
   },
