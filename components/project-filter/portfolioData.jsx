@@ -2,13 +2,14 @@ import image1 from "@/public/images/services/webiste/web-design/about.png";
 import image2 from "@/public/images/services/webiste/web-design/agri1.png";
 import image3 from "@/public/images/services/webiste/web-design/agri2.png";
 import image4 from "@/public/images/services/webiste/web-design/fabri.png";
+import image5 from "@/public/images/services/webiste/web-design/agri.png";
 
 const portfolioData = [
   {
     id: 1,
     title: "Agriculture",
     category: "Agriculture",
-    image: image2,
+    image: image5,
     link: "https://ravindra-kumar.vercel.app/",
     description: "Web design & development",
   },
