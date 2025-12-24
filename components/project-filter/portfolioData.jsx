@@ -59,7 +59,7 @@ const portfolioData = [
     id: 7,
     title: "Agriculture",
     category: "Agriculture",
-    image: image3,
+    image: image5,
     link: "https://lpi-agri.vercel.app/",
     description: "Development",
   },
