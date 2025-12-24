@@ -1,6 +1,7 @@
 import image1 from "@/public/images/services/webiste/web-design/about.png";
 import image2 from "@/public/images/services/webiste/web-design/agri1.png";
 import image3 from "@/public/images/services/webiste/web-design/agri2.png";
+import image4 from "@/public/images/services/webiste/web-design/fabri.png";
 
 const portfolioData = [
   {
@@ -46,9 +47,9 @@ const portfolioData = [
   {
     id: 6,
     title: "Fabrication",
-    category: "Farbication",
-    image: image1,
-    link: "https://www.reddit.com",
+    category: "Fabrication",
+    image: image4,
+    link: "https://lpi-fabri.vercel.app/",
     description: "Development",
   },
   {
