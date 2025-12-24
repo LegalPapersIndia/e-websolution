@@ -1,11 +1,11 @@
-import image1 from "@/public/images/services/webiste/web-design/about.png";
+import image1 from "@/public/images/services/webiste/web-design/pharma.png";
 import image2 from "@/public/images/services/webiste/web-design/agri1.png";
 import image3 from "@/public/images/services/webiste/web-design/agri2.png";
 import image4 from "@/public/images/services/webiste/web-design/fabri.png";
 import image5 from "@/public/images/services/webiste/web-design/agri.png";
 import image6 from "@/public/images/services/webiste/web-design/food.png";
 import image7 from "@/public/images/services/webiste/web-design/furniture.png";
-import image8 from "@/public/images/services/webiste/web-design/about.jpg";
+
 
 
 const portfolioData = [
