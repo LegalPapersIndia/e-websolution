@@ -5,6 +5,7 @@ import image4 from "@/public/images/services/webiste/web-design/fabri.png";
 import image5 from "@/public/images/services/webiste/web-design/agri.png";
 import image6 from "@/public/images/services/webiste/web-design/food.png";
 import image7 from "@/public/images/services/webiste/web-design/furniture.png";
+import image8 from "@/public/images/services/webiste/web-design/spices.png";
 
 
 
@@ -78,15 +79,15 @@ const portfolioData = [
     title: "Agriculture",
     category: "Agriculture",
     image: image2,
-    link: "https://ravindra-kumar.vercel.app/",
+    link: "https://vyshnavicorporation.com/",
     description: "Sample Client Website",
   },
   {
     id: 10,
-    title: "Agriculture",
-    category: "Agriculture",
-    image: image3,
-    link: "https://vyshnavicorporation.com/",
+    title: "Spices",
+    category: "Spices",
+    image: image8,
+    link: "https://lpi-spices.vercel.app/",
     description: "Development",
   },
 ];
