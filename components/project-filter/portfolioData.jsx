@@ -11,14 +11,13 @@ import image10 from "@/public/images/services/webiste/web-design/software.png";
 import image11 from "@/public/images/services/webiste/web-design/engi.png";
 import image12 from "@/public/images/services/webiste/web-design/agri2.png";
 
-
 const portfolioData = [
   {
     id: 1,
     title: "Agriculture",
     category: "Agriculture",
-    image: image2,
-    link: "https://ravindra-kumar.vercel.app/",
+    image: image5,
+    link: "https://lpi-agri.vercel.app/",
     description: "For International and domestic clients",
   },
   {
@@ -65,8 +64,8 @@ const portfolioData = [
     id: 7,
     title: "Agriculture",
     category: "Agriculture",
-    image: image5,
-    link: "https://lpi-agri.vercel.app/",
+    image: image2,
+    link: "https://ravindra-kumar.vercel.app/",
     description: "For International and domestic clients",
   },
   {
@@ -93,7 +92,7 @@ const portfolioData = [
     link: "https://lpi-spices.vercel.app/",
     description: "Development",
   },
-   {
+  {
     id: 11,
     title: "Software",
     category: "Software",
@@ -101,8 +100,8 @@ const portfolioData = [
     link: "https://lpi-software.vercel.app/",
     description: "Development",
   },
-  
-   {
+
+  {
     id: 12,
     title: "Engineering",
     category: "Engineering",
@@ -110,7 +109,6 @@ const portfolioData = [
     link: "https://lpi-engi.vercel.app/",
     description: "Development",
   },
-
 ];
 
 export default portfolioData;
