@@ -8,7 +8,7 @@ import Icon from "@/public/images/v5/icon5.png";
 import SearchIcon from "@/public/images/blog/search-icon.png";
 import portfolioData from "./portfolioData";
 
-const categories = ["All Industry", "Agriculture", "Pharmaceuticals", "Fashion", "Furniture", "Food", "Fabrication", "Spices" , "Chemicals" , "Software"];
+const categories = ["All Industry", "Agriculture", "Pharmaceuticals", "Fashion", "Furniture", "Food", "Fabrication", "Spices" , "Chemicals" , "Software" , "Engineering"];
 
 function PortfolioFilter() {
   const [selectedCategory, setSelectedCategory] = useState("All Industry");
