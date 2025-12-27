@@ -1,12 +1,13 @@
 import image1 from "@/public/images/services/webiste/web-design/pharma.png";
 import image2 from "@/public/images/services/webiste/web-design/agri1.png";
-import image3 from "@/public/images/services/webiste/web-design/agri2.png";
+import image3 from "@/public/images/services/webiste/web-design/fashion.png";
 import image4 from "@/public/images/services/webiste/web-design/fabri.png";
 import image5 from "@/public/images/services/webiste/web-design/agri.png";
 import image6 from "@/public/images/services/webiste/web-design/food.png";
 import image7 from "@/public/images/services/webiste/web-design/furniture.png";
 import image8 from "@/public/images/services/webiste/web-design/spices.png";
 import image9 from "@/public/images/services/webiste/web-design/chemical.png";
+import image10 from "@/public/images/services/webiste/web-design/software.png";
 
 
 
@@ -31,8 +32,8 @@ const portfolioData = [
     id: 3,
     title: "Fashion",
     category: "Fashion",
-    image: image2,
-    link: "https://www.instagram.com",
+    image: image3,
+    link: "https://lpi-fashion.vercel.app/",
     description: "UI/UX Design",
   },
   {
@@ -89,6 +90,14 @@ const portfolioData = [
     category: "Spices",
     image: image8,
     link: "https://lpi-spices.vercel.app/",
+    description: "Development",
+  },
+   {
+    id: 11,
+    title: "Software",
+    category: "Software",
+    image: image10,
+    link: "https://lpi-software.vercel.app/",
     description: "Development",
   },
 
