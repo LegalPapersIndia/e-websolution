@@ -8,7 +8,7 @@ import image7 from "@/public/images/services/webiste/web-design/furniture.png";
 import image8 from "@/public/images/services/webiste/web-design/spices.png";
 import image9 from "@/public/images/services/webiste/web-design/chemical.png";
 import image10 from "@/public/images/services/webiste/web-design/software.png";
-
+import image11 from "@/public/images/services/webiste/web-design/engi.png";
 
 
 const portfolioData = [
@@ -96,8 +96,17 @@ const portfolioData = [
     id: 11,
     title: "Software",
     category: "Software",
-    image: image10,
+    image: image11,
     link: "https://lpi-software.vercel.app/",
+    description: "Development",
+  },
+  
+   {
+    id: 12,
+    title: "Engineering",
+    category: "Engineering",
+    image: image10,
+    link: "https://lpi-engi.vercel.app/",
     description: "Development",
   },
 
