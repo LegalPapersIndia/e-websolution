@@ -9,6 +9,7 @@ import image8 from "@/public/images/services/webiste/web-design/spices.png";
 import image9 from "@/public/images/services/webiste/web-design/chemical.png";
 import image10 from "@/public/images/services/webiste/web-design/software.png";
 import image11 from "@/public/images/services/webiste/web-design/engi.png";
+import image12 from "@/public/images/services/webiste/web-design/agri2.png";
 
 
 const portfolioData = [
@@ -80,7 +81,7 @@ const portfolioData = [
     id: 9,
     title: "Agriculture",
     category: "Agriculture",
-    image: image2,
+    image: image12,
     link: "https://vyshnavicorporation.com/",
     description: "Sample Client Website",
   },
