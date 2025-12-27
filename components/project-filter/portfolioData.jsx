@@ -6,6 +6,7 @@ import image5 from "@/public/images/services/webiste/web-design/agri.png";
 import image6 from "@/public/images/services/webiste/web-design/food.png";
 import image7 from "@/public/images/services/webiste/web-design/furniture.png";
 import image8 from "@/public/images/services/webiste/web-design/spices.png";
+import image9 from "@/public/images/services/webiste/web-design/chemical.png";
 
 
 
@@ -68,10 +69,10 @@ const portfolioData = [
   },
   {
     id: 8,
-    title: "Pharmaceuticals",
-    category: "Pharmaceuticals",
-    image: image1,
-    link: "https://lpi-pharma.vercel.app/",
+    title: "Chemicals",
+    category: "Chemicals",
+    image: image9,
+    link: "https://lpi-chemical.vercel.app/",
     description: "Sample Website for Pharmaceutical companies",
   },
   {
@@ -90,6 +91,7 @@ const portfolioData = [
     link: "https://lpi-spices.vercel.app/",
     description: "Development",
   },
+
 ];
 
 export default portfolioData;
