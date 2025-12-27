@@ -1,6 +1,6 @@
 import image1 from "@/public/images/services/webiste/web-design/pharma.png";
 import image2 from "@/public/images/services/webiste/web-design/agri1.png";
-import image3 from "@/public/images/services/webiste/web-design/fashion.png";
+import image3 from "@/public/images/services/webiste/web-design/Fashion.png";
 import image4 from "@/public/images/services/webiste/web-design/fabri.png";
 import image5 from "@/public/images/services/webiste/web-design/agri.png";
 import image6 from "@/public/images/services/webiste/web-design/food.png";
