@@ -79,14 +79,14 @@ const portfolioData = [
     link: "https://lpi-chemical.vercel.app/",
     description: "Sample Website for Pharmaceutical companies",
   },
-  {
-    id: 9,
-    title: "Agriculture",
-    category: "Agriculture",
-    image: image12,
-    link: "https://vyshnavicorporation.com/",
-    description: "Sample Client Website",
-  },
+  // {
+  //   id: 9,
+  //   title: "Agriculture",
+  //   category: "Agriculture",
+  //   image: image12,
+  //   link: "https://vyshnavicorporation.com/",
+  //   description: "Sample Client Website",
+  // },
   {
     id: 10,
     title: "Spices",
