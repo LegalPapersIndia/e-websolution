@@ -12,6 +12,7 @@ import image11 from "@/public/images/services/webiste/web-design/engi.png";
 import image12 from "@/public/images/services/webiste/web-design/agri2.png";
 import image13 from "@/public/images/services/webiste/web-design/Security.png";
 import image14 from "@/public/images/services/webiste/web-design/Househelp.png";
+import image15 from "@/public/images/services/webiste/web-design/Agri3.png";
 
 const portfolioData = [
   {
@@ -134,6 +135,14 @@ const portfolioData = [
     category: "Househelp",
     image: image14,
     link: "https://lpi-househelp.vercel.app/",
+    description: "Development",
+  },
+      {
+    id: 16,
+    title: "Agriculture",
+    category: "Agriculture",
+    image: image15,
+    link: "https://lpi-agri2.vercel.app/",
     description: "Development",
   },
   
