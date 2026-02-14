@@ -9,10 +9,11 @@ import image8 from "@/public/images/services/webiste/web-design/spices.png";
 import image9 from "@/public/images/services/webiste/web-design/chemical.png";
 import image10 from "@/public/images/services/webiste/web-design/software.png";
 import image11 from "@/public/images/services/webiste/web-design/engi.png";
-import image12 from "@/public/images/services/webiste/web-design/agri2.png";
+import image12 from "@/public/images/services/webiste/web-design/Kitchen.png";
 import image13 from "@/public/images/services/webiste/web-design/Security.png";
 import image14 from "@/public/images/services/webiste/web-design/Househelp.png";
 import image15 from "@/public/images/services/webiste/web-design/Agri3.png";
+
 
 const portfolioData = [
   {
@@ -145,7 +146,14 @@ const portfolioData = [
     link: "https://lpi-agri2.vercel.app/",
     description: "Development",
   },
-  
+  {
+    id: 17,
+    title: "Kitchen",
+    category: "Kitchen",
+    image: image12,
+    link: "https://kitchen-flame-eight.vercel.app/",
+    description: "Development",
+  }
 ];
 
 export default portfolioData;
